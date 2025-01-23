@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Analysis - Cyberpunk Edition</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            background: radial-gradient(circle, #1a1a2e, #16213e, #0f3460);
+            color: #e4f9ff;
+            font-family: 'Roboto', sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            box-shadow: 0 4px 30px rgba(0, 255, 255, 0.3);
+            border-radius: 20px;
+            padding: 2rem;
+            background: rgba(31, 40, 51, 0.9);
+            text-align: center;
+        }
+
+        .btn-cyber {
+            background: linear-gradient(45deg, #ff2e63, #08d9d6);
+            color: #fff;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .btn-cyber:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(255, 46, 99, 0.8), 0 10px 30px rgba(8, 217, 214, 0.8);
+        }
+
+        .carousel {
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 6px 20px rgba(0, 255, 255, 0.3);
+            padding: 1.5rem;
+        }
+
+        .carousel-content {
+            display: none;
+            animation: fadeEffect 0.8s ease-in-out;
+        }
+
+        @keyframes fadeEffect {
+            from {opacity: 0; transform: scale(0.95);}
+            to {opacity: 1; transform: scale(1);}
+        }
+
+        .active {
+            display: block;
+        }
+
+        .tweet {
+            background: rgba(31, 40, 51, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 15px rgba(0, 255, 255, 0.1);
+            color: #e4f9ff;
+        }
+
+        .tweet i {
+            color: #08d9d6;
+        }
+
+        textarea {
+            background: rgba(0, 0, 0, 0.7);
+            color: #e4f9ff;
+            border: 1px solid #08d9d6;
+            border-radius: 8px;
+            padding: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #ff2e63;
+            box-shadow: 0 0 10px #ff2e63;
+        }
+
+
+        .tweets-scrollable {
+            max-height: 400px;
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+
+        .tweets-scrollable::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .tweets-scrollable::-webkit-scrollbar-thumb {
+            background: linear-gradient(45deg, #ff2e63, #08d9d6);
+            border-radius: 4px;
+        }
+
+        .tweets-scrollable::-webkit-scrollbar-thumb:hover {
+            background: linear-gradient(45deg, #ff577f, #0fd8e6);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Input form - always visible -->
+        <div class="mb-8">
+            <h1 class="text-4xl font-extrabold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-400">
+                Enter Text for Analysis
+            </h1>
+            <form method="POST" class="max-w-lg mx-auto">
+                <textarea name="text" rows="4" class="w-full p-3 rounded-lg mb-4 focus:outline-none" placeholder="Enter your text here...">{% if text %}{{ text }}{% endif %}</textarea>
+                <button type="submit" class="btn-cyber px-6 py-2 rounded-lg text-lg">Submit</button>
+            </form>
+        </div>
+
+        {% if request.method == 'POST' %}
+        <div class="results-container mt-8">
+            <h2 class="text-3xl font-extrabold mb-6 text-center text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-cyan-500">
+                Results
+            </h2>
+            
+            <!-- Navigation -->
+            <div class="flex justify-center space-x-4 mb-6">
+                <button onclick="showContent('overview')" class="btn-cyber px-4 py-2 rounded">Overview</button>
+                <button onclick="showContent('for')" class="btn-cyber px-4 py-2 rounded">Arguments For</button>
+                <button onclick="showContent('against')" class="btn-cyber px-4 py-2 rounded">Arguments Against</button>
+                <button onclick="showContent('tweets')" class="btn-cyber px-4 py-2 rounded">Tweets</button>
+            </div>
+
+            <!-- Carousel Container -->
+            <div class="carousel bg-gradient-to-br from-gray-800 via-gray-700 to-gray-900 max-w-4xl mx-auto">
+                <!-- Overview -->
+                <div id="overview" class="carousel-content active">
+                    <h2 class="text-2xl font-bold mb-4">Overview</h2>
+                    <div>{{ analysis.overview | safe }}</div>
+                </div>
+
+                <!-- Arguments For -->
+                <div id="for" class="carousel-content">
+                    <h2 class="text-2xl font-bold mb-4">Arguments For</h2>
+                    {% for point in analysis.arguments[0].For.points %}
+                        <div class="mb-4">{{ point | safe }}</div>
+                    {% endfor %}
+                </div>
+
+                <!-- Arguments Against -->
+                <div id="against" class="carousel-content">
+                    <h2 class="text-2xl font-bold mb-4">Arguments Against</h2>
+                    {% for point in analysis.arguments[0].Against.points %}
+                        <div class="mb-4">{{ point | safe }}</div>
+                    {% endfor %}
+                </div>
+
+                <!-- Tweets -->
+                <div id="tweets" class="carousel-content">
+                    <h2 class="text-2xl font-bold mb-4">Related Tweets</h2>
+                    <div class="tweets-scrollable space-y-4">
+                        {% for tweet in tweets.tweets %}
+                        <div class="tweet">
+                            <p class="mb-2">{{ tweet.TEXT }}</p>
+                            <div class="flex justify-between items-center text-sm">
+                                <div>
+                                    <span class="mr-4">
+                                        <i class="far fa-heart"></i> {{ tweet.LIKE_COUNT }}
+                                    </span>
+                                    <span>
+                                        <i class="far fa-eye"></i> {{ tweet.VIEW_COUNT }}
+                                    </span>
+                                </div>
+                                <div>
+                                    <i class="far fa-calendar"></i> {{ tweet.DATA }}
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        function showContent(contentId) {
+            // Hide all content
+            document.querySelectorAll('.carousel-content').forEach(content => {
+                content.classList.remove('active');
+            });
+            
+            // Show selected content
+            document.getElementById(contentId).classList.add('active');
+        }
+    </script>
+</body>
+</html>
