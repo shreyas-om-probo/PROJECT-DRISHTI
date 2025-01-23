@@ -21,4 +21,4 @@ def index():
     return render_template('mono.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='172.16.10.161', port=8007)
