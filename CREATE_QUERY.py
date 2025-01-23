@@ -1,59 +1,93 @@
-import spacy
+import nltk
+import ssl
 import re
 from datetime import datetime
 from dateutil.relativedelta import relativedelta
+from nltk.tokenize import word_tokenize
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+from nltk import pos_tag
 
-# Load the spaCy language model
-nlp = spacy.load("en_core_web_lg")
+# SSL Context Fix
+try:
+    _create_unverified_https_context = ssl._create_unverified_context
+except AttributeError:
+    pass
+else:
+    ssl._create_default_https_context = _create_unverified_https_context
 
-import spacy
+# Download required NLTK data files with error handling
+def download_nltk_resources():
+    resources = ['punkt', 'wordnet', 'stopwords', 'averaged_perceptron_tagger', 'averaged_perceptron_tagger_eng']
+    for resource in resources:
+        try:
+            nltk.download(resource)
+            print(f"Successfully downloaded {resource}")
+        except Exception as e:
+            print(f"Error downloading {resource}: {e}")
 
-# Load the spaCy language model
-nlp = spacy.load("en_core_web_lg")
+# Call the download function
+download_nltk_resources()
+
+# List of datetime-related keywords to ignore
+datetime_keywords = {"before", "after", "on", "since", "until", "within", "months", "week", "time", "date", "year", "today", "tomorrow", "yesterday", "december", "january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november"}
+
+# Initialize the lemmatizer
+lemmatizer = WordNetLemmatizer()
 
 def identify_keywords(sentence):
     """
     Identifies the most important keywords in a sentence, excluding datetime-related words.
     Verbs are lemmatized to their root form.
     """
-    # List of datetime-related keywords to ignore
-    datetime_keywords = {"before", "after", "on", "since", "until", "within", "months", "week", "time", "date", "year", "today", "tomorrow", "yesterday", "december", "january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november"}
+    # Tokenize the sentence
+    tokens = word_tokenize(sentence)
     
-    doc = nlp(sentence)
-    keywords = [
-        token.lemma_ if token.pos_ == "VERB" else token.text
-        for token in doc
-        if token.pos_ in {"VERB", "PROPN", "NOUN"} and token.text.lower() not in datetime_keywords
-    ]
+    # POS tagging
+    pos_tags = pos_tag(tokens)
     
+    keywords = []
+    for word, pos in pos_tags:
+        # Filter out stopwords and datetime-related words
+        if word.lower() not in stopwords.words("english") and word.lower() not in datetime_keywords:
+            # Lemmatize verbs, keep nouns and proper nouns as they are
+            if pos.startswith('V'):
+                keywords.append(lemmatizer.lemmatize(word, pos='v'))
+            elif pos.startswith('N') or pos.startswith('PROPN'):
+                keywords.append(word)
+    
+    # Remove 'end' if it's present (to avoid unnecessary keywords)
     try:
-        keywords.remove('end')  # Avoids removing 'end' if not present
+        keywords.remove('end')
     except ValueError:
         pass
 
     return keywords
 
-
-
 def create_query(sentence):
-#{"query" : "('Beyoncé' AND 'Taylor Swift' AND 'GRAMMY') since:2024-12-12"}
+    """
+    Creates a query using the identified keywords, and appends a date filter to the query.
+    The query will only include results from the last 2 months.
+    """
     keywords = identify_keywords(sentence)
-    if len(keywords)>=2:
+    
+    if len(keywords) >= 2:
         query = f"('{keywords[0]}' "
         for keyword in keywords[1:]:
             query = query + f"AND '{keyword}' "
-        query = query +")"
-    elif len(keywords)!=0:
+        query = query + ")"
+    elif len(keywords) != 0:
         query = f"('{keywords[0]}')"
     else:
         query = " "
-        
+    
+    # Date filter for the past 2 months
     two_months_prior = datetime.now() - relativedelta(months=2)
     query += f" since:{two_months_prior.strftime('%Y-%m-%d')}"
     
     return query
+
 if __name__ == "__main__":
     sentence = "virat retiring before 2026?"
-    # sentence = "Will Beyonce win more grammies than taylor swift?"
     print("Keywords:", identify_keywords(sentence))
-    print("query",create_query(sentence))
+    print("Query:", create_query(sentence))
