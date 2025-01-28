@@ -1,1 +1,1 @@
-uvicorn DRISHTI:app --host 10.23.97.242 --port 8501
+uvicorn DRISHTI:app --host 172.16.10.161 --port 8506
