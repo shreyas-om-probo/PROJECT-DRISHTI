@@ -183,7 +183,7 @@ async def post_index(payload: TextInput):
         try:
             logger.debug(f"Request ID {request_id} - Fetching tweets")
             tweets_response = await client.post(
-                "http://10.23.97.242:8506/search-tweets",
+                "http://172.16.10.161:8506/search-tweets",
                 json={"text": payload.text},
                 timeout=30.0
             )
@@ -192,7 +192,7 @@ async def post_index(payload: TextInput):
 
             logger.debug(f"Request ID {request_id} - Fetching insights")
             analyze_response = await client.post(
-                "http://10.23.97.242:8506/insights",
+                "http://172.16.10.161:8506/insights",
                 json={"text": payload.text},
                 timeout=30.0
             )
@@ -201,7 +201,7 @@ async def post_index(payload: TextInput):
 
             logger.debug(f"Request ID {request_id} - Fetching news")
             news_response = await client.post(
-                "http://10.23.97.242:8506/search-news",
+                "http://172.16.10.161:8506/search-news",
                 json={"text": payload.text},
                 timeout=30.0
             )
@@ -276,7 +276,7 @@ async def post_index(request: Request, text: str = Form(...)):
         async with httpx.AsyncClient() as client:
             logger.debug(f"Request ID {request_id} - Fetching tweets")
             tweets_response = await client.post(
-                "http://10.23.97.242:8506/search-tweets",
+                "http://172.16.10.161:8506/search-tweets",
                 json={"text": create_query(text)},
                 timeout=30.0
             )
@@ -285,7 +285,7 @@ async def post_index(request: Request, text: str = Form(...)):
 
             logger.debug(f"Request ID {request_id} - Fetching insights")
             analyze_response = await client.post(
-                "http://10.23.97.242:8506/insights",
+                "http://172.16.10.161:8506/insights",
                 json={"text": text},
                 timeout=30.0
             )
@@ -294,7 +294,7 @@ async def post_index(request: Request, text: str = Form(...)):
 
             logger.debug(f"Request ID {request_id} - Fetching news")
             news_response = await client.post(
-                "http://10.23.97.242:8506/search-news",
+                "http://172.16.10.161:8506/search-news",
                 json={"text": text},
                 timeout=30.0
             )
@@ -341,7 +341,7 @@ async def post_index(request: Request, text: str = Form(...)):
 if __name__ == '__main__':
     logger.info("="*50)
     logger.info("Starting FastAPI server")
-    logger.info(f"Server URL: http://10.23.97.242:8506")
+    logger.info(f"Server URL: http://172.16.10.161:8506")
     logger.info(f"Environment: {os.getenv('ENVIRONMENT', 'development')}")
     logger.info("="*50)
     uvicorn.run(app)
