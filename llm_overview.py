@@ -93,5 +93,11 @@ def call_llm(event_details,sot,recency):
 
     return [response['choices'][0]['message']['content'],response['citations']]
 
-if __name__=='__main__':
-    print(call_llm(event_details="Germany Parliamentary Election Winner.",sot=[],recency="hour"))  
+if __name__ == '__main__':
+    event_details = TextInput(text="Germany Parliamentary Election Winner.")
+    sot = ["www.fancode.com"]
+    recency = "hour"
+    result = call_llm(event_details, sot, recency)
+    print(result)
+    print(json.dumps(result, indent=4))
+
