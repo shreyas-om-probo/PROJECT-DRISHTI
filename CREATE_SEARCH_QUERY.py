@@ -72,22 +72,17 @@ def create_query(sentence):
     keywords = identify_keywords(sentence)
     
     if len(keywords) >= 2:
-        query = f"('{keywords[0]}' "
+        query = f"'{keywords[0]}' "
         for keyword in keywords[1:]:
             query = query + f"AND '{keyword}' "
-        query = query + ")"
     elif len(keywords) != 0:
-        query = f"('{keywords[0]}')"
+        query = f"'{keywords[0]}'"
     else:
         query = " "
-    
-    # Date filter for the past 2 months
-    two_months_prior = datetime.now() - relativedelta(months=2)
-    query += f" since:{two_months_prior.strftime('%Y-%m-%d')} min_faves:100 min_views:1000"
     
     return query
 
 if __name__ == "__main__":
-    sentence = "virat retiring before 2026?"
+    sentence = "Who will win most GRAMMY, Beyonce or Taylor?"
     print("Keywords:", identify_keywords(sentence))
     print("Query:", create_query(sentence))

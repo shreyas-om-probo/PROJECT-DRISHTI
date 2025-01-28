@@ -1,0 +1,901 @@
+2025-01-24 10:10:30,571 - contract_processor - ERROR - Failed to extract For/Against data: No valid For/Against points found in response
+2025-01-24 10:11:17,450 - contract_processor - ERROR - Failed to extract For/Against data: No valid For/Against points found in response
+2025-01-24 10:12:37,067 - contract_processor - ERROR - Failed to extract For/Against data: No valid For/Against points found in response
+2025-01-24 10:15:09,059 - contract_processor - ERROR - Failed to extract For/Against data: 'tuple' object has no attribute 'strip'
+2025-01-24 10:15:21,762 - contract_processor - ERROR - Failed to extract For/Against data: No valid For/Against points found in response
+2025-01-27 13:47:18,499 - contract_processor - ERROR - No JSON-like structures found in response
+2025-01-27 13:47:35,594 - contract_processor - ERROR - No JSON-like structures found in response
+2025-01-27 13:48:24,993 - contract_processor - ERROR - No JSON-like structures found in response
+2025-01-27 13:48:40,005 - contract_processor - ERROR - No JSON-like structures found in response
+2025-01-27 18:48:17,043 - contract_processor - ERROR - No JSON-like structures found in response
+2025-01-28 10:05:10,329 - contract_processor - INFO - Starting FastAPI application
+2025-01-28 10:05:10,330 - contract_processor - INFO - Starting FastAPI server
+2025-01-28 10:05:17,218 - contract_processor - INFO - Processing frontend form submission: Trump to impose 25% or more tariff on China in Q1 '25?
+2025-01-28 10:06:09,403 - contract_processor - INFO - Starting FastAPI application
+2025-01-28 10:06:09,405 - contract_processor - INFO - Starting FastAPI server
+2025-01-28 10:06:14,162 - contract_processor - INFO - Rendering frontend index page
+2025-01-28 10:06:32,570 - contract_processor - INFO - Received tweet search request: ('Beyoncé' AND 'Taylor Swift' AND 'GRAMMY') since:2024-12-12 min_faves:100 is_verified:true
+2025-01-28 10:06:35,601 - contract_processor - INFO - Successfully fetched tweets
+2025-01-28 10:08:03,816 - contract_processor - INFO - Starting FastAPI application
+2025-01-28 10:08:03,818 - contract_processor - INFO - Starting FastAPI server
+2025-01-28 10:09:07,260 - contract_processor - INFO - Starting FastAPI application
+2025-01-28 10:09:07,262 - contract_processor - INFO - Starting FastAPI server
+2025-01-28 10:09:23,644 - contract_processor - INFO - Received insights request at 2025-01-28 10:09:23.644062: Who will win most GRAMMY, Beyonce or Taylor?
+2025-01-28 10:09:29,105 - contract_processor - INFO - Successfully processed insights request
+2025-01-28 10:12:09,520 - contract_processor - INFO - Starting FastAPI application
+2025-01-28 10:12:09,523 - contract_processor - INFO - Starting FastAPI server
+2025-01-28 10:14:53,152 - contract_processor - INFO - Starting FastAPI application
+2025-01-28 10:14:53,154 - contract_processor - INFO - Starting FastAPI server
+2025-01-28 10:14:56,523 - contract_processor - INFO - Processing frontend form submission: Trump to impose 25% or more tariff on China in Q1 '25?
+2025-01-28 10:14:56,527 - contract_processor - INFO - Received tweet search request: Trump to impose 25% or more tariff on China in Q1 '25?
+2025-01-28 10:14:59,483 - contract_processor - INFO - Successfully fetched tweets
+2025-01-28 10:14:59,486 - contract_processor - INFO - Received insights request at 2025-01-28 10:14:59.486362: Trump to impose 25% or more tariff on China in Q1 '25?
+2025-01-28 10:15:04,987 - contract_processor - INFO - Successfully processed insights request
+2025-01-28 10:15:09,223 - contract_processor - INFO - Successfully processed insights request
+2025-01-28 10:26:08,372 - contract_processor - INFO - Starting FastAPI application
+2025-01-28 11:31:27,216 - contract_processor - INFO - Starting FastAPI application
+2025-01-28 11:31:39,812 - contract_processor - INFO - Rendering frontend index page
+2025-01-28 11:31:44,427 - contract_processor - INFO - Processing frontend form submission: Trump to impose 25% or more tariff on China in Q1 '25?
+2025-01-28 11:31:45,640 - contract_processor - ERROR - Error processing frontend request: HTTPConnectionPool(host='65.0.199.204', port=8506): Max retries exceeded with url: /search-tweets (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x15bcf3810>: Failed to establish a new connection: [Errno 61] Connection refused'))
+2025-01-28 11:32:01,926 - contract_processor - INFO - Starting FastAPI application
+2025-01-28 11:32:05,708 - contract_processor - INFO - Processing frontend form submission: Trump to impose 25% or more tariff on China in Q1 '25?
+2025-01-28 11:32:32,317 - contract_processor - INFO - Starting FastAPI application
+2025-01-28 11:32:33,763 - contract_processor - INFO - Processing frontend form submission: Trump to impose 25% or more tariff on China in Q1 '25?
+2025-01-28 11:38:41,576 - contract_processor - INFO - Starting FastAPI application
+2025-01-28 11:38:42,927 - contract_processor - INFO - Rendering frontend index page
+2025-01-28 11:38:54,414 - contract_processor - INFO - Processing frontend form submission: Trump to impose 25% or more tariff on China in Q1 '25?
+2025-01-28 11:38:54,418 - contract_processor - INFO - Received tweet search request: Trump to impose 25% or more tariff on China in Q1 '25?
+2025-01-28 11:38:57,792 - contract_processor - INFO - Successfully fetched tweets
+2025-01-28 11:38:57,797 - contract_processor - INFO - Received insights request at 2025-01-28 11:38:57.797944: Trump to impose 25% or more tariff on China in Q1 '25?
+2025-01-28 11:39:04,039 - contract_processor - INFO - Successfully processed insights request
+2025-01-28 11:39:06,610 - contract_processor - INFO - Successfully processed insights request
+2025-01-28 11:39:27,607 - contract_processor - INFO - Processing frontend form submission: Trump to impose 25% or more tariff on China in Q1 '25?
+2025-01-28 11:41:40,006 - contract_processor - INFO - Starting FastAPI application
+2025-01-28 11:41:45,979 - contract_processor - INFO - Rendering frontend index page
+2025-01-28 11:41:53,914 - contract_processor - INFO - Processing frontend form submission: Trump to impose 25% or more tariff on China in Q1 '25?
+2025-01-28 11:41:55,089 - contract_processor - INFO - Received tweet search request: ('Trump' AND 'impose' AND '%' AND 'tariff' AND 'China' AND 'Q1' ) since:2024-11-28 min_faves:100 min_views:1000
+2025-01-28 11:41:58,274 - contract_processor - INFO - Successfully fetched tweets
+2025-01-28 11:41:58,278 - contract_processor - INFO - Received insights request at 2025-01-28 11:41:58.278586: Trump to impose 25% or more tariff on China in Q1 '25?
+2025-01-28 11:42:03,278 - contract_processor - ERROR - Error processing frontend request: 
+2025-01-28 11:42:04,252 - contract_processor - INFO - Successfully processed insights request
+2025-01-28 11:42:06,744 - contract_processor - INFO - Rendering frontend index page
+2025-01-28 11:42:30,139 - contract_processor - INFO - Processing frontend form submission: Trump to impose 25% or more tariff on China in Q1 '25?
+2025-01-28 11:42:30,158 - contract_processor - INFO - Received tweet search request: ('Trump' AND 'impose' AND '%' AND 'tariff' AND 'China' AND 'Q1' ) since:2024-11-28 min_faves:100 min_views:1000
+2025-01-28 11:42:32,975 - contract_processor - INFO - Successfully fetched tweets
+2025-01-28 11:42:32,980 - contract_processor - INFO - Received insights request at 2025-01-28 11:42:32.980031: Trump to impose 25% or more tariff on China in Q1 '25?
+2025-01-28 11:42:37,981 - contract_processor - ERROR - Error processing frontend request: 
+2025-01-28 11:42:38,371 - contract_processor - INFO - Successfully processed insights request
+2025-01-28 11:44:12,648 - contract_processor - INFO - Received tweet search request: ('Beyoncé' AND 'Taylor Swift' AND 'GRAMMY') since:2024-12-12 min_faves:100 is_verified:true
+2025-01-28 11:44:15,623 - contract_processor - INFO - Successfully fetched tweets
+2025-01-28 11:46:15,992 - contract_processor - INFO - [GET_INSIGHTS.py:39] - ==================================================
+2025-01-28 11:46:15,992 - contract_processor - INFO - [GET_INSIGHTS.py:40] - Starting FastAPI application
+2025-01-28 11:46:15,992 - contract_processor - INFO - [GET_INSIGHTS.py:41] - Environment: development
+2025-01-28 11:46:15,992 - contract_processor - INFO - [GET_INSIGHTS.py:42] - Current timestamp: 2025-01-28T11:46:15.992936
+2025-01-28 11:46:15,992 - contract_processor - INFO - [GET_INSIGHTS.py:43] - ==================================================
+2025-01-28 11:46:22,757 - contract_processor - INFO - [GET_INSIGHTS.py:52] - Request started - ID: 5ce3ec0eb185 - Method: GET - URL: http://127.0.0.1:8006/
+2025-01-28 11:46:22,758 - contract_processor - INFO - [GET_INSIGHTS.py:267] - Request ID 3f1e1a71e355 - Rendering frontend index page
+2025-01-28 11:46:22,768 - contract_processor - INFO - [GET_INSIGHTS.py:57] - Request completed - ID: 5ce3ec0eb185 - Status: 200 - Duration: 0.011s
+2025-01-28 11:46:28,185 - contract_processor - INFO - [GET_INSIGHTS.py:52] - Request started - ID: 9d482949a2cb - Method: POST - URL: http://127.0.0.1:8006/
+2025-01-28 11:46:28,187 - contract_processor - INFO - [GET_INSIGHTS.py:273] - Request ID c6d910972a02 - Processing frontend form submission: Trump to impose 25% or more tariff on China in Q1 '25?...
+2025-01-28 11:46:29,397 - contract_processor - INFO - [GET_INSIGHTS.py:52] - Request started - ID: d304d10c9a79 - Method: POST - URL: http://127.0.0.1:8006/search-tweets
+2025-01-28 11:46:29,398 - contract_processor - INFO - [GET_INSIGHTS.py:161] - Request ID 492cc2af3c43 - Processing tweet search: ('Trump' AND 'impose' AND '%' AND 'tariff' AND 'China' AND 'Q1' ) since:2024-11-28 min_faves:100 min...
+2025-01-28 11:46:32,263 - contract_processor - INFO - [GET_INSIGHTS.py:165] - Request ID 492cc2af3c43 - Successfully fetched 19 tweets
+2025-01-28 11:46:32,264 - contract_processor - INFO - [GET_INSIGHTS.py:57] - Request completed - ID: d304d10c9a79 - Status: 200 - Duration: 2.867s
+2025-01-28 11:46:32,267 - contract_processor - INFO - [GET_INSIGHTS.py:52] - Request started - ID: a3d48316b765 - Method: POST - URL: http://127.0.0.1:8006/insights
+2025-01-28 11:46:32,268 - contract_processor - INFO - [GET_INSIGHTS.py:127] - Request ID 9ad97dff41d0 - Processing insights request for prompt: Trump to impose 25% or more tariff on China in Q1 '25?...
+2025-01-28 11:46:38,026 - contract_processor - INFO - [GET_INSIGHTS.py:146] - Request ID 9ad97dff41d0 - Successfully processed insights request
+2025-01-28 11:46:38,029 - contract_processor - INFO - [GET_INSIGHTS.py:57] - Request completed - ID: a3d48316b765 - Status: 200 - Duration: 5.761s
+2025-01-28 11:46:38,033 - contract_processor - INFO - [GET_INSIGHTS.py:52] - Request started - ID: 39c13cc4834e - Method: POST - URL: http://127.0.0.1:8006/search-news
+2025-01-28 11:46:38,035 - contract_processor - INFO - [GET_INSIGHTS.py:248] - Request ID 627d8e51064a - Processing news search: Trump to impose 25% or more tariff on China in Q1 '25?...
+2025-01-28 11:46:39,551 - contract_processor - INFO - [GET_INSIGHTS.py:252] - Request ID 627d8e51064a - Successfully fetched news results
+2025-01-28 11:46:39,552 - contract_processor - INFO - [GET_INSIGHTS.py:57] - Request completed - ID: 39c13cc4834e - Status: 200 - Duration: 1.520s
+2025-01-28 11:46:39,556 - contract_processor - INFO - [GET_INSIGHTS.py:304] - Request ID c6d910972a02 - Successfully processed frontend request
+2025-01-28 11:46:39,559 - contract_processor - INFO - [GET_INSIGHTS.py:57] - Request completed - ID: 9d482949a2cb - Status: 200 - Duration: 11.373s
+2025-01-28 11:55:17,195 - contract_processor - INFO - [test_GET_INSIGHTS.py:39] - ==================================================
+2025-01-28 11:55:17,195 - contract_processor - INFO - [test_GET_INSIGHTS.py:40] - Starting FastAPI application
+2025-01-28 11:55:17,195 - contract_processor - INFO - [test_GET_INSIGHTS.py:41] - Environment: development
+2025-01-28 11:55:17,195 - contract_processor - INFO - [test_GET_INSIGHTS.py:42] - Current timestamp: 2025-01-28T11:55:17.195780
+2025-01-28 11:55:17,195 - contract_processor - INFO - [test_GET_INSIGHTS.py:43] - ==================================================
+2025-01-28 12:58:48,033 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 3c3ec3f32cd4 - Method: POST - URL: http://127.0.0.1:8006/search-news
+2025-01-28 12:58:48,038 - contract_processor - INFO - [test_GET_INSIGHTS.py:248] - Request ID 524401fac582 - Processing news search: Trump to impose 25% or more tariff on China in Q1 '25?...
+2025-01-28 12:58:49,825 - contract_processor - ERROR - [test_GET_INSIGHTS.py:257] - Request ID 524401fac582 - Failed to fetch news: 429 Client Error: Too Many Requests for url: https://www.googleapis.com/customsearch/v1?key=AIzaSyDkKUYC7T5d3Cs0pYXxwLugxWOBb1pEJgk&cx=55c836e53abf14084&q=%27Trump%27+AND+%27impose%27+AND+%27%25%27+AND+%27tariff%27+AND+%27China%27+AND+%27Q1%27+&hq=news&dateRestrict=2024-11-28&num=10
+Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 251, in search_news
+    news = get_news(request.text)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/INSIGHTS/WEB_SEARCH.py", line 68, in get_news
+    results = google_custom_search(API_KEY, CX, QUERY)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/INSIGHTS/WEB_SEARCH.py", line 47, in google_custom_search
+    response.raise_for_status()
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://www.googleapis.com/customsearch/v1?key=AIzaSyDkKUYC7T5d3Cs0pYXxwLugxWOBb1pEJgk&cx=55c836e53abf14084&q=%27Trump%27+AND+%27impose%27+AND+%27%25%27+AND+%27tariff%27+AND+%27China%27+AND+%27Q1%27+&hq=news&dateRestrict=2024-11-28&num=10
+
+2025-01-28 12:58:49,826 - contract_processor - ERROR - [test_GET_INSIGHTS.py:29] - HTTP Exception raised - Status: 500, Detail: Failed to fetch news, Internal Error: Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 251, in search_news
+    news = get_news(request.text)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/INSIGHTS/WEB_SEARCH.py", line 68, in get_news
+    results = google_custom_search(API_KEY, CX, QUERY)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/INSIGHTS/WEB_SEARCH.py", line 47, in google_custom_search
+    response.raise_for_status()
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://www.googleapis.com/customsearch/v1?key=AIzaSyDkKUYC7T5d3Cs0pYXxwLugxWOBb1pEJgk&cx=55c836e53abf14084&q=%27Trump%27+AND+%27impose%27+AND+%27%25%27+AND+%27tariff%27+AND+%27China%27+AND+%27Q1%27+&hq=news&dateRestrict=2024-11-28&num=10
+
+2025-01-28 12:58:49,827 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 3c3ec3f32cd4 - Status: 500 - Duration: 1.794s
+2025-01-28 13:03:26,916 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 8a5400040a5b - Method: POST - URL: http://127.0.0.1:8006/search-news
+2025-01-28 13:03:26,917 - contract_processor - INFO - [test_GET_INSIGHTS.py:248] - Request ID fb5afbe5337e - Processing news search: Trump to impose 25% or more tariff on China in Q1 '25?...
+2025-01-28 13:03:27,513 - contract_processor - ERROR - [test_GET_INSIGHTS.py:257] - Request ID fb5afbe5337e - Failed to fetch news: 429 Client Error: Too Many Requests for url: https://www.googleapis.com/customsearch/v1?key=AIzaSyDkKUYC7T5d3Cs0pYXxwLugxWOBb1pEJgk&cx=55c836e53abf14084&q=%27Trump%27+AND+%27impose%27+AND+%27%25%27+AND+%27tariff%27+AND+%27China%27+AND+%27Q1%27+&hq=news&dateRestrict=2024-11-28&num=10
+Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 251, in search_news
+    news = get_news(request.text)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/INSIGHTS/WEB_SEARCH.py", line 68, in get_news
+    results = google_custom_search(API_KEY, CX, QUERY)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/INSIGHTS/WEB_SEARCH.py", line 47, in google_custom_search
+    response.raise_for_status()
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://www.googleapis.com/customsearch/v1?key=AIzaSyDkKUYC7T5d3Cs0pYXxwLugxWOBb1pEJgk&cx=55c836e53abf14084&q=%27Trump%27+AND+%27impose%27+AND+%27%25%27+AND+%27tariff%27+AND+%27China%27+AND+%27Q1%27+&hq=news&dateRestrict=2024-11-28&num=10
+
+2025-01-28 13:03:27,515 - contract_processor - ERROR - [test_GET_INSIGHTS.py:29] - HTTP Exception raised - Status: 500, Detail: Failed to fetch news, Internal Error: Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 251, in search_news
+    news = get_news(request.text)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/INSIGHTS/WEB_SEARCH.py", line 68, in get_news
+    results = google_custom_search(API_KEY, CX, QUERY)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/INSIGHTS/WEB_SEARCH.py", line 47, in google_custom_search
+    response.raise_for_status()
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://www.googleapis.com/customsearch/v1?key=AIzaSyDkKUYC7T5d3Cs0pYXxwLugxWOBb1pEJgk&cx=55c836e53abf14084&q=%27Trump%27+AND+%27impose%27+AND+%27%25%27+AND+%27tariff%27+AND+%27China%27+AND+%27Q1%27+&hq=news&dateRestrict=2024-11-28&num=10
+
+2025-01-28 13:03:27,515 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 8a5400040a5b - Status: 500 - Duration: 0.599s
+2025-01-28 13:03:34,401 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: c0e262e6bb88 - Method: POST - URL: http://127.0.0.1:8006/search-news
+2025-01-28 13:03:34,403 - contract_processor - INFO - [test_GET_INSIGHTS.py:248] - Request ID 3926cdfe570c - Processing news search: Trump to impose 25% or more tariff on China in Q1 '25?...
+2025-01-28 13:03:34,871 - contract_processor - ERROR - [test_GET_INSIGHTS.py:257] - Request ID 3926cdfe570c - Failed to fetch news: 429 Client Error: Too Many Requests for url: https://www.googleapis.com/customsearch/v1?key=AIzaSyDkKUYC7T5d3Cs0pYXxwLugxWOBb1pEJgk&cx=55c836e53abf14084&q=%27Trump%27+AND+%27impose%27+AND+%27%25%27+AND+%27tariff%27+AND+%27China%27+AND+%27Q1%27+&hq=news&dateRestrict=2024-11-28&num=10
+Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 251, in search_news
+    news = get_news(request.text)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/INSIGHTS/WEB_SEARCH.py", line 68, in get_news
+    results = google_custom_search(API_KEY, CX, QUERY)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/INSIGHTS/WEB_SEARCH.py", line 47, in google_custom_search
+    response.raise_for_status()
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://www.googleapis.com/customsearch/v1?key=AIzaSyDkKUYC7T5d3Cs0pYXxwLugxWOBb1pEJgk&cx=55c836e53abf14084&q=%27Trump%27+AND+%27impose%27+AND+%27%25%27+AND+%27tariff%27+AND+%27China%27+AND+%27Q1%27+&hq=news&dateRestrict=2024-11-28&num=10
+
+2025-01-28 13:03:34,872 - contract_processor - ERROR - [test_GET_INSIGHTS.py:29] - HTTP Exception raised - Status: 500, Detail: Failed to fetch news, Internal Error: Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 251, in search_news
+    news = get_news(request.text)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/INSIGHTS/WEB_SEARCH.py", line 68, in get_news
+    results = google_custom_search(API_KEY, CX, QUERY)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/INSIGHTS/WEB_SEARCH.py", line 47, in google_custom_search
+    response.raise_for_status()
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://www.googleapis.com/customsearch/v1?key=AIzaSyDkKUYC7T5d3Cs0pYXxwLugxWOBb1pEJgk&cx=55c836e53abf14084&q=%27Trump%27+AND+%27impose%27+AND+%27%25%27+AND+%27tariff%27+AND+%27China%27+AND+%27Q1%27+&hq=news&dateRestrict=2024-11-28&num=10
+
+2025-01-28 13:03:34,873 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: c0e262e6bb88 - Status: 500 - Duration: 0.472s
+2025-01-28 14:15:06,129 - contract_processor - INFO - [test_GET_INSIGHTS.py:39] - ==================================================
+2025-01-28 14:15:06,129 - contract_processor - INFO - [test_GET_INSIGHTS.py:40] - Starting FastAPI application
+2025-01-28 14:15:06,129 - contract_processor - INFO - [test_GET_INSIGHTS.py:41] - Environment: development
+2025-01-28 14:15:06,129 - contract_processor - INFO - [test_GET_INSIGHTS.py:42] - Current timestamp: 2025-01-28T14:15:06.129417
+2025-01-28 14:15:06,129 - contract_processor - INFO - [test_GET_INSIGHTS.py:43] - ==================================================
+2025-01-28 14:15:24,086 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 09616585182c - Method: POST - URL: http://127.0.0.1:8006/search-news
+2025-01-28 14:15:24,089 - contract_processor - INFO - [test_GET_INSIGHTS.py:248] - Request ID 836d20a4e823 - Processing news search: Trump to impose 25% or more tariff on China in Q1 '25?...
+2025-01-28 14:15:26,404 - contract_processor - INFO - [test_GET_INSIGHTS.py:252] - Request ID 836d20a4e823 - Successfully fetched news results
+2025-01-28 14:15:26,406 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 09616585182c - Status: 200 - Duration: 2.320s
+2025-01-28 14:16:11,724 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 3e47b2866488 - Method: POST - URL: http://127.0.0.1:8006/get-insights
+2025-01-28 14:16:11,724 - contract_processor - INFO - [test_GET_INSIGHTS.py:180] - Request ID 75c90c557db5 - Processing combined insights request: Who will win more GRAMMYs, Taylor or Beyonce?...
+2025-01-28 14:16:11,730 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: f931cb0abd98 - Method: POST - URL: http://127.0.0.1:8006/search-tweets
+2025-01-28 14:16:11,731 - contract_processor - INFO - [test_GET_INSIGHTS.py:161] - Request ID fa19a125dd1f - Processing tweet search: Who will win more GRAMMYs, Taylor or Beyonce?...
+2025-01-28 14:16:14,733 - contract_processor - INFO - [test_GET_INSIGHTS.py:165] - Request ID fa19a125dd1f - Successfully fetched 20 tweets
+2025-01-28 14:16:14,735 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: f931cb0abd98 - Status: 200 - Duration: 3.005s
+2025-01-28 14:16:14,737 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 13d2310bc81e - Method: POST - URL: http://127.0.0.1:8006/insights
+2025-01-28 14:16:14,738 - contract_processor - INFO - [test_GET_INSIGHTS.py:127] - Request ID 630e13e3fbe3 - Processing insights request for prompt: Who will win more GRAMMYs, Taylor or Beyonce?...
+2025-01-28 14:16:23,768 - contract_processor - ERROR - [test_GET_INSIGHTS.py:110] - JSON parsing error at position 0: Expecting value
+Input text: ### **FOR: Taylor Swift Will Win More GRAMMYs** 1. **Consistent Recognition**: Taylor Swift has a history of consistent recognition at the GRAMMYs, having won the Album of the Year award four times, i...
+2025-01-28 14:16:23,769 - contract_processor - ERROR - [test_GET_INSIGHTS.py:29] - HTTP Exception raised - Status: 400, Detail: JSON parsing error at position 0: Expecting value, Internal Error: Expecting value: line 1 column 1 (char 0)
+2025-01-28 14:16:23,772 - contract_processor - ERROR - [test_GET_INSIGHTS.py:151] - Request ID 630e13e3fbe3 - Failed to process insights request: 400: JSON parsing error at position 0: Expecting value
+Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 87, in extract_json_for_against
+    json_data = json.loads(cleaned_text)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 137, in event_generate_v1
+    arguments = extract_json_for_against(combined[0])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 111, in extract_json_for_against
+    raise CustomHTTPException(
+test_GET_INSIGHTS.CustomHTTPException: 400: JSON parsing error at position 0: Expecting value
+
+2025-01-28 14:16:23,773 - contract_processor - ERROR - [test_GET_INSIGHTS.py:29] - HTTP Exception raised - Status: 500, Detail: Failed to process insights request: 400: JSON parsing error at position 0: Expecting value, Internal Error: Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 87, in extract_json_for_against
+    json_data = json.loads(cleaned_text)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 137, in event_generate_v1
+    arguments = extract_json_for_against(combined[0])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 111, in extract_json_for_against
+    raise CustomHTTPException(
+test_GET_INSIGHTS.CustomHTTPException: 400: JSON parsing error at position 0: Expecting value
+
+2025-01-28 14:16:23,773 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 13d2310bc81e - Status: 500 - Duration: 9.036s
+2025-01-28 14:16:23,775 - contract_processor - ERROR - [test_GET_INSIGHTS.py:230] - Request ID 75c90c557db5 - External service returned error status: 500: Server error '500 Internal Server Error' for url 'http://127.0.0.1:8006/insights'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-28 14:16:23,775 - contract_processor - ERROR - [test_GET_INSIGHTS.py:29] - HTTP Exception raised - Status: 502, Detail: External service returned error status: 500, Internal Error: Response: {"detail":"Failed to process insights request: 400: JSON parsing error at position 0: Expecting value"}
+2025-01-28 14:16:23,775 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 3e47b2866488 - Status: 502 - Duration: 12.052s
+2025-01-28 14:16:23,779 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: ce59d7dac0f5 - Method: POST - URL: http://127.0.0.1:8006/get-insights
+2025-01-28 14:16:23,780 - contract_processor - INFO - [test_GET_INSIGHTS.py:180] - Request ID 025a81466f74 - Processing combined insights request: Los Angeles Lakers to win against Philadelphia 76ers?...
+2025-01-28 14:16:23,792 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 8a8700983b74 - Method: POST - URL: http://127.0.0.1:8006/search-tweets
+2025-01-28 14:16:23,792 - contract_processor - INFO - [test_GET_INSIGHTS.py:161] - Request ID ba7b65ce8ca8 - Processing tweet search: Los Angeles Lakers to win against Philadelphia 76ers?...
+2025-01-28 14:16:26,870 - contract_processor - INFO - [test_GET_INSIGHTS.py:165] - Request ID ba7b65ce8ca8 - Successfully fetched 19 tweets
+2025-01-28 14:16:26,871 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 8a8700983b74 - Status: 200 - Duration: 3.079s
+2025-01-28 14:16:26,874 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 5ce695654d65 - Method: POST - URL: http://127.0.0.1:8006/insights
+2025-01-28 14:16:26,875 - contract_processor - INFO - [test_GET_INSIGHTS.py:127] - Request ID 011107eb3b4d - Processing insights request for prompt: Los Angeles Lakers to win against Philadelphia 76ers?...
+2025-01-28 14:16:32,330 - contract_processor - INFO - [test_GET_INSIGHTS.py:146] - Request ID 011107eb3b4d - Successfully processed insights request
+2025-01-28 14:16:32,334 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 5ce695654d65 - Status: 200 - Duration: 5.460s
+2025-01-28 14:16:32,337 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: dd0a4365883a - Method: POST - URL: http://127.0.0.1:8006/search-news
+2025-01-28 14:16:32,339 - contract_processor - INFO - [test_GET_INSIGHTS.py:248] - Request ID 469c55a46498 - Processing news search: Los Angeles Lakers to win against Philadelphia 76ers?...
+2025-01-28 14:16:33,518 - contract_processor - INFO - [test_GET_INSIGHTS.py:252] - Request ID 469c55a46498 - Successfully fetched news results
+2025-01-28 14:16:33,519 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: dd0a4365883a - Status: 200 - Duration: 1.182s
+2025-01-28 14:16:33,521 - contract_processor - INFO - [test_GET_INSIGHTS.py:217] - Request ID 025a81466f74 - Successfully processed combined insights request
+2025-01-28 14:16:33,522 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: ce59d7dac0f5 - Status: 200 - Duration: 9.743s
+2025-01-28 14:16:48,538 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: f95dfe898b1a - Method: POST - URL: http://127.0.0.1:8006/get-insights
+2025-01-28 14:16:48,540 - contract_processor - INFO - [test_GET_INSIGHTS.py:180] - Request ID e478eb0159af - Processing combined insights request: Barcelona to win against Atalanta?...
+2025-01-28 14:16:48,558 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 36992be2c021 - Method: POST - URL: http://127.0.0.1:8006/search-tweets
+2025-01-28 14:16:48,559 - contract_processor - INFO - [test_GET_INSIGHTS.py:161] - Request ID b098a78092de - Processing tweet search: Barcelona to win against Atalanta?...
+2025-01-28 14:16:51,452 - contract_processor - INFO - [test_GET_INSIGHTS.py:165] - Request ID b098a78092de - Successfully fetched 20 tweets
+2025-01-28 14:16:51,453 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 36992be2c021 - Status: 200 - Duration: 2.896s
+2025-01-28 14:16:51,456 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: b8cea2b43c9c - Method: POST - URL: http://127.0.0.1:8006/insights
+2025-01-28 14:16:51,456 - contract_processor - INFO - [test_GET_INSIGHTS.py:127] - Request ID cbbd84614687 - Processing insights request for prompt: Barcelona to win against Atalanta?...
+2025-01-28 14:16:57,982 - contract_processor - INFO - [test_GET_INSIGHTS.py:146] - Request ID cbbd84614687 - Successfully processed insights request
+2025-01-28 14:16:57,983 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: b8cea2b43c9c - Status: 200 - Duration: 6.528s
+2025-01-28 14:16:57,986 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 38ad66e76958 - Method: POST - URL: http://127.0.0.1:8006/search-news
+2025-01-28 14:16:57,986 - contract_processor - INFO - [test_GET_INSIGHTS.py:248] - Request ID 5fb7ce029c92 - Processing news search: Barcelona to win against Atalanta?...
+2025-01-28 14:16:58,876 - contract_processor - INFO - [test_GET_INSIGHTS.py:252] - Request ID 5fb7ce029c92 - Successfully fetched news results
+2025-01-28 14:16:58,877 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 38ad66e76958 - Status: 200 - Duration: 0.892s
+2025-01-28 14:16:58,880 - contract_processor - INFO - [test_GET_INSIGHTS.py:217] - Request ID e478eb0159af - Successfully processed combined insights request
+2025-01-28 14:16:58,881 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: f95dfe898b1a - Status: 200 - Duration: 10.343s
+2025-01-28 14:17:13,894 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 43f1eed37b1d - Method: POST - URL: http://127.0.0.1:8006/get-insights
+2025-01-28 14:17:13,895 - contract_processor - INFO - [test_GET_INSIGHTS.py:180] - Request ID 34cf1e36a65e - Processing combined insights request: Trump to impose 25% or more tariff on China in Q1 '25?...
+2025-01-28 14:17:13,906 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 6109dd47ed5e - Method: POST - URL: http://127.0.0.1:8006/search-tweets
+2025-01-28 14:17:13,906 - contract_processor - INFO - [test_GET_INSIGHTS.py:161] - Request ID fadc3a358218 - Processing tweet search: Trump to impose 25% or more tariff on China in Q1 '25?...
+2025-01-28 14:17:16,694 - contract_processor - INFO - [test_GET_INSIGHTS.py:165] - Request ID fadc3a358218 - Successfully fetched 19 tweets
+2025-01-28 14:17:16,695 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 6109dd47ed5e - Status: 200 - Duration: 2.789s
+2025-01-28 14:17:16,698 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: a785dbefc819 - Method: POST - URL: http://127.0.0.1:8006/insights
+2025-01-28 14:17:16,698 - contract_processor - INFO - [test_GET_INSIGHTS.py:127] - Request ID 4eae31e8138a - Processing insights request for prompt: Trump to impose 25% or more tariff on China in Q1 '25?...
+2025-01-28 14:17:22,960 - contract_processor - INFO - [test_GET_INSIGHTS.py:146] - Request ID 4eae31e8138a - Successfully processed insights request
+2025-01-28 14:17:22,961 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: a785dbefc819 - Status: 200 - Duration: 6.263s
+2025-01-28 14:17:22,966 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 049713827e99 - Method: POST - URL: http://127.0.0.1:8006/search-news
+2025-01-28 14:17:22,967 - contract_processor - INFO - [test_GET_INSIGHTS.py:248] - Request ID d957fd46a010 - Processing news search: Trump to impose 25% or more tariff on China in Q1 '25?...
+2025-01-28 14:17:23,872 - contract_processor - INFO - [test_GET_INSIGHTS.py:252] - Request ID d957fd46a010 - Successfully fetched news results
+2025-01-28 14:17:23,873 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 049713827e99 - Status: 200 - Duration: 0.908s
+2025-01-28 14:17:23,876 - contract_processor - INFO - [test_GET_INSIGHTS.py:217] - Request ID 34cf1e36a65e - Successfully processed combined insights request
+2025-01-28 14:17:23,878 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 43f1eed37b1d - Status: 200 - Duration: 9.984s
+2025-01-28 14:17:38,894 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: eaa9222704b8 - Method: POST - URL: http://127.0.0.1:8006/get-insights
+2025-01-28 14:17:38,896 - contract_processor - INFO - [test_GET_INSIGHTS.py:180] - Request ID 1874678fd480 - Processing combined insights request: SOL to be part of U.S. strategic reserve in Q1 '25?...
+2025-01-28 14:17:38,914 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: a2fa11d0649a - Method: POST - URL: http://127.0.0.1:8006/search-tweets
+2025-01-28 14:17:38,915 - contract_processor - INFO - [test_GET_INSIGHTS.py:161] - Request ID 2a37889453ce - Processing tweet search: SOL to be part of U.S. strategic reserve in Q1 '25?...
+2025-01-28 14:17:41,913 - contract_processor - INFO - [test_GET_INSIGHTS.py:165] - Request ID 2a37889453ce - Successfully fetched 20 tweets
+2025-01-28 14:17:41,914 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: a2fa11d0649a - Status: 200 - Duration: 3.000s
+2025-01-28 14:17:41,917 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: d735f9398717 - Method: POST - URL: http://127.0.0.1:8006/insights
+2025-01-28 14:17:41,917 - contract_processor - INFO - [test_GET_INSIGHTS.py:127] - Request ID 8c27c81d4218 - Processing insights request for prompt: SOL to be part of U.S. strategic reserve in Q1 '25?...
+2025-01-28 14:17:47,075 - contract_processor - INFO - [test_GET_INSIGHTS.py:146] - Request ID 8c27c81d4218 - Successfully processed insights request
+2025-01-28 14:17:47,075 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: d735f9398717 - Status: 200 - Duration: 5.159s
+2025-01-28 14:17:47,077 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 90924914f529 - Method: POST - URL: http://127.0.0.1:8006/search-news
+2025-01-28 14:17:47,078 - contract_processor - INFO - [test_GET_INSIGHTS.py:248] - Request ID f6ccf64a1d30 - Processing news search: SOL to be part of U.S. strategic reserve in Q1 '25?...
+2025-01-28 14:17:48,223 - contract_processor - INFO - [test_GET_INSIGHTS.py:252] - Request ID f6ccf64a1d30 - Successfully fetched news results
+2025-01-28 14:17:48,224 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 90924914f529 - Status: 200 - Duration: 1.147s
+2025-01-28 14:17:48,226 - contract_processor - INFO - [test_GET_INSIGHTS.py:217] - Request ID 1874678fd480 - Successfully processed combined insights request
+2025-01-28 14:17:48,228 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: eaa9222704b8 - Status: 200 - Duration: 9.334s
+2025-01-28 14:18:03,239 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 8ba3aa4fd293 - Method: POST - URL: http://127.0.0.1:8006/get-insights
+2025-01-28 14:18:03,240 - contract_processor - INFO - [test_GET_INSIGHTS.py:180] - Request ID cad95829724f - Processing combined insights request: Trump to end Ukraine war in Q1 '25?...
+2025-01-28 14:18:03,254 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 8ec91bc5728a - Method: POST - URL: http://127.0.0.1:8006/search-tweets
+2025-01-28 14:18:03,254 - contract_processor - INFO - [test_GET_INSIGHTS.py:161] - Request ID f7633187fc83 - Processing tweet search: Trump to end Ukraine war in Q1 '25?...
+2025-01-28 14:18:05,960 - contract_processor - INFO - [test_GET_INSIGHTS.py:165] - Request ID f7633187fc83 - Successfully fetched 19 tweets
+2025-01-28 14:18:05,961 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 8ec91bc5728a - Status: 200 - Duration: 2.707s
+2025-01-28 14:18:05,963 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 462eaf9ebe93 - Method: POST - URL: http://127.0.0.1:8006/insights
+2025-01-28 14:18:05,963 - contract_processor - INFO - [test_GET_INSIGHTS.py:127] - Request ID 38b0305457ca - Processing insights request for prompt: Trump to end Ukraine war in Q1 '25?...
+2025-01-28 14:18:11,403 - contract_processor - INFO - [test_GET_INSIGHTS.py:146] - Request ID 38b0305457ca - Successfully processed insights request
+2025-01-28 14:18:11,404 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 462eaf9ebe93 - Status: 200 - Duration: 5.441s
+2025-01-28 14:18:11,407 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: ddc5c0f4fc34 - Method: POST - URL: http://127.0.0.1:8006/search-news
+2025-01-28 14:18:11,409 - contract_processor - INFO - [test_GET_INSIGHTS.py:248] - Request ID 1234ca3365c7 - Processing news search: Trump to end Ukraine war in Q1 '25?...
+2025-01-28 14:18:12,429 - contract_processor - INFO - [test_GET_INSIGHTS.py:252] - Request ID 1234ca3365c7 - Successfully fetched news results
+2025-01-28 14:18:12,430 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: ddc5c0f4fc34 - Status: 200 - Duration: 1.022s
+2025-01-28 14:18:12,432 - contract_processor - INFO - [test_GET_INSIGHTS.py:217] - Request ID cad95829724f - Successfully processed combined insights request
+2025-01-28 14:18:12,433 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 8ba3aa4fd293 - Status: 200 - Duration: 9.194s
+2025-01-28 14:18:27,450 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 165661163cdc - Method: POST - URL: http://127.0.0.1:8006/get-insights
+2025-01-28 14:18:27,451 - contract_processor - INFO - [test_GET_INSIGHTS.py:180] - Request ID 65af7988cc8a - Processing combined insights request: AfD to win the German Federal elections?...
+2025-01-28 14:18:27,468 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: b7254b79e255 - Method: POST - URL: http://127.0.0.1:8006/search-tweets
+2025-01-28 14:18:27,469 - contract_processor - INFO - [test_GET_INSIGHTS.py:161] - Request ID 645ab2938a11 - Processing tweet search: AfD to win the German Federal elections?...
+2025-01-28 14:18:30,456 - contract_processor - INFO - [test_GET_INSIGHTS.py:165] - Request ID 645ab2938a11 - Successfully fetched 20 tweets
+2025-01-28 14:18:30,457 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: b7254b79e255 - Status: 200 - Duration: 2.989s
+2025-01-28 14:18:30,458 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 23085d616521 - Method: POST - URL: http://127.0.0.1:8006/insights
+2025-01-28 14:18:30,459 - contract_processor - INFO - [test_GET_INSIGHTS.py:127] - Request ID 020851234e95 - Processing insights request for prompt: AfD to win the German Federal elections?...
+2025-01-28 14:18:36,088 - contract_processor - INFO - [test_GET_INSIGHTS.py:146] - Request ID 020851234e95 - Successfully processed insights request
+2025-01-28 14:18:36,089 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 23085d616521 - Status: 200 - Duration: 5.630s
+2025-01-28 14:18:36,092 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 27d9baec0c7e - Method: POST - URL: http://127.0.0.1:8006/search-news
+2025-01-28 14:18:36,093 - contract_processor - INFO - [test_GET_INSIGHTS.py:248] - Request ID 62cfb6d0b7ef - Processing news search: AfD to win the German Federal elections?...
+2025-01-28 14:18:37,029 - contract_processor - INFO - [test_GET_INSIGHTS.py:252] - Request ID 62cfb6d0b7ef - Successfully fetched news results
+2025-01-28 14:18:37,030 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 27d9baec0c7e - Status: 200 - Duration: 0.938s
+2025-01-28 14:18:37,032 - contract_processor - INFO - [test_GET_INSIGHTS.py:217] - Request ID 65af7988cc8a - Successfully processed combined insights request
+2025-01-28 14:18:37,034 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 165661163cdc - Status: 200 - Duration: 9.585s
+2025-01-28 14:18:52,052 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 8027d4307901 - Method: POST - URL: http://127.0.0.1:8006/get-insights
+2025-01-28 14:18:52,054 - contract_processor - INFO - [test_GET_INSIGHTS.py:180] - Request ID a25eca54312c - Processing combined insights request: Trump's approval rating more than 60% in Jan '25?...
+2025-01-28 14:18:52,070 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: c1948b406e5b - Method: POST - URL: http://127.0.0.1:8006/search-tweets
+2025-01-28 14:18:52,071 - contract_processor - INFO - [test_GET_INSIGHTS.py:161] - Request ID d93b198b6fc5 - Processing tweet search: Trump's approval rating more than 60% in Jan '25?...
+2025-01-28 14:18:54,779 - contract_processor - INFO - [test_GET_INSIGHTS.py:165] - Request ID d93b198b6fc5 - Successfully fetched 19 tweets
+2025-01-28 14:18:54,780 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: c1948b406e5b - Status: 200 - Duration: 2.710s
+2025-01-28 14:18:54,782 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 8317fbcbf7d2 - Method: POST - URL: http://127.0.0.1:8006/insights
+2025-01-28 14:18:54,783 - contract_processor - INFO - [test_GET_INSIGHTS.py:127] - Request ID 3655d14f5733 - Processing insights request for prompt: Trump's approval rating more than 60% in Jan '25?...
+2025-01-28 14:18:59,986 - contract_processor - INFO - [test_GET_INSIGHTS.py:146] - Request ID 3655d14f5733 - Successfully processed insights request
+2025-01-28 14:18:59,987 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 8317fbcbf7d2 - Status: 200 - Duration: 5.204s
+2025-01-28 14:18:59,990 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 317997c5358f - Method: POST - URL: http://127.0.0.1:8006/search-news
+2025-01-28 14:18:59,992 - contract_processor - INFO - [test_GET_INSIGHTS.py:248] - Request ID 35a7a8da5597 - Processing news search: Trump's approval rating more than 60% in Jan '25?...
+2025-01-28 14:19:01,194 - contract_processor - INFO - [test_GET_INSIGHTS.py:252] - Request ID 35a7a8da5597 - Successfully fetched news results
+2025-01-28 14:19:01,195 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 317997c5358f - Status: 200 - Duration: 1.205s
+2025-01-28 14:19:01,198 - contract_processor - INFO - [test_GET_INSIGHTS.py:217] - Request ID a25eca54312c - Successfully processed combined insights request
+2025-01-28 14:19:01,200 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 8027d4307901 - Status: 200 - Duration: 9.147s
+2025-01-28 14:19:16,217 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: dafb5045ac2e - Method: POST - URL: http://127.0.0.1:8006/get-insights
+2025-01-28 14:19:16,218 - contract_processor - INFO - [test_GET_INSIGHTS.py:180] - Request ID f71e1bb2c7f4 - Processing combined insights request: Musk's net worth more than $500B in Jan '25?...
+2025-01-28 14:19:16,234 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: dc4091bbdee0 - Method: POST - URL: http://127.0.0.1:8006/search-tweets
+2025-01-28 14:19:16,234 - contract_processor - INFO - [test_GET_INSIGHTS.py:161] - Request ID dfe3e19dccda - Processing tweet search: Musk's net worth more than $500B in Jan '25?...
+2025-01-28 14:19:19,089 - contract_processor - INFO - [test_GET_INSIGHTS.py:165] - Request ID dfe3e19dccda - Successfully fetched 20 tweets
+2025-01-28 14:19:19,090 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: dc4091bbdee0 - Status: 200 - Duration: 2.857s
+2025-01-28 14:19:19,093 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 198199130e66 - Method: POST - URL: http://127.0.0.1:8006/insights
+2025-01-28 14:19:19,094 - contract_processor - INFO - [test_GET_INSIGHTS.py:127] - Request ID ca9b970d8818 - Processing insights request for prompt: Musk's net worth more than $500B in Jan '25?...
+2025-01-28 14:19:25,433 - contract_processor - ERROR - [test_GET_INSIGHTS.py:110] - JSON parsing error at position 0: Expecting value
+Input text: ### Event: Musk's net worth exceeding $500 billion in January 2025 #### **For:** - **Historical Precedent:** Elon Musk has consistently demonstrated an ability to rapidly increase his net worth due to...
+2025-01-28 14:19:25,434 - contract_processor - ERROR - [test_GET_INSIGHTS.py:29] - HTTP Exception raised - Status: 400, Detail: JSON parsing error at position 0: Expecting value, Internal Error: Expecting value: line 1 column 1 (char 0)
+2025-01-28 14:19:25,435 - contract_processor - ERROR - [test_GET_INSIGHTS.py:151] - Request ID ca9b970d8818 - Failed to process insights request: 400: JSON parsing error at position 0: Expecting value
+Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 87, in extract_json_for_against
+    json_data = json.loads(cleaned_text)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 137, in event_generate_v1
+    arguments = extract_json_for_against(combined[0])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 111, in extract_json_for_against
+    raise CustomHTTPException(
+test_GET_INSIGHTS.CustomHTTPException: 400: JSON parsing error at position 0: Expecting value
+
+2025-01-28 14:19:25,436 - contract_processor - ERROR - [test_GET_INSIGHTS.py:29] - HTTP Exception raised - Status: 500, Detail: Failed to process insights request: 400: JSON parsing error at position 0: Expecting value, Internal Error: Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 87, in extract_json_for_against
+    json_data = json.loads(cleaned_text)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 137, in event_generate_v1
+    arguments = extract_json_for_against(combined[0])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 111, in extract_json_for_against
+    raise CustomHTTPException(
+test_GET_INSIGHTS.CustomHTTPException: 400: JSON parsing error at position 0: Expecting value
+
+2025-01-28 14:19:25,437 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 198199130e66 - Status: 500 - Duration: 6.344s
+2025-01-28 14:19:25,439 - contract_processor - ERROR - [test_GET_INSIGHTS.py:230] - Request ID f71e1bb2c7f4 - External service returned error status: 500: Server error '500 Internal Server Error' for url 'http://127.0.0.1:8006/insights'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-28 14:19:25,439 - contract_processor - ERROR - [test_GET_INSIGHTS.py:29] - HTTP Exception raised - Status: 502, Detail: External service returned error status: 500, Internal Error: Response: {"detail":"Failed to process insights request: 400: JSON parsing error at position 0: Expecting value"}
+2025-01-28 14:19:25,440 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: dafb5045ac2e - Status: 502 - Duration: 9.223s
+2025-01-28 14:19:25,444 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 24fa2a4a8e61 - Method: POST - URL: http://127.0.0.1:8006/get-insights
+2025-01-28 14:19:25,445 - contract_processor - INFO - [test_GET_INSIGHTS.py:180] - Request ID 8bbe890a9d57 - Processing combined insights request: Mufasa earnings to beat The Lion King?...
+2025-01-28 14:19:25,460 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: a0938c95861b - Method: POST - URL: http://127.0.0.1:8006/search-tweets
+2025-01-28 14:19:25,461 - contract_processor - INFO - [test_GET_INSIGHTS.py:161] - Request ID b5fa770a3472 - Processing tweet search: Mufasa earnings to beat The Lion King?...
+2025-01-28 14:19:28,207 - contract_processor - INFO - [test_GET_INSIGHTS.py:165] - Request ID b5fa770a3472 - Successfully fetched 19 tweets
+2025-01-28 14:19:28,208 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: a0938c95861b - Status: 200 - Duration: 2.748s
+2025-01-28 14:19:28,211 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: c5aa2a9b0611 - Method: POST - URL: http://127.0.0.1:8006/insights
+2025-01-28 14:19:28,211 - contract_processor - INFO - [test_GET_INSIGHTS.py:127] - Request ID 6c0b0b7226d7 - Processing insights request for prompt: Mufasa earnings to beat The Lion King?...
+2025-01-28 14:19:33,619 - contract_processor - INFO - [test_GET_INSIGHTS.py:146] - Request ID 6c0b0b7226d7 - Successfully processed insights request
+2025-01-28 14:19:33,621 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: c5aa2a9b0611 - Status: 200 - Duration: 5.410s
+2025-01-28 14:19:33,624 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 2e81e0e2c74a - Method: POST - URL: http://127.0.0.1:8006/search-news
+2025-01-28 14:19:33,625 - contract_processor - INFO - [test_GET_INSIGHTS.py:248] - Request ID 21a698532e2c - Processing news search: Mufasa earnings to beat The Lion King?...
+2025-01-28 14:19:34,756 - contract_processor - INFO - [test_GET_INSIGHTS.py:252] - Request ID 21a698532e2c - Successfully fetched news results
+2025-01-28 14:19:34,757 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 2e81e0e2c74a - Status: 200 - Duration: 1.133s
+2025-01-28 14:19:34,759 - contract_processor - INFO - [test_GET_INSIGHTS.py:217] - Request ID 8bbe890a9d57 - Successfully processed combined insights request
+2025-01-28 14:19:34,760 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 24fa2a4a8e61 - Status: 200 - Duration: 9.316s
+2025-01-28 14:19:49,776 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: d8304152b74f - Method: POST - URL: http://127.0.0.1:8006/get-insights
+2025-01-28 14:19:49,777 - contract_processor - INFO - [test_GET_INSIGHTS.py:180] - Request ID 2de2bc2d719a - Processing combined insights request: Weekend to have more spotify listeners than Drake?...
+2025-01-28 14:19:49,795 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 230b7426d96a - Method: POST - URL: http://127.0.0.1:8006/search-tweets
+2025-01-28 14:19:49,795 - contract_processor - INFO - [test_GET_INSIGHTS.py:161] - Request ID 99a435c3a947 - Processing tweet search: Weekend to have more spotify listeners than Drake?...
+2025-01-28 14:19:52,907 - contract_processor - INFO - [test_GET_INSIGHTS.py:165] - Request ID 99a435c3a947 - Successfully fetched 20 tweets
+2025-01-28 14:19:52,909 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 230b7426d96a - Status: 200 - Duration: 3.114s
+2025-01-28 14:19:52,911 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 0b6a59f5b876 - Method: POST - URL: http://127.0.0.1:8006/insights
+2025-01-28 14:19:52,911 - contract_processor - INFO - [test_GET_INSIGHTS.py:127] - Request ID a96d14d4acb8 - Processing insights request for prompt: Weekend to have more spotify listeners than Drake?...
+2025-01-28 14:19:57,591 - contract_processor - INFO - [test_GET_INSIGHTS.py:146] - Request ID a96d14d4acb8 - Successfully processed insights request
+2025-01-28 14:19:57,592 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 0b6a59f5b876 - Status: 200 - Duration: 4.681s
+2025-01-28 14:19:57,595 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: a6031e4c1597 - Method: POST - URL: http://127.0.0.1:8006/search-news
+2025-01-28 14:19:57,596 - contract_processor - INFO - [test_GET_INSIGHTS.py:248] - Request ID ca842c350ac3 - Processing news search: Weekend to have more spotify listeners than Drake?...
+2025-01-28 14:19:58,874 - contract_processor - INFO - [test_GET_INSIGHTS.py:252] - Request ID ca842c350ac3 - Successfully fetched news results
+2025-01-28 14:19:58,875 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: a6031e4c1597 - Status: 200 - Duration: 1.280s
+2025-01-28 14:19:58,876 - contract_processor - INFO - [test_GET_INSIGHTS.py:217] - Request ID 2de2bc2d719a - Successfully processed combined insights request
+2025-01-28 14:19:58,879 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: d8304152b74f - Status: 200 - Duration: 9.103s
+2025-01-28 14:20:13,895 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 93411d2718a9 - Method: POST - URL: http://127.0.0.1:8006/get-insights
+2025-01-28 14:20:13,896 - contract_processor - INFO - [test_GET_INSIGHTS.py:180] - Request ID cd05be78a605 - Processing combined insights request: Liverpool to win Premier League?...
+2025-01-28 14:20:13,912 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 80a76979bab2 - Method: POST - URL: http://127.0.0.1:8006/search-tweets
+2025-01-28 14:20:13,913 - contract_processor - INFO - [test_GET_INSIGHTS.py:161] - Request ID 311e10d080e8 - Processing tweet search: Liverpool to win Premier League?...
+2025-01-28 14:20:17,318 - contract_processor - INFO - [test_GET_INSIGHTS.py:165] - Request ID 311e10d080e8 - Successfully fetched 19 tweets
+2025-01-28 14:20:17,319 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 80a76979bab2 - Status: 200 - Duration: 3.407s
+2025-01-28 14:20:17,321 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 2c97b42d5de7 - Method: POST - URL: http://127.0.0.1:8006/insights
+2025-01-28 14:20:17,322 - contract_processor - INFO - [test_GET_INSIGHTS.py:127] - Request ID 2398b125a5f1 - Processing insights request for prompt: Liverpool to win Premier League?...
+2025-01-28 14:20:23,007 - contract_processor - INFO - [test_GET_INSIGHTS.py:146] - Request ID 2398b125a5f1 - Successfully processed insights request
+2025-01-28 14:20:23,008 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 2c97b42d5de7 - Status: 200 - Duration: 5.687s
+2025-01-28 14:20:23,011 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 860fe4f4561d - Method: POST - URL: http://127.0.0.1:8006/search-news
+2025-01-28 14:20:23,013 - contract_processor - INFO - [test_GET_INSIGHTS.py:248] - Request ID dd2f94976240 - Processing news search: Liverpool to win Premier League?...
+2025-01-28 14:20:24,019 - contract_processor - INFO - [test_GET_INSIGHTS.py:252] - Request ID dd2f94976240 - Successfully fetched news results
+2025-01-28 14:20:24,020 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 860fe4f4561d - Status: 200 - Duration: 1.009s
+2025-01-28 14:20:24,021 - contract_processor - INFO - [test_GET_INSIGHTS.py:217] - Request ID cd05be78a605 - Successfully processed combined insights request
+2025-01-28 14:20:24,023 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 93411d2718a9 - Status: 200 - Duration: 10.128s
+2025-01-28 14:20:39,044 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: e6bd905ea635 - Method: POST - URL: http://127.0.0.1:8006/get-insights
+2025-01-28 14:20:39,045 - contract_processor - INFO - [test_GET_INSIGHTS.py:180] - Request ID fe0c81951834 - Processing combined insights request: Trump positive favorable rating in first 100 days?...
+2025-01-28 14:20:39,063 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 277b685e7666 - Method: POST - URL: http://127.0.0.1:8006/search-tweets
+2025-01-28 14:20:39,064 - contract_processor - INFO - [test_GET_INSIGHTS.py:161] - Request ID 12c795c68f82 - Processing tweet search: Trump positive favorable rating in first 100 days?...
+2025-01-28 14:20:41,850 - contract_processor - INFO - [test_GET_INSIGHTS.py:165] - Request ID 12c795c68f82 - Successfully fetched 19 tweets
+2025-01-28 14:20:41,851 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 277b685e7666 - Status: 200 - Duration: 2.788s
+2025-01-28 14:20:41,854 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 55f0b3cf7c21 - Method: POST - URL: http://127.0.0.1:8006/insights
+2025-01-28 14:20:41,855 - contract_processor - INFO - [test_GET_INSIGHTS.py:127] - Request ID 9f805a82c0fe - Processing insights request for prompt: Trump positive favorable rating in first 100 days?...
+2025-01-28 14:20:47,506 - contract_processor - INFO - [test_GET_INSIGHTS.py:146] - Request ID 9f805a82c0fe - Successfully processed insights request
+2025-01-28 14:20:47,507 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 55f0b3cf7c21 - Status: 200 - Duration: 5.653s
+2025-01-28 14:20:47,511 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: e8ba4988abd4 - Method: POST - URL: http://127.0.0.1:8006/search-news
+2025-01-28 14:20:47,514 - contract_processor - INFO - [test_GET_INSIGHTS.py:248] - Request ID b70464e976e0 - Processing news search: Trump positive favorable rating in first 100 days?...
+2025-01-28 14:20:48,562 - contract_processor - INFO - [test_GET_INSIGHTS.py:252] - Request ID b70464e976e0 - Successfully fetched news results
+2025-01-28 14:20:48,563 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: e8ba4988abd4 - Status: 200 - Duration: 1.052s
+2025-01-28 14:20:48,565 - contract_processor - INFO - [test_GET_INSIGHTS.py:217] - Request ID fe0c81951834 - Successfully processed combined insights request
+2025-01-28 14:20:48,566 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: e6bd905ea635 - Status: 200 - Duration: 9.523s
+2025-01-28 14:22:32,259 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 6a4661eed60a - Method: POST - URL: http://127.0.0.1:8006/get-insights
+2025-01-28 14:22:32,259 - contract_processor - INFO - [test_GET_INSIGHTS.py:180] - Request ID 21cd025b4ae3 - Processing combined insights request: Who will win more GRAMMYs, Taylor or Beyonce?...
+2025-01-28 14:22:32,265 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 20f7f63db899 - Method: POST - URL: http://127.0.0.1:8006/search-tweets
+2025-01-28 14:22:32,265 - contract_processor - INFO - [test_GET_INSIGHTS.py:161] - Request ID ff39ea408938 - Processing tweet search: Who will win more GRAMMYs, Taylor or Beyonce?...
+2025-01-28 14:22:35,242 - contract_processor - INFO - [test_GET_INSIGHTS.py:165] - Request ID ff39ea408938 - Successfully fetched 20 tweets
+2025-01-28 14:22:35,243 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 20f7f63db899 - Status: 200 - Duration: 2.978s
+2025-01-28 14:22:35,246 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 7fbda2f556f7 - Method: POST - URL: http://127.0.0.1:8006/insights
+2025-01-28 14:22:35,247 - contract_processor - INFO - [test_GET_INSIGHTS.py:127] - Request ID e33c81905369 - Processing insights request for prompt: Who will win more GRAMMYs, Taylor or Beyonce?...
+2025-01-28 14:22:41,406 - contract_processor - ERROR - [test_GET_INSIGHTS.py:110] - JSON parsing error at position 0: Expecting value
+Input text: ### Evaluation of the Event: Who Will Win More GRAMMYs, Taylor or Beyoncé? #### **FOR: Taylor Swift Will Win More GRAMMYs** 1. **Consistent Recognition**: Taylor Swift has a history of consistent reco...
+2025-01-28 14:22:41,406 - contract_processor - ERROR - [test_GET_INSIGHTS.py:29] - HTTP Exception raised - Status: 400, Detail: JSON parsing error at position 0: Expecting value, Internal Error: Expecting value: line 1 column 1 (char 0)
+2025-01-28 14:22:41,407 - contract_processor - ERROR - [test_GET_INSIGHTS.py:151] - Request ID e33c81905369 - Failed to process insights request: 400: JSON parsing error at position 0: Expecting value
+Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 87, in extract_json_for_against
+    json_data = json.loads(cleaned_text)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 137, in event_generate_v1
+    arguments = extract_json_for_against(combined[0])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 111, in extract_json_for_against
+    raise CustomHTTPException(
+test_GET_INSIGHTS.CustomHTTPException: 400: JSON parsing error at position 0: Expecting value
+
+2025-01-28 14:22:41,408 - contract_processor - ERROR - [test_GET_INSIGHTS.py:29] - HTTP Exception raised - Status: 500, Detail: Failed to process insights request: 400: JSON parsing error at position 0: Expecting value, Internal Error: Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 87, in extract_json_for_against
+    json_data = json.loads(cleaned_text)
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/.pyenv/versions/3.11.8/lib/python3.11/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 137, in event_generate_v1
+    arguments = extract_json_for_against(combined[0])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/INSIGHTS/test_GET_INSIGHTS.py", line 111, in extract_json_for_against
+    raise CustomHTTPException(
+test_GET_INSIGHTS.CustomHTTPException: 400: JSON parsing error at position 0: Expecting value
+
+2025-01-28 14:22:41,408 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 7fbda2f556f7 - Status: 500 - Duration: 6.162s
+2025-01-28 14:22:41,410 - contract_processor - ERROR - [test_GET_INSIGHTS.py:230] - Request ID 21cd025b4ae3 - External service returned error status: 500: Server error '500 Internal Server Error' for url 'http://127.0.0.1:8006/insights'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-28 14:22:41,410 - contract_processor - ERROR - [test_GET_INSIGHTS.py:29] - HTTP Exception raised - Status: 502, Detail: External service returned error status: 500, Internal Error: Response: {"detail":"Failed to process insights request: 400: JSON parsing error at position 0: Expecting value"}
+2025-01-28 14:22:41,410 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 6a4661eed60a - Status: 502 - Duration: 9.151s
+2025-01-28 14:22:41,414 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 9c6ad3632c26 - Method: POST - URL: http://127.0.0.1:8006/get-insights
+2025-01-28 14:22:41,414 - contract_processor - INFO - [test_GET_INSIGHTS.py:180] - Request ID 428fa7d5c754 - Processing combined insights request: Musk's net worth more than $500B in Jan '25?...
+2025-01-28 14:22:41,425 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 7673dafe28fe - Method: POST - URL: http://127.0.0.1:8006/search-tweets
+2025-01-28 14:22:41,425 - contract_processor - INFO - [test_GET_INSIGHTS.py:161] - Request ID 2327b2ba217a - Processing tweet search: Musk's net worth more than $500B in Jan '25?...
+2025-01-28 14:22:44,224 - contract_processor - INFO - [test_GET_INSIGHTS.py:165] - Request ID 2327b2ba217a - Successfully fetched 20 tweets
+2025-01-28 14:22:44,225 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 7673dafe28fe - Status: 200 - Duration: 2.800s
+2025-01-28 14:22:44,226 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: a2e2411c2169 - Method: POST - URL: http://127.0.0.1:8006/insights
+2025-01-28 14:22:44,226 - contract_processor - INFO - [test_GET_INSIGHTS.py:127] - Request ID 2cb107332f20 - Processing insights request for prompt: Musk's net worth more than $500B in Jan '25?...
+2025-01-28 14:22:49,174 - contract_processor - INFO - [test_GET_INSIGHTS.py:146] - Request ID 2cb107332f20 - Successfully processed insights request
+2025-01-28 14:22:49,175 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: a2e2411c2169 - Status: 200 - Duration: 4.949s
+2025-01-28 14:22:49,178 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: e8fa71a9695b - Method: POST - URL: http://127.0.0.1:8006/search-news
+2025-01-28 14:22:49,179 - contract_processor - INFO - [test_GET_INSIGHTS.py:248] - Request ID 97cad0eaecea - Processing news search: Musk's net worth more than $500B in Jan '25?...
+2025-01-28 14:22:50,671 - contract_processor - INFO - [test_GET_INSIGHTS.py:252] - Request ID 97cad0eaecea - Successfully fetched news results
+2025-01-28 14:22:50,671 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: e8fa71a9695b - Status: 200 - Duration: 1.493s
+2025-01-28 14:22:50,672 - contract_processor - INFO - [test_GET_INSIGHTS.py:217] - Request ID 428fa7d5c754 - Successfully processed combined insights request
+2025-01-28 14:22:50,673 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 9c6ad3632c26 - Status: 200 - Duration: 9.259s
+2025-01-28 14:23:32,122 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: f9956b97d088 - Method: POST - URL: http://127.0.0.1:8006/get-insights
+2025-01-28 14:23:32,123 - contract_processor - INFO - [test_GET_INSIGHTS.py:180] - Request ID 8fe3f77ef727 - Processing combined insights request: Who will win most GRAMMY, Beyonce or Taylor?...
+2025-01-28 14:23:32,128 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 016769dcda1a - Method: POST - URL: http://127.0.0.1:8006/search-tweets
+2025-01-28 14:23:32,128 - contract_processor - INFO - [test_GET_INSIGHTS.py:161] - Request ID 3691965c582a - Processing tweet search: Who will win most GRAMMY, Beyonce or Taylor?...
+2025-01-28 14:23:35,080 - contract_processor - INFO - [test_GET_INSIGHTS.py:165] - Request ID 3691965c582a - Successfully fetched 20 tweets
+2025-01-28 14:23:35,082 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 016769dcda1a - Status: 200 - Duration: 2.954s
+2025-01-28 14:23:35,084 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 9b2da6a4cf90 - Method: POST - URL: http://127.0.0.1:8006/insights
+2025-01-28 14:23:35,085 - contract_processor - INFO - [test_GET_INSIGHTS.py:127] - Request ID 36051160a96e - Processing insights request for prompt: Who will win most GRAMMY, Beyonce or Taylor?...
+2025-01-28 14:23:41,023 - contract_processor - INFO - [test_GET_INSIGHTS.py:146] - Request ID 36051160a96e - Successfully processed insights request
+2025-01-28 14:23:41,024 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 9b2da6a4cf90 - Status: 200 - Duration: 5.940s
+2025-01-28 14:23:41,028 - contract_processor - INFO - [test_GET_INSIGHTS.py:52] - Request started - ID: 240c534c77c1 - Method: POST - URL: http://127.0.0.1:8006/search-news
+2025-01-28 14:23:41,029 - contract_processor - INFO - [test_GET_INSIGHTS.py:248] - Request ID 57c64125de3e - Processing news search: Who will win most GRAMMY, Beyonce or Taylor?...
+2025-01-28 14:23:42,457 - contract_processor - INFO - [test_GET_INSIGHTS.py:252] - Request ID 57c64125de3e - Successfully fetched news results
+2025-01-28 14:23:42,457 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: 240c534c77c1 - Status: 200 - Duration: 1.430s
+2025-01-28 14:23:42,458 - contract_processor - INFO - [test_GET_INSIGHTS.py:217] - Request ID 8fe3f77ef727 - Successfully processed combined insights request
+2025-01-28 14:23:42,459 - contract_processor - INFO - [test_GET_INSIGHTS.py:57] - Request completed - ID: f9956b97d088 - Status: 200 - Duration: 10.336s
+2025-01-28 15:09:55,252 - contract_processor - INFO - [test_DRISHTI.py:39] - ==================================================
+2025-01-28 15:09:55,255 - contract_processor - INFO - [test_DRISHTI.py:40] - Starting FastAPI application
+2025-01-28 15:09:55,255 - contract_processor - INFO - [test_DRISHTI.py:41] - Environment: development
+2025-01-28 15:09:55,255 - contract_processor - INFO - [test_DRISHTI.py:42] - Current timestamp: 2025-01-28T15:09:55.255370
+2025-01-28 15:09:55,255 - contract_processor - INFO - [test_DRISHTI.py:43] - ==================================================
+2025-01-28 15:09:55,255 - contract_processor - WARNING - [test_DRISHTI.py:75] - PERPLEXITY_API_KEY not found in environment variables
+2025-01-28 15:09:57,490 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 55fc433c0d07 - Method: GET - URL: http://127.0.0.1:8007/
+2025-01-28 15:09:57,490 - contract_processor - INFO - [test_DRISHTI.py:267] - Request ID d53172ede231 - Rendering frontend index page
+2025-01-28 15:09:57,499 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 55fc433c0d07 - Status: 200 - Duration: 0.009s
+2025-01-28 15:09:57,575 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 341adb8cf08b - Method: GET - URL: http://127.0.0.1:8007/favicon.ico
+2025-01-28 15:09:57,576 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 341adb8cf08b - Status: 404 - Duration: 0.000s
+2025-01-28 15:10:05,262 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 3cc37c1eeefb - Method: POST - URL: http://127.0.0.1:8007/
+2025-01-28 15:10:05,266 - contract_processor - INFO - [test_DRISHTI.py:273] - Request ID e811efa89f40 - Processing frontend form submission: gkn...
+2025-01-28 15:10:14,569 - contract_processor - ERROR - [test_DRISHTI.py:326] - Request ID e811efa89f40 - External service returned error status: 500: Server error '500 Internal Server Error' for url 'http://127.0.0.1:8006/insights'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-28 15:10:14,570 - contract_processor - ERROR - [test_DRISHTI.py:29] - HTTP Exception raised - Status: 502, Detail: External service returned error status: 500, Internal Error: Response: {"detail":"Failed to process insights request: 400: JSON parsing error at position 0: Expecting value"}
+2025-01-28 15:10:14,570 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 3cc37c1eeefb - Status: 502 - Duration: 9.308s
+2025-01-28 15:10:44,336 - contract_processor - INFO - [test_DRISHTI.py:39] - ==================================================
+2025-01-28 15:10:44,336 - contract_processor - INFO - [test_DRISHTI.py:40] - Starting FastAPI application
+2025-01-28 15:10:44,336 - contract_processor - INFO - [test_DRISHTI.py:41] - Environment: development
+2025-01-28 15:10:44,336 - contract_processor - INFO - [test_DRISHTI.py:42] - Current timestamp: 2025-01-28T15:10:44.336899
+2025-01-28 15:10:44,336 - contract_processor - INFO - [test_DRISHTI.py:43] - ==================================================
+2025-01-28 15:10:44,337 - contract_processor - WARNING - [test_DRISHTI.py:75] - PERPLEXITY_API_KEY not found in environment variables
+2025-01-28 15:11:16,953 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 10177eab1462 - Method: POST - URL: http://127.0.0.1:8007/
+2025-01-28 15:11:16,956 - contract_processor - INFO - [test_DRISHTI.py:273] - Request ID 0d88ca6a13ed - Processing frontend form submission: Elon Musk's Starlink to launch commercial satellite broadband services in India by the end of June?...
+2025-01-28 15:11:18,177 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: cbb3c27d846e - Method: POST - URL: http://127.0.0.1:8007/search-tweets
+2025-01-28 15:11:18,178 - contract_processor - INFO - [test_DRISHTI.py:161] - Request ID 63d2cb651c7c - Processing tweet search: ('Elon' AND 'Musk' AND 'Starlink' AND 'launch' AND 'satellite' AND 'broadband' AND 'services' AND 'I...
+2025-01-28 15:11:21,272 - contract_processor - INFO - [test_DRISHTI.py:165] - Request ID 63d2cb651c7c - Successfully fetched 19 tweets
+2025-01-28 15:11:21,273 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: cbb3c27d846e - Status: 200 - Duration: 3.096s
+2025-01-28 15:11:21,277 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 3718fb5b4eb0 - Method: POST - URL: http://127.0.0.1:8007/insights
+2025-01-28 15:11:21,279 - contract_processor - INFO - [test_DRISHTI.py:127] - Request ID 62a9a827b9db - Processing insights request for prompt: Elon Musk's Starlink to launch commercial satellite broadband services in India by the end of June?...
+2025-01-28 15:11:22,067 - contract_processor - ERROR - [test_DRISHTI.py:151] - Request ID 62a9a827b9db - Failed to process insights request: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/DRISHITI/test_DRISHTI.py", line 131, in event_generate_v1
+    overview = llm_overview.call_llm(user_prompt, sot=[], recency="year")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/DRISHITI/llm_overview.py", line 93, in call_llm
+    return [response['choices'][0]['message']['content'],response['citations']]
+            ~~~~~~~~^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+2025-01-28 15:11:22,067 - contract_processor - ERROR - [test_DRISHTI.py:29] - HTTP Exception raised - Status: 500, Detail: Failed to process insights request: string indices must be integers, not 'str', Internal Error: Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/DRISHITI/test_DRISHTI.py", line 131, in event_generate_v1
+    overview = llm_overview.call_llm(user_prompt, sot=[], recency="year")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/DRISHITI/llm_overview.py", line 93, in call_llm
+    return [response['choices'][0]['message']['content'],response['citations']]
+            ~~~~~~~~^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+2025-01-28 15:11:22,067 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 3718fb5b4eb0 - Status: 500 - Duration: 0.790s
+2025-01-28 15:11:22,068 - contract_processor - ERROR - [test_DRISHTI.py:326] - Request ID 0d88ca6a13ed - External service returned error status: 500: Server error '500 Internal Server Error' for url 'http://127.0.0.1:8007/insights'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-28 15:11:22,068 - contract_processor - ERROR - [test_DRISHTI.py:29] - HTTP Exception raised - Status: 502, Detail: External service returned error status: 500, Internal Error: Response: {"detail":"Failed to process insights request: string indices must be integers, not 'str'"}
+2025-01-28 15:11:22,068 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 10177eab1462 - Status: 502 - Duration: 5.116s
+2025-01-28 15:12:03,778 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: a39c5b1e506d - Method: POST - URL: http://127.0.0.1:8007/insights
+2025-01-28 15:12:03,779 - contract_processor - INFO - [test_DRISHTI.py:127] - Request ID acaf78149046 - Processing insights request for prompt: Trump to impose 25% or more tariff on China in Q1 '25?...
+2025-01-28 15:12:04,330 - contract_processor - ERROR - [test_DRISHTI.py:151] - Request ID acaf78149046 - Failed to process insights request: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/DRISHITI/test_DRISHTI.py", line 131, in event_generate_v1
+    overview = llm_overview.call_llm(user_prompt, sot=[], recency="year")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/DRISHITI/llm_overview.py", line 93, in call_llm
+    return [response['choices'][0]['message']['content'],response['citations']]
+            ~~~~~~~~^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+2025-01-28 15:12:04,331 - contract_processor - ERROR - [test_DRISHTI.py:29] - HTTP Exception raised - Status: 500, Detail: Failed to process insights request: string indices must be integers, not 'str', Internal Error: Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/DRISHITI/test_DRISHTI.py", line 131, in event_generate_v1
+    overview = llm_overview.call_llm(user_prompt, sot=[], recency="year")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/DRISHITI/llm_overview.py", line 93, in call_llm
+    return [response['choices'][0]['message']['content'],response['citations']]
+            ~~~~~~~~^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+2025-01-28 15:12:04,331 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: a39c5b1e506d - Status: 500 - Duration: 0.553s
+2025-01-28 15:12:13,419 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 54aa81a57484 - Method: POST - URL: http://127.0.0.1:8007/insights
+2025-01-28 15:12:13,420 - contract_processor - INFO - [test_DRISHTI.py:127] - Request ID 52eb80a21244 - Processing insights request for prompt: Trump to impose 25% or more tariff on China in Q1 '25?...
+2025-01-28 15:12:13,734 - contract_processor - ERROR - [test_DRISHTI.py:151] - Request ID 52eb80a21244 - Failed to process insights request: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/DRISHITI/test_DRISHTI.py", line 131, in event_generate_v1
+    overview = llm_overview.call_llm(user_prompt, sot=[], recency="year")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/DRISHITI/llm_overview.py", line 93, in call_llm
+    return [response['choices'][0]['message']['content'],response['citations']]
+            ~~~~~~~~^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+2025-01-28 15:12:13,735 - contract_processor - ERROR - [test_DRISHTI.py:29] - HTTP Exception raised - Status: 500, Detail: Failed to process insights request: string indices must be integers, not 'str', Internal Error: Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/DRISHITI/test_DRISHTI.py", line 131, in event_generate_v1
+    overview = llm_overview.call_llm(user_prompt, sot=[], recency="year")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/DRISHITI/llm_overview.py", line 93, in call_llm
+    return [response['choices'][0]['message']['content'],response['citations']]
+            ~~~~~~~~^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+2025-01-28 15:12:13,735 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 54aa81a57484 - Status: 500 - Duration: 0.316s
+2025-01-28 15:14:43,731 - contract_processor - INFO - [test_DRISHTI.py:39] - ==================================================
+2025-01-28 15:14:43,731 - contract_processor - INFO - [test_DRISHTI.py:40] - Starting FastAPI application
+2025-01-28 15:14:43,732 - contract_processor - INFO - [test_DRISHTI.py:41] - Environment: development
+2025-01-28 15:14:43,732 - contract_processor - INFO - [test_DRISHTI.py:42] - Current timestamp: 2025-01-28T15:14:43.732061
+2025-01-28 15:14:43,732 - contract_processor - INFO - [test_DRISHTI.py:43] - ==================================================
+2025-01-28 15:14:43,732 - contract_processor - WARNING - [test_DRISHTI.py:75] - PERPLEXITY_API_KEY not found in environment variables
+2025-01-28 15:14:48,126 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 9ab62f20e6dd - Method: POST - URL: http://127.0.0.1:8007/
+2025-01-28 15:14:48,128 - contract_processor - INFO - [test_DRISHTI.py:273] - Request ID e3d92007ca06 - Processing frontend form submission: Elon Musk's Starlink to launch commercial satellite broadband services in India by the end of June?...
+2025-01-28 15:14:49,370 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: fc61d40b38d8 - Method: POST - URL: http://127.0.0.1:8007/search-tweets
+2025-01-28 15:14:49,371 - contract_processor - INFO - [test_DRISHTI.py:161] - Request ID e5f835c69848 - Processing tweet search: ('Elon' AND 'Musk' AND 'Starlink' AND 'launch' AND 'satellite' AND 'broadband' AND 'services' AND 'I...
+2025-01-28 15:14:52,574 - contract_processor - INFO - [test_DRISHTI.py:165] - Request ID e5f835c69848 - Successfully fetched 19 tweets
+2025-01-28 15:14:52,575 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: fc61d40b38d8 - Status: 200 - Duration: 3.205s
+2025-01-28 15:14:52,578 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 7776d3fb62c7 - Method: POST - URL: http://127.0.0.1:8007/insights
+2025-01-28 15:14:52,579 - contract_processor - INFO - [test_DRISHTI.py:127] - Request ID 8fc9ddcdb093 - Processing insights request for prompt: Elon Musk's Starlink to launch commercial satellite broadband services in India by the end of June?...
+2025-01-28 15:14:52,925 - contract_processor - ERROR - [test_DRISHTI.py:151] - Request ID 8fc9ddcdb093 - Failed to process insights request: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/DRISHITI/test_DRISHTI.py", line 131, in event_generate_v1
+    overview = llm_overview.call_llm(user_prompt, sot=[], recency="year")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/DRISHITI/llm_overview.py", line 93, in call_llm
+    return [response['choices'][0]['message']['content'],response['citations']]
+            ~~~~~~~~^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+2025-01-28 15:14:52,926 - contract_processor - ERROR - [test_DRISHTI.py:29] - HTTP Exception raised - Status: 500, Detail: Failed to process insights request: string indices must be integers, not 'str', Internal Error: Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/DRISHITI/test_DRISHTI.py", line 131, in event_generate_v1
+    overview = llm_overview.call_llm(user_prompt, sot=[], recency="year")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/DRISHITI/llm_overview.py", line 93, in call_llm
+    return [response['choices'][0]['message']['content'],response['citations']]
+            ~~~~~~~~^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+2025-01-28 15:14:52,927 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 7776d3fb62c7 - Status: 500 - Duration: 0.348s
+2025-01-28 15:14:52,929 - contract_processor - ERROR - [test_DRISHTI.py:326] - Request ID e3d92007ca06 - External service returned error status: 500: Server error '500 Internal Server Error' for url 'http://127.0.0.1:8007/insights'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-28 15:14:52,930 - contract_processor - ERROR - [test_DRISHTI.py:29] - HTTP Exception raised - Status: 502, Detail: External service returned error status: 500, Internal Error: Response: {"detail":"Failed to process insights request: string indices must be integers, not 'str'"}
+2025-01-28 15:14:52,930 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 9ab62f20e6dd - Status: 502 - Duration: 4.804s
+2025-01-28 15:15:35,076 - contract_processor - INFO - [test_DRISHTI.py:39] - ==================================================
+2025-01-28 15:15:35,077 - contract_processor - INFO - [test_DRISHTI.py:40] - Starting FastAPI application
+2025-01-28 15:15:35,077 - contract_processor - INFO - [test_DRISHTI.py:41] - Environment: development
+2025-01-28 15:15:35,077 - contract_processor - INFO - [test_DRISHTI.py:42] - Current timestamp: 2025-01-28T15:15:35.077090
+2025-01-28 15:15:35,077 - contract_processor - INFO - [test_DRISHTI.py:43] - ==================================================
+2025-01-28 15:15:35,077 - contract_processor - WARNING - [test_DRISHTI.py:75] - PERPLEXITY_API_KEY not found in environment variables
+2025-01-28 15:15:39,593 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 3605c48d3a6f - Method: POST - URL: http://127.0.0.1:8007/
+2025-01-28 15:15:39,595 - contract_processor - INFO - [test_DRISHTI.py:273] - Request ID b8673b5fd119 - Processing frontend form submission: Elon Musk's Starlink to launch commercial satellite broadband services in India by the end of June?...
+2025-01-28 15:15:40,832 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 23abcc0631eb - Method: POST - URL: http://127.0.0.1:8007/search-tweets
+2025-01-28 15:15:40,833 - contract_processor - INFO - [test_DRISHTI.py:161] - Request ID bf5393f39c49 - Processing tweet search: ('Elon' AND 'Musk' AND 'Starlink' AND 'launch' AND 'satellite' AND 'broadband' AND 'services' AND 'I...
+2025-01-28 15:15:43,999 - contract_processor - INFO - [test_DRISHTI.py:165] - Request ID bf5393f39c49 - Successfully fetched 19 tweets
+2025-01-28 15:15:44,002 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 23abcc0631eb - Status: 200 - Duration: 3.170s
+2025-01-28 15:15:44,005 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: d17b8e5e3d10 - Method: POST - URL: http://127.0.0.1:8007/insights
+2025-01-28 15:15:44,006 - contract_processor - INFO - [test_DRISHTI.py:127] - Request ID 95215c273588 - Processing insights request for prompt: Elon Musk's Starlink to launch commercial satellite broadband services in India by the end of June?...
+2025-01-28 15:15:44,427 - contract_processor - ERROR - [test_DRISHTI.py:151] - Request ID 95215c273588 - Failed to process insights request: string indices must be integers, not 'str'
+Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/DRISHITI/test_DRISHTI.py", line 131, in event_generate_v1
+    overview = llm_overview.call_llm(user_prompt, sot=[], recency="year")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/DRISHITI/llm_overview.py", line 94, in call_llm
+    return [response['choices'][0]['message']['content'],response['citations']]
+            ~~~~~~~~^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+2025-01-28 15:15:44,428 - contract_processor - ERROR - [test_DRISHTI.py:29] - HTTP Exception raised - Status: 500, Detail: Failed to process insights request: string indices must be integers, not 'str', Internal Error: Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/DRISHITI/test_DRISHTI.py", line 131, in event_generate_v1
+    overview = llm_overview.call_llm(user_prompt, sot=[], recency="year")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/shreyasom/Desktop/DRISHITI/llm_overview.py", line 94, in call_llm
+    return [response['choices'][0]['message']['content'],response['citations']]
+            ~~~~~~~~^^^^^^^^^^^
+TypeError: string indices must be integers, not 'str'
+
+2025-01-28 15:15:44,429 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: d17b8e5e3d10 - Status: 500 - Duration: 0.424s
+2025-01-28 15:15:44,432 - contract_processor - ERROR - [test_DRISHTI.py:326] - Request ID b8673b5fd119 - External service returned error status: 500: Server error '500 Internal Server Error' for url 'http://127.0.0.1:8007/insights'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-28 15:15:44,433 - contract_processor - ERROR - [test_DRISHTI.py:29] - HTTP Exception raised - Status: 502, Detail: External service returned error status: 500, Internal Error: Response: {"detail":"Failed to process insights request: string indices must be integers, not 'str'"}
+2025-01-28 15:15:44,433 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 3605c48d3a6f - Status: 502 - Duration: 4.840s
+2025-01-28 15:25:48,874 - contract_processor - INFO - [test_DRISHTI.py:39] - ==================================================
+2025-01-28 15:25:48,875 - contract_processor - INFO - [test_DRISHTI.py:40] - Starting FastAPI application
+2025-01-28 15:25:48,875 - contract_processor - INFO - [test_DRISHTI.py:41] - Environment: development
+2025-01-28 15:25:48,875 - contract_processor - INFO - [test_DRISHTI.py:42] - Current timestamp: 2025-01-28T15:25:48.875113
+2025-01-28 15:25:48,875 - contract_processor - INFO - [test_DRISHTI.py:43] - ==================================================
+2025-01-28 15:25:52,667 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: cb56cbe745a6 - Method: GET - URL: http://127.0.0.1:8007/
+2025-01-28 15:25:52,669 - contract_processor - INFO - [test_DRISHTI.py:267] - Request ID 929902c25c50 - Rendering frontend index page
+2025-01-28 15:25:52,688 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: cb56cbe745a6 - Status: 200 - Duration: 0.021s
+2025-01-28 15:25:53,645 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 2cd197ffa03e - Method: POST - URL: http://127.0.0.1:8007/
+2025-01-28 15:25:53,648 - contract_processor - INFO - [test_DRISHTI.py:273] - Request ID 4f45c1c7dd25 - Processing frontend form submission: Elon Musk's Starlink to launch commercial satellite broadband services in India by the end of June?...
+2025-01-28 15:25:54,854 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 7236273c73cd - Method: POST - URL: http://127.0.0.1:8007/
+2025-01-28 15:25:54,855 - contract_processor - INFO - [test_DRISHTI.py:273] - Request ID dd05328689e1 - Processing frontend form submission: Elon Musk's Starlink to launch commercial satellite broadband services in India by the end of June?...
+2025-01-28 15:25:54,861 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 7e149556a2e5 - Method: POST - URL: http://127.0.0.1:8007/search-tweets
+2025-01-28 15:25:54,862 - contract_processor - INFO - [test_DRISHTI.py:161] - Request ID 183d24ef507f - Processing tweet search: ('Elon' AND 'Musk' AND 'Starlink' AND 'launch' AND 'satellite' AND 'broadband' AND 'services' AND 'I...
+2025-01-28 15:25:54,872 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 6fa923c0cb72 - Method: POST - URL: http://127.0.0.1:8007/search-tweets
+2025-01-28 15:25:54,873 - contract_processor - INFO - [test_DRISHTI.py:161] - Request ID 825a2927a3c0 - Processing tweet search: ('Elon' AND 'Musk' AND 'Starlink' AND 'launch' AND 'satellite' AND 'broadband' AND 'services' AND 'I...
+2025-01-28 15:25:57,603 - contract_processor - INFO - [test_DRISHTI.py:165] - Request ID 825a2927a3c0 - Successfully fetched 19 tweets
+2025-01-28 15:25:57,604 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 6fa923c0cb72 - Status: 200 - Duration: 2.731s
+2025-01-28 15:25:57,605 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 4682be425a1a - Method: POST - URL: http://127.0.0.1:8007/insights
+2025-01-28 15:25:57,606 - contract_processor - INFO - [test_DRISHTI.py:127] - Request ID fb7469c91e09 - Processing insights request for prompt: Elon Musk's Starlink to launch commercial satellite broadband services in India by the end of June?...
+2025-01-28 15:25:57,608 - contract_processor - ERROR - [test_DRISHTI.py:151] - Request ID fb7469c91e09 - Failed to process insights request: call_llm() got an unexpected keyword argument 'sot'
+Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/DRISHITI/test_DRISHTI.py", line 131, in event_generate_v1
+    overview = llm_overview.call_llm(user_prompt, sot=[], recency="year")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: call_llm() got an unexpected keyword argument 'sot'
+
+2025-01-28 15:25:57,608 - contract_processor - ERROR - [test_DRISHTI.py:29] - HTTP Exception raised - Status: 500, Detail: Failed to process insights request: call_llm() got an unexpected keyword argument 'sot', Internal Error: Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/DRISHITI/test_DRISHTI.py", line 131, in event_generate_v1
+    overview = llm_overview.call_llm(user_prompt, sot=[], recency="year")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: call_llm() got an unexpected keyword argument 'sot'
+
+2025-01-28 15:25:57,608 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 4682be425a1a - Status: 500 - Duration: 0.003s
+2025-01-28 15:25:57,609 - contract_processor - ERROR - [test_DRISHTI.py:326] - Request ID dd05328689e1 - External service returned error status: 500: Server error '500 Internal Server Error' for url 'http://127.0.0.1:8007/insights'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-28 15:25:57,609 - contract_processor - ERROR - [test_DRISHTI.py:29] - HTTP Exception raised - Status: 502, Detail: External service returned error status: 500, Internal Error: Response: {"detail":"Failed to process insights request: call_llm() got an unexpected keyword argument 'sot'"}
+2025-01-28 15:25:57,610 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 7236273c73cd - Status: 502 - Duration: 2.755s
+2025-01-28 15:25:57,622 - contract_processor - INFO - [test_DRISHTI.py:165] - Request ID 183d24ef507f - Successfully fetched 19 tweets
+2025-01-28 15:25:57,622 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 7e149556a2e5 - Status: 200 - Duration: 2.761s
+2025-01-28 15:25:57,623 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 2c8b37ee9b50 - Method: POST - URL: http://127.0.0.1:8007/insights
+2025-01-28 15:25:57,624 - contract_processor - INFO - [test_DRISHTI.py:127] - Request ID b6c1206773d4 - Processing insights request for prompt: Elon Musk's Starlink to launch commercial satellite broadband services in India by the end of June?...
+2025-01-28 15:25:57,624 - contract_processor - ERROR - [test_DRISHTI.py:151] - Request ID b6c1206773d4 - Failed to process insights request: call_llm() got an unexpected keyword argument 'sot'
+Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/DRISHITI/test_DRISHTI.py", line 131, in event_generate_v1
+    overview = llm_overview.call_llm(user_prompt, sot=[], recency="year")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: call_llm() got an unexpected keyword argument 'sot'
+
+2025-01-28 15:25:57,624 - contract_processor - ERROR - [test_DRISHTI.py:29] - HTTP Exception raised - Status: 500, Detail: Failed to process insights request: call_llm() got an unexpected keyword argument 'sot', Internal Error: Traceback (most recent call last):
+  File "/Users/shreyasom/Desktop/DRISHITI/test_DRISHTI.py", line 131, in event_generate_v1
+    overview = llm_overview.call_llm(user_prompt, sot=[], recency="year")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: call_llm() got an unexpected keyword argument 'sot'
+
+2025-01-28 15:25:57,624 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 2c8b37ee9b50 - Status: 500 - Duration: 0.001s
+2025-01-28 15:25:57,625 - contract_processor - ERROR - [test_DRISHTI.py:326] - Request ID 4f45c1c7dd25 - External service returned error status: 500: Server error '500 Internal Server Error' for url 'http://127.0.0.1:8007/insights'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/500
+2025-01-28 15:25:57,625 - contract_processor - ERROR - [test_DRISHTI.py:29] - HTTP Exception raised - Status: 502, Detail: External service returned error status: 500, Internal Error: Response: {"detail":"Failed to process insights request: call_llm() got an unexpected keyword argument 'sot'"}
+2025-01-28 15:25:57,625 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 2cd197ffa03e - Status: 502 - Duration: 3.980s
+2025-01-28 15:27:03,050 - contract_processor - INFO - [test_DRISHTI.py:39] - ==================================================
+2025-01-28 15:27:03,050 - contract_processor - INFO - [test_DRISHTI.py:40] - Starting FastAPI application
+2025-01-28 15:27:03,050 - contract_processor - INFO - [test_DRISHTI.py:41] - Environment: development
+2025-01-28 15:27:03,050 - contract_processor - INFO - [test_DRISHTI.py:42] - Current timestamp: 2025-01-28T15:27:03.050625
+2025-01-28 15:27:03,050 - contract_processor - INFO - [test_DRISHTI.py:43] - ==================================================
+2025-01-28 15:27:08,369 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: cc0f1ca866be - Method: POST - URL: http://127.0.0.1:8007/
+2025-01-28 15:27:08,374 - contract_processor - INFO - [test_DRISHTI.py:273] - Request ID 656abb9003e6 - Processing frontend form submission: Elon Musk's Starlink to launch commercial satellite broadband services in India by the end of June?...
+2025-01-28 15:27:09,610 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 304c766cd280 - Method: POST - URL: http://127.0.0.1:8007/search-tweets
+2025-01-28 15:27:09,615 - contract_processor - INFO - [test_DRISHTI.py:161] - Request ID bfa332eab861 - Processing tweet search: ('Elon' AND 'Musk' AND 'Starlink' AND 'launch' AND 'satellite' AND 'broadband' AND 'services' AND 'I...
+2025-01-28 15:27:12,317 - contract_processor - INFO - [test_DRISHTI.py:165] - Request ID bfa332eab861 - Successfully fetched 19 tweets
+2025-01-28 15:27:12,318 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 304c766cd280 - Status: 200 - Duration: 2.708s
+2025-01-28 15:27:12,321 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 7d516dda9a2d - Method: POST - URL: http://127.0.0.1:8007/insights
+2025-01-28 15:27:12,321 - contract_processor - INFO - [test_DRISHTI.py:127] - Request ID b40d9f1f13a6 - Processing insights request for prompt: Elon Musk's Starlink to launch commercial satellite broadband services in India by the end of June?...
+2025-01-28 15:27:18,570 - contract_processor - INFO - [test_DRISHTI.py:146] - Request ID b40d9f1f13a6 - Successfully processed insights request
+2025-01-28 15:27:18,573 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 7d516dda9a2d - Status: 200 - Duration: 6.253s
+2025-01-28 15:27:18,577 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: c435fc76631c - Method: POST - URL: http://127.0.0.1:8007/search-news
+2025-01-28 15:27:18,579 - contract_processor - INFO - [test_DRISHTI.py:248] - Request ID c55bbc8848ce - Processing news search: Elon Musk's Starlink to launch commercial satellite broadband services in India by the end of June?...
+2025-01-28 15:27:20,182 - contract_processor - INFO - [test_DRISHTI.py:252] - Request ID c55bbc8848ce - Successfully fetched news results
+2025-01-28 15:27:20,183 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: c435fc76631c - Status: 200 - Duration: 1.606s
+2025-01-28 15:27:20,185 - contract_processor - INFO - [test_DRISHTI.py:304] - Request ID 656abb9003e6 - Successfully processed frontend request
+2025-01-28 15:27:20,196 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: cc0f1ca866be - Status: 200 - Duration: 11.828s
+2025-01-28 15:27:49,299 - contract_processor - INFO - [test_DRISHTI.py:39] - ==================================================
+2025-01-28 15:27:49,299 - contract_processor - INFO - [test_DRISHTI.py:40] - Starting FastAPI application
+2025-01-28 15:27:49,299 - contract_processor - INFO - [test_DRISHTI.py:41] - Environment: development
+2025-01-28 15:27:49,299 - contract_processor - INFO - [test_DRISHTI.py:42] - Current timestamp: 2025-01-28T15:27:49.299156
+2025-01-28 15:27:49,299 - contract_processor - INFO - [test_DRISHTI.py:43] - ==================================================
+2025-01-28 15:27:54,727 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 280fcbbfa523 - Method: POST - URL: http://127.0.0.1:8007/
+2025-01-28 15:27:54,730 - contract_processor - INFO - [test_DRISHTI.py:273] - Request ID 0191d7b3dac9 - Processing frontend form submission: Elon Musk's Starlink to launch commercial satellite broadband services in India by the end of June?...
+2025-01-28 15:27:55,927 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 36b8b825c611 - Method: POST - URL: http://127.0.0.1:8007/search-tweets
+2025-01-28 15:27:55,927 - contract_processor - INFO - [test_DRISHTI.py:161] - Request ID ef65d1197140 - Processing tweet search: ('Elon' AND 'Musk' AND 'Starlink' AND 'launch' AND 'satellite' AND 'broadband' AND 'services' AND 'I...
+2025-01-28 15:27:58,782 - contract_processor - INFO - [test_DRISHTI.py:165] - Request ID ef65d1197140 - Successfully fetched 19 tweets
+2025-01-28 15:27:58,784 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 36b8b825c611 - Status: 200 - Duration: 2.857s
+2025-01-28 15:27:58,787 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 88979d95d4e5 - Method: POST - URL: http://127.0.0.1:8007/insights
+2025-01-28 15:27:58,787 - contract_processor - INFO - [test_DRISHTI.py:127] - Request ID 3fc1a7d0763d - Processing insights request for prompt: Elon Musk's Starlink to launch commercial satellite broadband services in India by the end of June?...
+2025-01-28 15:28:04,715 - contract_processor - INFO - [test_DRISHTI.py:146] - Request ID 3fc1a7d0763d - Successfully processed insights request
+2025-01-28 15:28:04,716 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 88979d95d4e5 - Status: 200 - Duration: 5.930s
+2025-01-28 15:28:04,721 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: bd41aeae75c2 - Method: POST - URL: http://127.0.0.1:8007/search-news
+2025-01-28 15:28:04,727 - contract_processor - INFO - [test_DRISHTI.py:248] - Request ID 9202ea2d3e20 - Processing news search: Elon Musk's Starlink to launch commercial satellite broadband services in India by the end of June?...
+2025-01-28 15:28:06,432 - contract_processor - INFO - [test_DRISHTI.py:252] - Request ID 9202ea2d3e20 - Successfully fetched news results
+2025-01-28 15:28:06,434 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: bd41aeae75c2 - Status: 200 - Duration: 1.713s
+2025-01-28 15:28:06,437 - contract_processor - INFO - [test_DRISHTI.py:304] - Request ID 0191d7b3dac9 - Successfully processed frontend request
+2025-01-28 15:28:06,449 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 280fcbbfa523 - Status: 200 - Duration: 11.722s
+2025-01-28 15:35:09,243 - contract_processor - INFO - [test_DRISHTI.py:39] - ==================================================
+2025-01-28 15:35:09,243 - contract_processor - INFO - [test_DRISHTI.py:40] - Starting FastAPI application
+2025-01-28 15:35:09,243 - contract_processor - INFO - [test_DRISHTI.py:41] - Environment: development
+2025-01-28 15:35:09,243 - contract_processor - INFO - [test_DRISHTI.py:42] - Current timestamp: 2025-01-28T15:35:09.243927
+2025-01-28 15:35:09,243 - contract_processor - INFO - [test_DRISHTI.py:43] - ==================================================
+2025-01-28 15:35:13,878 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: dff56216b024 - Method: GET - URL: http://127.0.0.1:8007/
+2025-01-28 15:35:13,879 - contract_processor - INFO - [test_DRISHTI.py:267] - Request ID cfccb6802802 - Rendering frontend index page
+2025-01-28 15:35:13,889 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: dff56216b024 - Status: 200 - Duration: 0.011s
+2025-01-28 15:35:15,806 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 726be0eac302 - Method: POST - URL: http://127.0.0.1:8007/
+2025-01-28 15:35:15,810 - contract_processor - INFO - [test_DRISHTI.py:273] - Request ID 30c03fb1781b - Processing frontend form submission: Elon Musk's Starlink to launch commercial satellite broadband services in India by the end of June?...
+2025-01-28 15:35:17,014 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 3e88562f74ca - Method: POST - URL: http://127.0.0.1:8007/search-tweets
+2025-01-28 15:35:17,014 - contract_processor - INFO - [test_DRISHTI.py:161] - Request ID 6fca94c3679c - Processing tweet search: ('Elon' AND 'Musk' AND 'Starlink' AND 'launch' AND 'satellite' AND 'broadband' AND 'services' AND 'I...
+2025-01-28 15:35:19,906 - contract_processor - INFO - [test_DRISHTI.py:165] - Request ID 6fca94c3679c - Successfully fetched 19 tweets
+2025-01-28 15:35:19,908 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 3e88562f74ca - Status: 200 - Duration: 2.894s
+2025-01-28 15:35:19,911 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: f08c01adab65 - Method: POST - URL: http://127.0.0.1:8007/insights
+2025-01-28 15:35:19,912 - contract_processor - INFO - [test_DRISHTI.py:127] - Request ID 0c4b31c019ee - Processing insights request for prompt: Elon Musk's Starlink to launch commercial satellite broadband services in India by the end of June?...
+2025-01-28 15:35:26,634 - contract_processor - INFO - [test_DRISHTI.py:146] - Request ID 0c4b31c019ee - Successfully processed insights request
+2025-01-28 15:35:26,635 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: f08c01adab65 - Status: 200 - Duration: 6.725s
+2025-01-28 15:35:26,639 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: b8629393be24 - Method: POST - URL: http://127.0.0.1:8007/search-news
+2025-01-28 15:35:26,641 - contract_processor - INFO - [test_DRISHTI.py:248] - Request ID e79c55a3c19a - Processing news search: Elon Musk's Starlink to launch commercial satellite broadband services in India by the end of June?...
+2025-01-28 15:35:28,344 - contract_processor - INFO - [test_DRISHTI.py:252] - Request ID e79c55a3c19a - Successfully fetched news results
+2025-01-28 15:35:28,345 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: b8629393be24 - Status: 200 - Duration: 1.706s
+2025-01-28 15:35:28,346 - contract_processor - INFO - [test_DRISHTI.py:304] - Request ID 30c03fb1781b - Successfully processed frontend request
+2025-01-28 15:35:28,348 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 726be0eac302 - Status: 200 - Duration: 12.541s

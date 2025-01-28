@@ -1,0 +1,741 @@
+{
+    "kind": "customsearch#search",
+    "url": {
+        "type": "application/json",
+        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+    },
+    "queries": {
+        "request": [
+            {
+                "title": "Google Custom Search - 'Elon' AND 'Musk' AND 'Starlink' AND 'launch' AND 'satellite' AND 'broadband' AND 'services' AND 'India' ",
+                "totalResults": "161000",
+                "searchTerms": "'Elon' AND 'Musk' AND 'Starlink' AND 'launch' AND 'satellite' AND 'broadband' AND 'services' AND 'India' ",
+                "count": 10,
+                "startIndex": 1,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "e5d540d99db654a23",
+                "hq": "news",
+                "dateRestrict": "2024-11-28"
+            }
+        ],
+        "nextPage": [
+            {
+                "title": "Google Custom Search - 'Elon' AND 'Musk' AND 'Starlink' AND 'launch' AND 'satellite' AND 'broadband' AND 'services' AND 'India' ",
+                "totalResults": "161000",
+                "searchTerms": "'Elon' AND 'Musk' AND 'Starlink' AND 'launch' AND 'satellite' AND 'broadband' AND 'services' AND 'India' ",
+                "count": 10,
+                "startIndex": 11,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "e5d540d99db654a23",
+                "hq": "news",
+                "dateRestrict": "2024-11-28"
+            }
+        ]
+    },
+    "context": {
+        "title": "testing"
+    },
+    "searchInformation": {
+        "searchTime": 0.434502,
+        "formattedSearchTime": "0.43",
+        "totalResults": "161000",
+        "formattedTotalResults": "161,000"
+    },
+    "items": [
+        {
+            "kind": "customsearch#result",
+            "title": "Starlink",
+            "htmlTitle": "<b>Starlink</b>",
+            "link": "https://www.starlink.com/us/",
+            "displayLink": "www.starlink.com",
+            "snippet": "High-speed internet. Available almost anywhere on Earth.",
+            "htmlSnippet": "High-speed <b>internet</b>. Available almost anywhere on Earth.",
+            "formattedUrl": "https://www.starlink.com/us/",
+            "htmlFormattedUrl": "https://www.<b>starlink</b>.com/us/",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLGCJRNeqHBKj6DxwL508uRBnImX2MrHHIDgaXrz9ZzhNfX8iuYzN6OH5h&s",
+                        "width": "361",
+                        "height": "140"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://www.starlink.com/public-files/home_b_hero_d.webp",
+                        "image": "https://www.starlink.com/public-files/home_b_hero_d.webp",
+                        "og:type": "website",
+                        "twitter:card": "summary_large_image",
+                        "twitter:title": "Starlink",
+                        "og:site_name": "Starlink",
+                        "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=1",
+                        "twitter:description": "High-speed internet. Available almost anywhere on Earth.",
+                        "og:title": "Starlink",
+                        "og:url": "https://www.starlink.com/",
+                        "og:description": "High-speed internet. Available almost anywhere on Earth.",
+                        "twitter:image": "https://www.starlink.com/public-files/home_b_hero_d.webp"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://www.starlink.com/public-files/home_b_hero_d.webp"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Elon Musk battles Mukesh Ambani over India's satellite internet",
+            "htmlTitle": "<b>Elon Musk</b> battles Mukesh Ambani over <b>India&#39;s satellite internet</b>",
+            "link": "https://www.bbc.com/news/articles/ce3z3ydwdppo",
+            "displayLink": "www.bbc.com",
+            "snippet": "Oct 22, 2024 ... Mr Musk's Starlink has 6,419 satellites in orbit and four million subscribers across 100 countries. He has been aiming to launch services in\u00a0...",
+            "htmlSnippet": "Oct 22, 2024 <b>...</b> Mr <b>Musk&#39;s Starlink</b> has 6,419 <b>satellites</b> in orbit and four million subscribers across 100 countries. He has been aiming to <b>launch services</b> in&nbsp;...",
+            "formattedUrl": "https://www.bbc.com/news/articles/ce3z3ydwdppo",
+            "htmlFormattedUrl": "https://www.bbc.com/<b>news</b>/articles/ce3z3ydwdppo",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiYPgNpN17IrNq7o0d0wqBrmxTIaqAWtEx6iXx82GuhtN7D_cXR8WhtUDO&s",
+                        "width": "300",
+                        "height": "168"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "msapplication-tilecolor": "#da532c",
+                        "og:image": "https://ichef.bbci.co.uk/news/1024/branded_news/3af0/live/e1c6e920-9044-11ef-89ae-5575c76d98e6.jpg",
+                        "apple-itunes-app": "app-id=364147881, app-argument=https://www.bbc.com/news/articles/ce3z3ydwdppo",
+                        "twitter:title": "Elon Musk battles Mukesh Ambani over India's satellite internet",
+                        "twitter:card": "summary_large_image",
+                        "og:image:alt": "Elon Musk",
+                        "theme-color": "#ffffff",
+                        "al:ios:app_name": "BBC: World News & Stories",
+                        "og:title": "Elon Musk battles Mukesh Ambani over India's satellite internet",
+                        "al:android:package": "bbc.mobile.news.ww",
+                        "al:ios:url": "bbcx://news/articles/ce3z3ydwdppo",
+                        "al:web:url": "https://bbc.com/news/articles/ce3z3ydwdppo",
+                        "og:description": "Musk's Starlink and Mukesh Ambani are preparing to face off in India\u2019s satellite broadband market.",
+                        "version": "2.14.1+2",
+                        "al:ios:app_store_id": "364147881",
+                        "twitter:image:src": "https://ichef.bbci.co.uk/news/1024/branded_news/3af0/live/e1c6e920-9044-11ef-89ae-5575c76d98e6.jpg",
+                        "al:android:url": "bbcx://news/articles/ce3z3ydwdppo",
+                        "next-head-count": "36",
+                        "twitter:image:alt": "Elon Musk",
+                        "viewport": "width=device-width",
+                        "twitter:description": "Musk's Starlink and Mukesh Ambani are preparing to face off in India\u2019s satellite broadband market.",
+                        "al:android:app_name": "BBC: World News & Stories"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://ichef.bbci.co.uk/news/1024/branded_news/3af0/live/e1c6e920-9044-11ef-89ae-5575c76d98e6.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Elon Musk launches Starlink satellite internet service in Indonesia ...",
+            "htmlTitle": "<b>Elon Musk launches Starlink satellite internet service</b> in Indonesia ...",
+            "link": "https://www.thehindu.com/news/international/elon-musk-launches-starlink-satellite-internet-service-in-indonesia-worlds-largest-archipelago/article68194033.ece",
+            "displayLink": "www.thehindu.com",
+            "snippet": "May 20, 2024 ... Elon Musk traveled to Indonesia's resort island of Bali to launch Starlink satellite internet service in the world's largest archipelago\u00a0...",
+            "htmlSnippet": "May 20, 2024 <b>...</b> <b>Elon Musk</b> traveled to Indonesia&#39;s resort island of Bali to <b>launch Starlink satellite internet service</b> in the world&#39;s largest archipelago&nbsp;...",
+            "formattedUrl": "https://www.thehindu.com/news/.../elon-musk-launches-starlink-satellite.../a...",
+            "htmlFormattedUrl": "https://www.thehindu.com/<b>news</b>/.../<b>elon</b>-<b>musk</b>-<b>launch</b>es-<b>starlink</b>-<b>satellite</b>.../a...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO5wlvHaSpfRMloi2UuPxuky62k0EXmTgZ0QhafkJwqZOW9nOMWrIs7SrC&s",
+                        "width": "300",
+                        "height": "168"
+                    }
+                ],
+                "newsmediaorganization": [
+                    {
+                        "name": "The Hindu",
+                        "logo": "https://www.thehindu.com/theme/images/th-online/thfooterlogo.png",
+                        "url": "https://www.thehindu.com/",
+                        "sameas": "https://www.facebook.com/thehindu"
+                    }
+                ],
+                "imageobject": [
+                    {
+                        "width": "1200",
+                        "url": "https://th-i.thgim.com/public/incoming/7io8z9/article68194056.ece/alternates/LANDSCAPE_1200/2024-05-19T102922Z_912943815_RC2MT7A4QH3V_RTRMADP_3_INDONESIA-STARLINK.JPG",
+                        "height": "675"
+                    },
+                    {
+                        "width": "600",
+                        "url": "https://www.thehindu.com/theme/images/th-online/thfooterlogo.png",
+                        "height": "60"
+                    },
+                    {
+                        "width": "278",
+                        "url": "https://www.thehindu.com/theme/images/th-online/thfooterlogo.png",
+                        "height": "49"
+                    }
+                ],
+                "person": [
+                    {
+                        "name": "AP"
+                    }
+                ],
+                "organization": [
+                    {
+                        "name": "The Hindu",
+                        "url": "https://www.thehindu.com/"
+                    },
+                    {
+                        "name": "The Hindu",
+                        "logo": "https://www.thehindu.com/theme/images/th-online/thfooterlogo.png",
+                        "url": "https://www.thehindu.com/",
+                        "sameas": "https://www.facebook.com/thehindu"
+                    }
+                ],
+                "postaladdress": [
+                    {
+                        "addresslocality": "Chennai",
+                        "postalcode": "600002",
+                        "addressregion": "Tamil Nadu",
+                        "streetaddress": "Kasturi Building, Anna Salai, 859-860, Mount Road",
+                        "telephone": "+91-44-2857 6300"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://th-i.thgim.com/public/incoming/7io8z9/article68194056.ece/alternates/LANDSCAPE_1200/2024-05-19T102922Z_912943815_RC2MT7A4QH3V_RTRMADP_3_INDONESIA-STARLINK.JPG",
+                        "apple-itunes-app": "app-id=771672321, app-argument=https://www.thehindu.com/news/international/elon-musk-launches-starlink-satellite-internet-service-in-indonesia-worlds-largest-archipelago/article68194033.ece",
+                        "twitter:app:id:googleplay": "com.mobstac.thehindu",
+                        "article:published_time": "2024-05-19T22:27:00.000Z",
+                        "twitter:card": "summary_large_image",
+                        "twitter:apple-itunes-app": "app-id=771672321",
+                        "al:android:package": "com.mobstac.thehindu",
+                        "og:image:type": "image/jpeg",
+                        "twitter:app:name:googleplay": "The Hindu (Official App)",
+                        "title": "Elon Musk launches Starlink satellite internet service in Indonesia, world's largest archipelago",
+                        "twitter:app:id:iphone": "771672321",
+                        "twitter:creator": "AP",
+                        "og:description": "Elon Musk traveled to Indonesia\u2019s resort island of Bali to launch Starlink satellite internet service in the world\u2019s largest archipelago nation.",
+                        "twitter:image": "https://th-i.thgim.com/public/incoming/7io8z9/article68194056.ece/alternates/LANDSCAPE_1200/2024-05-19T102922Z_912943815_RC2MT7A4QH3V_RTRMADP_3_INDONESIA-STARLINK.JPG",
+                        "publish-date": "2024-05-20T03:57:00+05:30",
+                        "ahrefs-site-verification": "6df5b97abf2ea60f2d4123265496b92b4faa009ceff5444e0b8482ebddd508d6",
+                        "twitter:site": "@The_Hindu",
+                        "article:modified_time": "2024-05-19T22:27:00Z",
+                        "news_keywords": "Elon Musk,Starlink ,Starlink satellite internet service,Bali internet,indonesia internet",
+                        "cxenseparse:thg-articleid": "68194033",
+                        "twitter:google-play-app": "app-id=com.mobstac.thehindu",
+                        "cxenseparse:thg-articletype": "storyline",
+                        "article:section": "World",
+                        "twitter:title": "Elon Musk launches Starlink satellite internet service in Indonesia, world's largest archipelago",
+                        "og:type": "article",
+                        "cxenseparse:title": "Elon Musk launches Starlink satellite internet service in Indonesia, world's largest archipelago",
+                        "twitter:domain": "thehindu.com",
+                        "og:title": "Elon Musk launches Starlink satellite internet service in Indonesia, world's largest archipelago",
+                        "cxenseparse:description": "Launching the service at a health clinic aligns with Starlink\u2019s broader mission of providing affordable access to high-speed internet services.",
+                        "msvalidate:01": "00762243DAFA333A5A6D97CE4545BDB2",
+                        "yandex-verification": "ff4648e5089d361d",
+                        "created-date": "2024-05-20T03:57:00+05:30",
+                        "article:author": "AP",
+                        "article:tag": "Elon Musk",
+                        "al:android:url": "https://www.thehindu.com/news/international/elon-musk-launches-starlink-satellite-internet-service-in-indonesia-worlds-largest-archipelago/article68194033.ece",
+                        "twitter:app:name:ipad": "The Hindu",
+                        "viewport": "width=device-width,initial-scale=1",
+                        "cxenseparse:articleid": "68194033",
+                        "twitter:description": "Elon Musk traveled to Indonesia\u2019s resort island of Bali to launch Starlink satellite internet service in the world\u2019s largest archipelago nation.",
+                        "modified-date": "2024-05-20T03:57:00+05:30",
+                        "atdlayout": "articlepage",
+                        "og:url": "https://www.thehindu.com/news/international/elon-musk-launches-starlink-satellite-internet-service-in-indonesia-worlds-largest-archipelago/article68194033.ece",
+                        "google-signin-client_id": "853251516072-1eudfpp9hhjtjp31fpm8g9fus3ig0ec3.apps.googleusercontent.com",
+                        "twitter:app:name:iphone": "The Hindu for iPhone",
+                        "al:android:app_name": "The Hindu"
+                    }
+                ],
+                "webpage": [
+                    {
+                        "url": "https://www.thehindu.com/news/international/elon-musk-launches-starlink-satellite-internet-service-in-indonesia-worlds-largest-archipelago/article68194033.ece"
+                    }
+                ],
+                "creativework": [
+                    {
+                        "productid": "thehindu.com:showcase",
+                        "name": "The Hindu"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://th-i.thgim.com/public/incoming/7io8z9/article68194056.ece/alternates/LANDSCAPE_1200/2024-05-19T102922Z_912943815_RC2MT7A4QH3V_RTRMADP_3_INDONESIA-STARLINK.JPG"
+                    }
+                ],
+                "newsarticle": [
+                    {
+                        "articlebody": "Elon Musk traveled to Indonesia\u2019s resort island of Bali on Sunday to launch Starlink satellite internet service in the world\u2019s largest archipelago nation.Wearing a green Batik shirt, Mr....",
+                        "datemodified": "2024-05-20T03:57:00+05:30",
+                        "keywords": "Elon Musk,Starlink ,Starlink satellite internet service,Bali internet,indonesia internet",
+                        "articlesection": "World",
+                        "isaccessibleforfree": "false",
+                        "name": "Elon Musk launches Starlink satellite internet service in Indonesia, world's largest archipelago",
+                        "description": "Elon Musk traveled to Indonesia\u2019s resort island of Bali to launch Starlink satellite internet service in the world\u2019s largest archipelago nation.",
+                        "headline": "Elon Musk launches Starlink satellite internet service in Indonesia, world's largest archipelago",
+                        "datepublished": "2024-05-20T03:57:00+05:30",
+                        "url": "https://www.thehindu.com/news/international/elon-musk-launches-starlink-satellite-internet-service-in-indonesia-worlds-largest-archipelago/article68194033.ece"
+                    }
+                ],
+                "listitem": [
+                    {
+                        "item": "Home",
+                        "name": "Home",
+                        "position": "1"
+                    },
+                    {
+                        "item": "News",
+                        "name": "News",
+                        "position": "2"
+                    },
+                    {
+                        "item": "World",
+                        "name": "World",
+                        "position": "3"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Musk's win on India satellite spectrum raises prospect of price war ...",
+            "htmlTitle": "<b>Musk&#39;s</b> win on <b>India satellite</b> spectrum raises prospect of price war ...",
+            "link": "https://www.reuters.com/technology/space/musks-win-india-satellite-spectrum-raises-prospect-price-war-with-ambani-2024-10-17/",
+            "displayLink": "www.reuters.com",
+            "snippet": "Oct 17, 2024 ... Asia's richest man Mukesh Ambani could face a bigger challenge if Musk's Starlink launches services in India and the two go head-to-head on price.",
+            "htmlSnippet": "Oct 17, 2024 <b>...</b> Asia&#39;s richest man Mukesh Ambani could face a bigger challenge if <b>Musk&#39;s Starlink launches services</b> in <b>India</b> and the two go head-to-head on price.",
+            "formattedUrl": "https://www.reuters.com/.../musks-win-india-satellite-spectrum-raises-prosp...",
+            "htmlFormattedUrl": "https://www.reuters.com/.../<b>musk</b>s-win-<b>india</b>-<b>satellite</b>-spectrum-raises-prosp...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFW_r_tdp886WDfHcPa8QQdGKVe5z65vD173NcuEJf5uvL5iwrR-kjYP8I&s",
+                        "width": "310",
+                        "height": "162"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "apple-itunes-app": "app-id=602660809, app-argument=https://www.reuters.com/technology/space/musks-win-india-satellite-spectrum-raises-prospect-price-war-with-ambani-2024-10-17/?id=HOCUMLPNQBPLXNQ6JNUYIKXOCU",
+                        "og:image": "https://www.reuters.com/resizer/v2/Q2JWG4YUQVODFNHKTOJECIVO6E.jpg?auth=7e4ae8ae45bd9ca9a6fb1b8ee75a87d8d16f68843117e1e1a7f8e49459611a22&height=1005&width=1920&quality=80&smart=true",
+                        "analytics:page_layout": "regular-article",
+                        "article:published_time": "2024-10-17T13:22:00Z",
+                        "og:image:width": "1200",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "Reuters",
+                        "og:article:modified_time": "2024-10-17T13:22:55.339Z",
+                        "ccbot": "nofollow",
+                        "analytics:ad_layout": "leaderboard, right rail, sponsored",
+                        "analyticsattributes.topicchannel": "Technology",
+                        "title": "Musk's win on India satellite spectrum raises prospect of price war with Ambani | Reuters",
+                        "og:description": "Having just lost a battle with Elon Musk over how India's satellite spectrum is awarded, Asia's richest man Mukesh Ambani could face a bigger challenge if Musk's Starlink launches services in India and the two go head-to-head on price.",
+                        "twitter:creator": "@Reuters",
+                        "twitter:image": "https://www.reuters.com/resizer/v2/Q2JWG4YUQVODFNHKTOJECIVO6E.jpg?auth=7e4ae8ae45bd9ca9a6fb1b8ee75a87d8d16f68843117e1e1a7f8e49459611a22&height=1005&width=1920&quality=80&smart=true",
+                        "twitter:image:alt": "Elon Musk attends the Breakthrough Prize awards in Los Angeles, California, U.S., April 13, 2024. REUTERS/Mario Anzuoni/File Photo",
+                        "twitter:site": "@Reuters",
+                        "article:modified_time": "2024-10-17T13:22:55.339Z",
+                        "fb:admins": "988502044532272",
+                        "article:content_tier": "metered",
+                        "og:type": "article",
+                        "article:section": "Space",
+                        "og:image:alt": "Elon Musk attends the Breakthrough Prize awards in Los Angeles, California, U.S., April 13, 2024. REUTERS/Mario Anzuoni/File Photo",
+                        "twitter:title": "Musk's win on India satellite spectrum raises prospect of price war with Ambani",
+                        "ad:template": "article",
+                        "og:image:url": "https://www.reuters.com/resizer/v2/Q2JWG4YUQVODFNHKTOJECIVO6E.jpg?auth=7e4ae8ae45bd9ca9a6fb1b8ee75a87d8d16f68843117e1e1a7f8e49459611a22&height=1005&width=1920&quality=80&smart=true",
+                        "dcsext.dartzone": "/4735792/reuters.com/technology/space/article",
+                        "og:title": "Musk's win on India satellite spectrum raises prospect of price war with Ambani",
+                        "dcsext.channellist": "Technology;World;India;Media & Telecom;Technology;Space",
+                        "og:image:height": "628",
+                        "og:article:published_time": "2024-10-17T13:22:00Z",
+                        "og:updated_time": "2024-10-17T13:22:55.339Z",
+                        "fb:pages": "114050161948682",
+                        "article:author": "Munsif Vengattil,Aditya Kalra,Aditi Shah",
+                        "article:tag": "REPI:REFINING,TOPIC:BUSINESS-ELON-MUSK,MTPIX,TOPNWS,AER,AERO,BACT,BIZ,BMAT,BMAT08,CCOS,CHEM,CHMSP,CHMSP1,CMPNY,COMS,COMS08,CPROD,CYCS,CYCS08,DLI,ENER,ENFF,ENG,GEN,INDG,INDG08,INDS,INDS08,ISPS,MDIA,MDIA08,NEWS1,OILG,PHON,PUB,PUBL,PXP,REFI,REFI1,REGS,SATCOM,SATSER,SCI,SOCI,SPEX,TCOM,TECH,TECH08,TEEQ,TEEQ08,TEL,TELNET,TMT,TOPCMB,WIRLSS,WLES,WLES1,WWW,SASIA,AMERS,IN,US,NAMER,ASXPAC,EMRG,ASIA,ENERGY,PACKAGE:WORLD-NEWS,PACKAGE:US-TEMP",
+                        "analyticsattributes.topicsubchannel": "Space",
+                        "fb:app_id": "988502044532272",
+                        "og:locale:alternate": "en_US",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "twitter:description": "Having just lost a battle with Elon Musk over how India's satellite spectrum is awarded, Asia's richest man Mukesh Ambani could face a bigger challenge if Musk's Starlink launches services in India and the two go head-to-head on price.",
+                        "og:locale": "en_US",
+                        "og:url": "https://www.reuters.com/technology/space/musks-win-india-satellite-spectrum-raises-prospect-price-war-with-ambani-2024-10-17/"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://www.reuters.com/resizer/v2/Q2JWG4YUQVODFNHKTOJECIVO6E.jpg?auth=7e4ae8ae45bd9ca9a6fb1b8ee75a87d8d16f68843117e1e1a7f8e49459611a22&height=1005&width=1920&quality=80&smart=true"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Starlink in India: Musk gears up to launch internet services | Internet ...",
+            "htmlTitle": "<b>Starlink</b> in <b>India</b>: <b>Musk</b> gears up to <b>launch internet services</b> | <b>Internet</b> ...",
+            "link": "https://www.aljazeera.com/economy/2021/11/1/starlink-in-india-musk-gears-up-to-launch-internet-services",
+            "displayLink": "www.aljazeera.com",
+            "snippet": "Nov 1, 2021 ... Starlink, the satellite internet division of billionaire Elon Musk's rocket company SpaceX, registered its business in India on Monday.",
+            "htmlSnippet": "Nov 1, 2021 <b>...</b> <b>Starlink</b>, the <b>satellite internet</b> division of billionaire <b>Elon Musk&#39;s</b> rocket company SpaceX, registered its business in <b>India</b> on Monday.",
+            "formattedUrl": "https://www.aljazeera.com/.../starlink-in-india-musk-gears-up-to-launch-int...",
+            "htmlFormattedUrl": "https://www.aljazeera.com/.../<b>starlink</b>-in-<b>india</b>-<b>musk</b>-gears-up-to-<b>launch</b>-int...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT-bv6x5qotoEUvaCfGSzne4kpdCQz1FjJATJbO_VkHzjuelOCnEMIDcc&s",
+                        "width": "259",
+                        "height": "194"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "pagetype": "Article Page",
+                        "og:image": "https://www.aljazeera.com/wp-content/uploads/2021/11/musk.jpg?resize=1920%2C1440",
+                        "apple-itunes-app": "app-id=1534955972",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "Al Jazeera",
+                        "twitter:url": "https://www.aljazeera.com/economy/2021/11/1/starlink-in-india-musk-gears-up-to-launch-internet-services",
+                        "pagesection": "Economy,News,Business and Economy,Internet,Poverty and Development,Technology",
+                        "channel": "aje",
+                        "publisheddate": "2021-11-01T21:48:19",
+                        "postid": "1553801",
+                        "source": "Reuters",
+                        "og:description": "Having an office on the ground will allow Starlink to apply for licences it needs to provide broadband in the country.",
+                        "taxonomyterms": "Economy, News, Business and Economy, Internet, Poverty and Development, Technology, Asia, India",
+                        "lastdate": "2021-11-01T21:48:19",
+                        "primarytopic": "Economy",
+                        "twitter:image:alt": "Starlink in India: Musk gears up to launch internet services",
+                        "sourcetaxonomy": "Reuters",
+                        "where": "Asia, India",
+                        "primarytag": "Internet",
+                        "ga4": "G-XN9JB9Q0M1",
+                        "twitter:account_id": "5536782",
+                        "og:type": "article",
+                        "twitter:title": "Starlink in India: Musk gears up to launch internet services",
+                        "taxonomy-tags": "Economy, News, Business and Economy, Internet, Poverty and Development, Technology",
+                        "topics": "Economy, News",
+                        "og:title": "Starlink in India: Musk gears up to launch internet services",
+                        "tags": "Business and Economy, Internet, Poverty and Development, Technology",
+                        "contenttype": "post",
+                        "twitter:image:src": "https://www.aljazeera.com/wp-content/uploads/2021/11/musk.jpg?resize=1920%2C1440",
+                        "articleslug": "starlink-in-india-musk-gears-up-to-launch-internet-services",
+                        "postlink": "/economy/2021/11/1/starlink-in-india-musk-gears-up-to-launch-internet-services",
+                        "viewport": "width=device-width,initial-scale=1,shrink-to-fit=no",
+                        "twitter:description": "Having an office on the ground will allow Starlink to apply for licences it needs to provide broadband in the country.",
+                        "pagetitle": "Starlink in India: Musk gears up to launch internet services",
+                        "og:url": "https://www.aljazeera.com/economy/2021/11/1/starlink-in-india-musk-gears-up-to-launch-internet-services"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://www.aljazeera.com/wp-content/uploads/2021/11/musk.jpg?resize=1920%2C1440"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Musk's Starlink working on Indian security clearance for satellite ...",
+            "htmlTitle": "<b>Musk&#39;s Starlink</b> working on <b>Indian</b> security clearance for <b>satellite</b> ...",
+            "link": "https://www.reuters.com/business/media-telecom/musks-starlink-working-indian-security-clearance-satellite-broadband-2024-11-12/",
+            "displayLink": "www.reuters.com",
+            "snippet": "Nov 12, 2024 ... Elon Musk's Starlink is seeking security clearance for a licence to offer satellite broadband services in India and will get a permit if it\u00a0...",
+            "htmlSnippet": "Nov 12, 2024 <b>...</b> <b>Elon Musk&#39;s Starlink</b> is seeking security clearance for a licence to offer <b>satellite broadband services</b> in <b>India</b> and will get a permit if it&nbsp;...",
+            "formattedUrl": "https://www.reuters.com/.../musks-starlink-working-indian-security-clearan...",
+            "htmlFormattedUrl": "https://www.reuters.com/.../<b>musk</b>s-<b>starlink</b>-working-<b>india</b>n-security-clearan...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfMgDKqRr4qlTPS0vpXdtZqL2rkD5EvwnUIcU2fbSg2ycQzofjGKmImdXj&s",
+                        "width": "310",
+                        "height": "162"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "apple-itunes-app": "app-id=602660809, app-argument=https://www.reuters.com/business/media-telecom/musks-starlink-working-indian-security-clearance-satellite-broadband-2024-11-12/?id=TUDE6WN6VFK5FAJRRDOR2E5VIY",
+                        "og:image": "https://www.reuters.com/resizer/v2/R5ZA5KJ3MRJ55H7EVBR7HDKU6I.jpg?auth=d566902e5a177b147d6f0cab96b551027314b1f31b4d30abf71153a583398530&height=1005&width=1920&quality=80&smart=true",
+                        "analytics:page_layout": "regular-article",
+                        "article:published_time": "2024-11-12T12:49:13Z",
+                        "og:image:width": "1200",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "Reuters",
+                        "og:article:modified_time": "2024-11-12T12:50:15.567Z",
+                        "ccbot": "nofollow",
+                        "analytics:ad_layout": "leaderboard, right rail, sponsored",
+                        "analyticsattributes.topicchannel": "Business",
+                        "title": "Musk's Starlink working on Indian security clearance for satellite broadband | Reuters",
+                        "og:description": "Elon Musk's Starlink is seeking security clearance for a licence to offer satellite broadband services in India and will get a permit if it satisfies all conditions, the telecoms minister said on Tuesday.",
+                        "twitter:creator": "@Reuters",
+                        "twitter:image": "https://www.reuters.com/resizer/v2/R5ZA5KJ3MRJ55H7EVBR7HDKU6I.jpg?auth=d566902e5a177b147d6f0cab96b551027314b1f31b4d30abf71153a583398530&height=1005&width=1920&quality=80&smart=true",
+                        "twitter:image:alt": "The Starlink logo is seen in front of the Indian flag in this illustration taken, June 21, 2023. REUTERS/Dado Ruvic/Illustration/File Photo",
+                        "twitter:site": "@Reuters",
+                        "article:modified_time": "2024-11-12T12:50:15.567Z",
+                        "fb:admins": "988502044532272",
+                        "article:content_tier": "metered",
+                        "og:type": "article",
+                        "article:section": "Media & Telecom",
+                        "og:image:alt": "The Starlink logo is seen in front of the Indian flag in this illustration taken, June 21, 2023. REUTERS/Dado Ruvic/Illustration/File Photo",
+                        "twitter:title": "Musk's Starlink working on Indian security clearance for satellite broadband",
+                        "ad:template": "article",
+                        "og:image:url": "https://www.reuters.com/resizer/v2/R5ZA5KJ3MRJ55H7EVBR7HDKU6I.jpg?auth=d566902e5a177b147d6f0cab96b551027314b1f31b4d30abf71153a583398530&height=1005&width=1920&quality=80&smart=true",
+                        "dcsext.dartzone": "/4735792/reuters.com/business/media/article",
+                        "og:title": "Musk's Starlink working on Indian security clearance for satellite broadband",
+                        "dcsext.channellist": "Business;India;Business;Aerospace & Defense;Media & Telecom;Emerging Markets;Technology;Space",
+                        "og:image:height": "628",
+                        "og:article:published_time": "2024-11-12T12:49:13Z",
+                        "og:updated_time": "2024-11-12T12:50:15.567Z",
+                        "fb:pages": "114050161948682",
+                        "article:author": "Reuters",
+                        "article:tag": "REPI:REFINING,MTPIX,AER,AERO,BMAT,BMAT08,CHEM,CHMSP,CHMSP1,CMPNY,COMS,COMS08,CYCS,CYCS08,DEPT,DIP,DLI,ENER,ENFF,ENG,GEN,INDG,INDG08,INDS,INDS08,MAILOD,OILG,POL,PUBL,PXP,REFI,REFI1,REGS,RET,RGEN,SATCOM,SATSER,SCI,SHOP,SHOPAL,SOCI,SPEX,TCOM,TECH,TECH08,TEEQ,TEEQ08,TEL,TMT,WIRLSS,WLES,WWW,SASIA,GB,WEU,AMERS,IN,AFR,KE,US,EUROP,NAMER,EMEA,ASXPAC,EAFR,EMRG,ASIA,SPC,CPROD,ENERGY",
+                        "analyticsattributes.topicsubchannel": "Media & Telecom",
+                        "fb:app_id": "988502044532272",
+                        "og:locale:alternate": "en_US",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "twitter:description": "Elon Musk's Starlink is seeking security clearance for a licence to offer satellite broadband services in India and will get a permit if it satisfies all conditions, the telecoms minister said on Tuesday.",
+                        "og:locale": "en_US",
+                        "og:url": "https://www.reuters.com/business/media-telecom/musks-starlink-working-indian-security-clearance-satellite-broadband-2024-11-12/"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://www.reuters.com/resizer/v2/R5ZA5KJ3MRJ55H7EVBR7HDKU6I.jpg?auth=d566902e5a177b147d6f0cab96b551027314b1f31b4d30abf71153a583398530&height=1005&width=1920&quality=80&smart=true"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Elon Musk battles Indian billionaires over satellite internet spectrum",
+            "htmlTitle": "<b>Elon Musk</b> battles <b>Indian</b> billionaires over <b>satellite internet</b> spectrum",
+            "link": "https://www.ft.com/content/037e6987-fc30-402c-a291-66b62fc0dc97",
+            "displayLink": "www.ft.com",
+            "snippet": "Oct 16, 2024 ... ... space bandwidth auctions. Elon Musk, second from left, at a ceremony to launch Starlink service on Indonesia's Elon Musk has been targeting\u00a0...",
+            "htmlSnippet": "Oct 16, 2024 <b>...</b> ... space bandwidth auctions. <b>Elon Musk</b>, second from left, at a ceremony to <b>launch Starlink service</b> on Indonesia&#39;s <b>Elon Musk</b> has been targeting&nbsp;...",
+            "formattedUrl": "https://www.ft.com/content/037e6987-fc30-402c-a291-66b62fc0dc97",
+            "htmlFormattedUrl": "https://www.ft.com/content/037e6987-fc30-402c-a291-66b62fc0dc97",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUDS5dldq8-a3dMBUU2Z5wQUSfLYMReCR2VXxB0boEEvfIDRBq6jVp7E2k&s",
+                        "width": "299",
+                        "height": "168"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fac126566-72d2-4e15-86ef-a8e615953a76.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+                        "apple-itunes-app": "app-id=1200842933, app-argument=https://www.ft.com/content/037e6987-fc30-402c-a291-66b62fc0dc97",
+                        "twitter:card": "summary_large_image",
+                        "og:type": "article",
+                        "article:published_time": "2024-10-16T09:02:18.572Z",
+                        "og:title": "Elon Musk battles Indian billionaires over satellite internet spectrum",
+                        "fb:pages": "8860325749",
+                        "og:description": "Starlink head in spat with owners of Reliance Jio and Bharti Airtel mobile networks who have called for space bandwidth auctions",
+                        "article:author": "Chris Kay",
+                        "twitter:image": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fac126566-72d2-4e15-86ef-a8e615953a76.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1",
+                        "article:tag": "News",
+                        "twitter:site": "@FinancialTimes",
+                        "article:modified_time": "2024-10-16T09:02:18.572Z",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "og:url": "https://www.ft.com/content/037e6987-fc30-402c-a291-66b62fc0dc97"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fd1e00ek4ebabms.cloudfront.net%2Fproduction%2Fac126566-72d2-4e15-86ef-a8e615953a76.jpg?source=next-article&fit=scale-down&quality=highest&width=700&dpr=1"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Musk, Indonesian health minister, launch Starlink for health sector ...",
+            "htmlTitle": "<b>Musk</b>, Indonesian health minister, <b>launch Starlink</b> for health sector ...",
+            "link": "https://www.reuters.com/technology/musk-arrives-indonesias-bali-planned-starlink-launch-2024-05-19/",
+            "displayLink": "www.reuters.com",
+            "snippet": "May 19, 2024 ... Elon Musk and Indonesian Health Minister Budi Gunadi Sadikin launched SpaceX's satellite internet service ... OpenAI to face Indian news\u00a0...",
+            "htmlSnippet": "May 19, 2024 <b>...</b> <b>Elon Musk</b> and Indonesian Health Minister Budi Gunadi Sadikin <b>launched</b> SpaceX&#39;s <b>satellite internet service</b> ... OpenAI to face <b>Indian news</b>&nbsp;...",
+            "formattedUrl": "https://www.reuters.com/.../musk-arrives-indonesias-bali-planned-starlink-la...",
+            "htmlFormattedUrl": "https://www.reuters.com/.../<b>musk</b>-arrives-indonesias-bali-planned-<b>starlink</b>-<b>la</b>...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJky_kXJlFk0XhlKf-jbF4SgzgYbQz8CUpH4_QTD35N1OIFwi7WkcLFOBq&s",
+                        "width": "310",
+                        "height": "162"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "apple-itunes-app": "app-id=602660809, app-argument=https://www.reuters.com/technology/musk-arrives-indonesias-bali-planned-starlink-launch-2024-05-19/?id=EH7TIIBMGBK4RMWC3XURQEOG3U",
+                        "og:image": "https://www.reuters.com/resizer/v2/TWL7UCS6RNMA7P2PIUZLR4VXI4.jpg?auth=42007c5389c3081dc7aeccfed7696916a7f45a300fac2d4385b61085b4cf81f7&height=1005&width=1920&quality=80&smart=true",
+                        "analytics:page_layout": "regular-article",
+                        "article:published_time": "2024-05-19T10:58:34Z",
+                        "og:image:width": "1200",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "Reuters",
+                        "og:article:modified_time": "2024-05-19T10:59:03.926Z",
+                        "ccbot": "nofollow",
+                        "analytics:ad_layout": "leaderboard, right rail, sponsored",
+                        "analyticsattributes.topicchannel": "Technology",
+                        "title": "Musk, Indonesian health minister, launch Starlink for health sector | Reuters",
+                        "og:description": "Elon Musk and Indonesian Health Minister Budi Gunadi Sadikin launched SpaceX's satellite internet service for the nation's health sector on Sunday, aiming to improve access in remote parts of the sprawling archipelago.",
+                        "twitter:creator": "@Reuters",
+                        "twitter:image": "https://www.reuters.com/resizer/v2/TWL7UCS6RNMA7P2PIUZLR4VXI4.jpg?auth=42007c5389c3081dc7aeccfed7696916a7f45a300fac2d4385b61085b4cf81f7&height=1005&width=1920&quality=80&smart=true",
+                        "twitter:image:alt": "Elon Musk, chief executive officer of SpaceX and Tesla, leaves after a launching ceremony of SpaceX's Starlink internet service in Indonesia at a sub district community health center in Denpasar, Bali, May 19, 2024. REUTERS/Johannes P. Christo",
+                        "twitter:site": "@Reuters",
+                        "article:modified_time": "2024-05-19T10:59:03.926Z",
+                        "fb:admins": "988502044532272",
+                        "article:content_tier": "metered",
+                        "og:type": "article",
+                        "article:section": "Technology",
+                        "og:image:alt": "Elon Musk, chief executive officer of SpaceX and Tesla, leaves after a launching ceremony of SpaceX's Starlink internet service in Indonesia at a sub district community health center in Denpasar, Bali, May 19, 2024. REUTERS/Johannes P. Christo",
+                        "twitter:title": "Musk, Indonesian health minister, launch Starlink for health sector",
+                        "ad:template": "article",
+                        "og:image:url": "https://www.reuters.com/resizer/v2/TWL7UCS6RNMA7P2PIUZLR4VXI4.jpg?auth=42007c5389c3081dc7aeccfed7696916a7f45a300fac2d4385b61085b4cf81f7&height=1005&width=1920&quality=80&smart=true",
+                        "dcsext.dartzone": "/4735792/reuters.com/technology/article",
+                        "og:title": "Musk, Indonesian health minister, launch Starlink for health sector",
+                        "dcsext.channellist": "Technology;Asia Pacific;Business;Autos & Transportation;Emerging Markets;Technology",
+                        "og:image:height": "628",
+                        "og:article:published_time": "2024-05-19T10:58:34Z",
+                        "og:updated_time": "2024-05-19T10:59:03.926Z",
+                        "fb:pages": "114050161948682",
+                        "article:author": "Stefanno Sulaiman",
+                        "article:tag": "RATI:ADAS-AV-SAFETY,RATI:SUSTAINABLE-EV-SUPPLY-CHAIN,RATI:EV-STRATEGY,RATI:PRODUCTS,MTPIX,AER,AERO,AERO1,AUT,AUTO,BACT,BISV,BISV08,BIZ,CARM,CMPNY,COMS,COMS08,COMS1,CPROD,CYCS,CYCS08,ELEAV,FIN,FINS,FINS08,GEN,GOVACT,HEA,INDG,INDG08,INDS,INDS08,INVBIS,INVM,INVS08,ISPS,PHON,PRIVT,PUBL,PVE,SATCOM,TCOM,TECH,TECH08,TEEQ,TEEQ08,TEL,TELNET,TMT,AMERS,US,ASEAN,NAMER,SEASIA,ASXPAC,ID,EMRG,ASIA,MTVID",
+                        "fb:app_id": "988502044532272",
+                        "og:locale:alternate": "en_US",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "twitter:description": "Elon Musk and Indonesian Health Minister Budi Gunadi Sadikin launched SpaceX's satellite internet service for the nation's health sector on Sunday, aiming to improve access in remote parts of the sprawling archipelago.",
+                        "og:locale": "en_US",
+                        "og:url": "https://www.reuters.com/technology/musk-arrives-indonesias-bali-planned-starlink-launch-2024-05-19/"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://www.reuters.com/resizer/v2/TWL7UCS6RNMA7P2PIUZLR4VXI4.jpg?auth=42007c5389c3081dc7aeccfed7696916a7f45a300fac2d4385b61085b4cf81f7&height=1005&width=1920&quality=80&smart=true"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Elon Musk's Starlink likely to get approval in India by next week ...",
+            "htmlTitle": "<b>Elon Musk&#39;s Starlink</b> likely to get approval in <b>India</b> by next week ...",
+            "link": "https://www.livemint.com/companies/news/elon-musk-starlink-likely-to-get-approval-for-starting-space-broadband-services-in-india-by-next-week-reports-11705712950419.html",
+            "displayLink": "www.livemint.com",
+            "snippet": "Jan 20, 2024 ... Elon Musk-led Starlink could receive approval to launch its space-based broadband services in India in the next few days, according to a recent report by ET\u00a0...",
+            "htmlSnippet": "Jan 20, 2024 <b>...</b> <b>Elon Musk</b>-led <b>Starlink</b> could receive approval to <b>launch</b> its space-based <b>broadband services</b> in <b>India</b> in the next few days, according to a recent report by ET&nbsp;...",
+            "formattedUrl": "https://www.livemint.com/.../news/elon-musk-starlink-likely-to-get-approva...",
+            "htmlFormattedUrl": "https://www.livemint.com/.../<b>news</b>/<b>elon</b>-<b>musk</b>-<b>starlink</b>-likely-to-get-approva...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS29pj96f8IIXJI2pmKIJrKjCrwmoUHB3iF1VpBuXviOF2_oZNTifStQG_A&s",
+                        "width": "300",
+                        "height": "168"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://www.livemint.com/lm-img/img/2024/01/20/1600x900/Richest-Billionaires-List-0_1705716465149_1705716518929.jpg",
+                        "og:image:width": "1600",
+                        "twitter:card": "summary_large_image",
+                        "article:published_time": "2024-01-20T07:43:39+05:30",
+                        "theme-color": "#ffffff",
+                        "og:site_name": "mint",
+                        "twitter:url": "https://www.livemint.com/companies/news/elon-musk-starlink-likely-to-get-approval-for-starting-space-broadband-services-in-india-by-next-week-reports-11705712950419.html",
+                        "section": "Companies",
+                        "og:description": "Elon Musk-led Starlink may get approval to start space-based broadband services in India in the next few days, after offering clarification on its shareholding pattern to the Department for Promotion of Industry & Internal Trade.",
+                        "twitter:creator": "@mint",
+                        "last-modified": "2024-01-20T07:53:58+05:30",
+                        "next-head-count": "71",
+                        "twitter:site": "@mint",
+                        "article:modified_time": "2024-01-20T07:53:58+05:30",
+                        "news_keywords": "elon musk, elon musk starlink, starlink india, starlink in india, starlink price, starlink internet, starlink satellite, starlink india price, what is starlink, starlink internet plans, spacex",
+                        "last-modified-date": "Sat, Jan 20, 2024",
+                        "storyid": "11705712950419",
+                        "og:type": "article",
+                        "twitter:title": "Elon Musk\u2019s Starlink likely to get approval in India by next week: Reports | Company Business News",
+                        "article:section": "Companies",
+                        "twitter:domain": "livemint.com",
+                        "author": "Livemint",
+                        "og:title": "Elon Musk\u2019s Starlink likely to get approval in India by next week: Reports | Company Business News",
+                        "og:image:height": "900",
+                        "fb:pages": "170844986298918",
+                        "twitter:image:src": "https://www.livemint.com/lm-img/img/2024/01/20/600x338/Richest-Billionaires-List-0_1705716465149_1705716518929.jpg",
+                        "referrer": "no-referrer-when-downgrade",
+                        "viewport": "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
+                        "twitter:description": "Elon Musk-led Starlink may get approval to start space-based broadband services in India in the next few days, after offering clarification on its shareholding pattern to the Department for Promotion of Industry & Internal Trade.",
+                        "og:url": "https://www.livemint.com/companies/news/elon-musk-starlink-likely-to-get-approval-for-starting-space-broadband-services-in-india-by-next-week-reports-11705712950419.html",
+                        "last-modified-time": "2024-01-20T07:53:58+05:30",
+                        "google-signin-client_id": "59036276639-9ufea2catbasbmb6mmjn7kdsgpma6edn.apps.googleusercontent.com"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://www.livemint.com/lm-img/img/2024/01/20/1600x900/Richest-Billionaires-List-0_1705716465149_1705716518929.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Starlink coming to India? Here is everything you need to know about ...",
+            "htmlTitle": "<b>Starlink</b> coming to <b>India</b>? Here is everything you need to know about ...",
+            "link": "https://www.indiatoday.in/technology/features/story/starlink-coming-to-india-here-is-everything-you-need-to-know-about-elon-musk-satellite-internet-service-2617767-2024-10-16",
+            "displayLink": "www.indiatoday.in",
+            "snippet": "Oct 16, 2024 ... Starlink is a satellite internet service provided by SpaceX, the company led by Elon Musk \u00b7 Starlink uses a network of satellites orbiting the\u00a0...",
+            "htmlSnippet": "Oct 16, 2024 <b>...</b> <b>Starlink</b> is a <b>satellite internet service</b> provided by SpaceX, the company led by <b>Elon Musk</b> &middot; <b>Starlink</b> uses a network of <b>satellites</b> orbiting the&nbsp;...",
+            "formattedUrl": "https://www.indiatoday.in/.../starlink-coming-to-india-here-is-everything-y...",
+            "htmlFormattedUrl": "https://www.<b>india</b>today.in/.../<b>starlink</b>-coming-to-<b>india</b>-here-is-everything-y...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaGEA8oos4HI-kHdzZ2Aa5efyBQFp_k-HpbLeW3iLF1cDG8rPD6D27hpA&s",
+                        "width": "300",
+                        "height": "168"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "branch:deeplink:data_type": "story",
+                        "og:image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202410/starlink-163310958-16x9_0.png?VersionId=3Vhfk84HuDJOniEKqI5.yxg.9p60IWAJ",
+                        "theme-color": "#C04A4A",
+                        "article:published_time": "2024-10-16T14:08:36+05:30",
+                        "og:type": "Article",
+                        "twitter:title": "Starlink coming to India? Here is everything you need to know about Elon Musk satellite internet service",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "India Today",
+                        "branch:deeplink:canonical_identifier": "2617767",
+                        "og:title": "Starlink coming to India? Here is everything you need to know about Elon Musk satellite internet service",
+                        "og:updated_time": "2024-10-16T14:08:36+05:30",
+                        "fb:pages": "23230437118",
+                        "og:description": "Elon Musk's Starlink could soon make its way to India, offering high-speed satellite internet to remote areas where traditional broadband services struggle to reach.",
+                        "twitter:creator": "@indiatoday",
+                        "twitter:image": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202410/starlink-163310958-16x9_0.png?VersionId=3Vhfk84HuDJOniEKqI5.yxg.9p60IWAJ",
+                        "publish-date": "2024-10-16T14:08:36+05:30",
+                        "twitter:site": "@indiatoday",
+                        "article:modified_time": "2024-10-16T14:08:36+05:30",
+                        "viewport": "width=device-width, minimum-scale=1, initial-scale=1.0, maximum-scale=5.0",
+                        "news_keywords": "Starlink India, Elon Musk satellite internet, SpaceX Starlink service, satellite spectrum India, high-speed internet rural India",
+                        "twitter:description": "Elon Musk's Starlink could soon make its way to India, offering high-speed satellite internet to remote areas where traditional broadband services struggle to reach.",
+                        "og:url": "https://www.indiatoday.in/technology/features/story/starlink-coming-to-india-here-is-everything-you-need-to-know-about-elon-musk-satellite-internet-service-2617767-2024-10-16"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/202410/starlink-163310958-16x9_0.png?VersionId=3Vhfk84HuDJOniEKqI5.yxg.9p60IWAJ"
+                    }
+                ]
+            }
+        }
+    ]
+}

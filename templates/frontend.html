@@ -1,39 +1,44 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Text Analysis - Cyberpunk Edition</title>
+    <title>Text Analysis - Monochrome Edition</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         body {
-            background: linear-gradient(135deg, #1a1a2e, #16213e, #0f3460);
-            color: #e4f9ff;
+            background: #000000;
+            color: #ffffff;
             font-family: 'Roboto', sans-serif;
         }
 
         .container {
-            box-shadow: 0 4px 20px rgba(0, 255, 255, 0.1);
+            box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1);
             border-radius: 12px;
             padding: 2rem;
-            background: rgba(31, 40, 51, 0.9);
+            background: rgba(0, 0, 0, 0.9);
+            border: 1px solid #333;
         }
 
         .btn-cyber {
-            background: linear-gradient(45deg, #ff2e63, #08d9d6);
+            background: #000;
             color: #fff;
-            transition: transform 0.2s, box-shadow 0.2s;
+            border: 1px solid #fff;
+            transition: all 0.2s;
         }
 
         .btn-cyber:hover {
+            background: #fff;
+            color: #000;
             transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(255, 46, 99, 0.7), 0 8px 20px rgba(8, 217, 214, 0.7);
+            box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
         }
 
         .carousel {
             position: relative;
             overflow: hidden;
             border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0, 255, 255, 0.2);
+            border: 1px solid #333;
+            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
         }
 
         .carousel-content {
@@ -63,8 +68,8 @@
             left: 0;
             top: 0;
             bottom: 0;
-            width: 4px;
-            background: linear-gradient(180deg, #08d9d6, #ff2e63);
+            width: 2px;
+            background: #333;
         }
 
         .timeline-item {
@@ -80,33 +85,34 @@
             top: 0;
             width: 12px;
             height: 12px;
-            background: linear-gradient(45deg, #08d9d6, #ff2e63);
+            background: #fff;
             border-radius: 50%;
-            box-shadow: 0 0 10px rgba(255, 46, 99, 0.5);
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
         }
 
         .timeline-item a {
             display: block;
-            background: rgba(31, 40, 51, 0.8);
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            background: rgba(0, 0, 0, 0.8);
+            border: 1px solid #333;
             border-radius: 10px;
             padding: 15px;
-            box-shadow: 0 4px 10px rgba(0, 255, 255, 0.1);
-            color: #e4f9ff;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
+            color: #fff;
             text-decoration: none;
-            transition: transform 0.2s, box-shadow 0.2s;
+            transition: all 0.2s;
         }
 
         .timeline-item a:hover {
             transform: translateY(-3px);
-            box-shadow: 0 4px 15px rgba(0, 255, 255, 0.5);
+            border-color: #fff;
+            box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
         }
 
         .tweet-text {
             overflow: hidden;
             text-overflow: ellipsis;
             display: -webkit-box;
-            -webkit-line-clamp: 3; /* Limits to 3 lines */
+            -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;
         }
 
@@ -115,44 +121,57 @@
             justify-content: space-between;
             margin-top: 10px;
             font-size: 0.875rem;
+            color: #999;
         }
 
         textarea {
-            background: rgba(0, 0, 0, 0.7);
-            color: #e4f9ff;
-            border: 1px solid #08d9d6;
+            background: rgba(0, 0, 0, 0.9);
+            color: #fff;
+            border: 1px solid #333;
+        }
+
+        textarea:focus {
+            border-color: #fff;
+            outline: none;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+
+        h1, h2 {
+            color: #fff !important;
+            background: none !important;
+            -webkit-text-fill-color: initial !important;
         }
     </style>
 </head>
-<body class="bg-gradient-to-br from-black via-gray-900 to-gray-800">
+<body class="bg-black">
     <div class="container mx-auto px-4 py-8">
         <!-- Input form -->
         <div class="mb-8">
-            <h1 class="text-4xl font-extrabold mb-6 text-center text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-400">
+            <h1 class="text-4xl font-extrabold mb-6 text-center">
                 Enter Text for Analysis
             </h1>
             <form method="POST" class="max-w-lg mx-auto">
-                <textarea name="text" rows="4" class="w-full p-3 rounded-lg mb-4 focus:outline-none" placeholder="Enter your text here...">{% if text %}{{ text }}{% endif %}</textarea>
+                <textarea name="text" rows="4" class="w-full p-3 rounded-lg mb-4" placeholder="Enter your text here...">{% if text %}{{ text }}{% endif %}</textarea>
                 <button type="submit" class="btn-cyber px-6 py-2 rounded-lg text-lg">Submit</button>
             </form>
         </div>
 
         {% if request.method == 'POST' %}
         <div class="results-container mt-8">
-            <h2 class="text-3xl font-extrabold mb-6 text-center text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-cyan-500">
+            <h2 class="text-3xl font-extrabold mb-6 text-center">
                 Results
             </h2>
-            
-            <!-- Navigation -->
+
             <div class="flex justify-center space-x-4 mb-6">
                 <button onclick="showContent('overview')" class="btn-cyber px-4 py-2 rounded">Overview</button>
                 <button onclick="showContent('for')" class="btn-cyber px-4 py-2 rounded">Arguments For</button>
                 <button onclick="showContent('against')" class="btn-cyber px-4 py-2 rounded">Arguments Against</button>
                 <button onclick="showContent('tweets')" class="btn-cyber px-4 py-2 rounded">Tweets</button>
+                <button onclick="showContent('news')" class="btn-cyber px-4 py-2 rounded">News</button>
             </div>
 
             <!-- Carousel Container -->
-            <div class="carousel bg-gradient-to-br from-gray-800 via-gray-700 to-gray-900 p-6 max-w-4xl mx-auto">
+            <div class="carousel bg-black p-6 max-w-4xl mx-auto">
                 <!-- Overview -->
                 <div id="overview" class="carousel-content active">
                     <h2 class="text-2xl font-bold mb-4">Overview</h2>
@@ -192,6 +211,22 @@
                                         <i class="far fa-calendar"></i> {{ tweet.DATA }}
                                     </div>
                                 </div>
+                            </a>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <!-- News -->
+                <div id="news" class="carousel-content">
+                    <h2 class="text-2xl font-bold mb-4">Related News</h2>
+                    <div class="timeline">
+                        {% for item in news %}
+                        <div class="timeline-item">
+                            <a href="{{ item.link }}" target="_blank">
+                                <h3 class="text-xl font-semibold mb-2">{{ item.title }}</h3>
+                                <p class="mb-4">{{ item.text }}</p>
+                                <div class="text-sm text-gray-400">Source: {{ item.source }}</div>
                             </a>
                         </div>
                         {% endfor %}
