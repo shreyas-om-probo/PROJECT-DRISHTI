@@ -899,3 +899,44 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2025-01-28 15:35:28,345 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: b8629393be24 - Status: 200 - Duration: 1.706s
 2025-01-28 15:35:28,346 - contract_processor - INFO - [test_DRISHTI.py:304] - Request ID 30c03fb1781b - Successfully processed frontend request
 2025-01-28 15:35:28,348 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 726be0eac302 - Status: 200 - Duration: 12.541s
+2025-01-29 09:57:10,898 - contract_processor - INFO - [test_DRISHTI.py:39] - ==================================================
+2025-01-29 09:57:10,898 - contract_processor - INFO - [test_DRISHTI.py:40] - Starting FastAPI application
+2025-01-29 09:57:10,898 - contract_processor - INFO - [test_DRISHTI.py:41] - Environment: development
+2025-01-29 09:57:10,899 - contract_processor - INFO - [test_DRISHTI.py:42] - Current timestamp: 2025-01-29T09:57:10.899011
+2025-01-29 09:57:10,899 - contract_processor - INFO - [test_DRISHTI.py:43] - ==================================================
+2025-01-29 09:57:13,674 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: d1f23255df2d - Method: GET - URL: http://127.0.0.1:8007/
+2025-01-29 09:57:13,675 - contract_processor - INFO - [test_DRISHTI.py:267] - Request ID 9b0c2ef0d6b2 - Rendering frontend index page
+2025-01-29 09:57:13,681 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: d1f23255df2d - Status: 200 - Duration: 0.007s
+2025-01-29 10:14:30,380 - contract_processor - INFO - [test_DRISHTI.py:39] - ==================================================
+2025-01-29 10:14:30,380 - contract_processor - INFO - [test_DRISHTI.py:40] - Starting FastAPI application
+2025-01-29 10:14:30,380 - contract_processor - INFO - [test_DRISHTI.py:41] - Environment: development
+2025-01-29 10:14:30,380 - contract_processor - INFO - [test_DRISHTI.py:42] - Current timestamp: 2025-01-29T10:14:30.380466
+2025-01-29 10:14:30,380 - contract_processor - INFO - [test_DRISHTI.py:43] - ==================================================
+2025-01-29 10:14:51,948 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: cd042c59ed5b - Method: POST - URL: http://127.0.0.1:8007/
+2025-01-29 10:14:51,950 - contract_processor - INFO - [test_DRISHTI.py:283] - ---------------------------------------- UI BASED INSIGHTS Call Made at 2025-01-29 10:14:51.950481----------------------------------------
+2025-01-29 10:14:51,950 - contract_processor - INFO - [test_DRISHTI.py:285] - Request ID 97b916c026eb - Processing frontend form submission: Deepseek to cross Open Ai valuation?...
+2025-01-29 10:14:51,963 - contract_processor - INFO - [test_DRISHTI.py:289] - Request ID 97b916c026eb - Fetching tweets
+2025-01-29 10:14:53,100 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 7f6721ca1ef8 - Method: POST - URL: http://127.0.0.1:8007/search-tweets
+2025-01-29 10:14:53,100 - contract_processor - INFO - [test_DRISHTI.py:170] - Request ID d6a0efc355c7 - Processing tweet search: ('Deepseek' AND 'cross' AND 'Open' AND 'Ai' AND 'valuation' ) since:2024-11-29 min_faves:100 min_vie...
+2025-01-29 10:14:56,029 - contract_processor - INFO - [test_DRISHTI.py:174] - Request ID d6a0efc355c7 - Successfully fetched 20 tweets
+2025-01-29 10:14:56,030 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 7f6721ca1ef8 - Status: 200 - Duration: 2.931s
+2025-01-29 10:14:56,033 - contract_processor - INFO - [test_DRISHTI.py:298] - Request ID 97b916c026eb - Fetching insights
+2025-01-29 10:14:56,035 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 6e15048e9e86 - Method: POST - URL: http://127.0.0.1:8007/insights
+2025-01-29 10:14:56,036 - contract_processor - INFO - [test_DRISHTI.py:128] - Request ID 516e00b8190f - Processing insights request for prompt: Deepseek to cross Open Ai valuation?...
+2025-01-29 10:14:56,036 - contract_processor - INFO - [test_DRISHTI.py:131] - Request ID 516e00b8190f - Calling LLM overview
+2025-01-29 10:14:58,865 - contract_processor - INFO - [test_DRISHTI.py:134] - Request ID 516e00b8190f - Calling LLM combined
+2025-01-29 10:15:02,629 - contract_processor - INFO - [test_DRISHTI.py:137] - Request ID 516e00b8190f - Extracting For/Against data
+2025-01-29 10:15:02,630 - contract_processor - INFO - [test_DRISHTI.py:82] - Attempting to extract JSON from response of length: 2047
+2025-01-29 10:15:02,632 - contract_processor - INFO - [test_DRISHTI.py:86] - Cleaned text sample: { "For": { "points": [ "<p>DeepSeek's cost-effective and open-source approach could attract significant investment, potentially leading to a valuation surpassing OpenAI's.</p>", "<p>The company's inno...
+2025-01-29 10:15:02,632 - contract_processor - INFO - [test_DRISHTI.py:89] - Successfully parsed JSON. Type: <class 'dict'>
+2025-01-29 10:15:02,632 - contract_processor - INFO - [test_DRISHTI.py:93] - Converted single dict to list
+2025-01-29 10:15:02,632 - contract_processor - INFO - [test_DRISHTI.py:96] - Found 1 items with For/Against structure
+2025-01-29 10:15:02,633 - contract_processor - INFO - [test_DRISHTI.py:155] - Request ID 516e00b8190f - Successfully processed insights request
+2025-01-29 10:15:02,635 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 6e15048e9e86 - Status: 200 - Duration: 6.601s
+2025-01-29 10:15:02,638 - contract_processor - INFO - [test_DRISHTI.py:307] - Request ID 97b916c026eb - Fetching news
+2025-01-29 10:15:02,640 - contract_processor - INFO - [test_DRISHTI.py:52] - Request started - ID: 352ab6fb8930 - Method: POST - URL: http://127.0.0.1:8007/search-news
+2025-01-29 10:15:02,641 - contract_processor - INFO - [test_DRISHTI.py:189] - Request ID 31c7af00b195 - Processing news search: Deepseek to cross Open Ai valuation?...
+2025-01-29 10:15:04,151 - contract_processor - INFO - [test_DRISHTI.py:193] - Request ID 31c7af00b195 - Successfully fetched news results
+2025-01-29 10:15:04,152 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: 352ab6fb8930 - Status: 200 - Duration: 1.513s
+2025-01-29 10:15:04,155 - contract_processor - INFO - [test_DRISHTI.py:316] - Request ID 97b916c026eb - Successfully processed frontend request
+2025-01-29 10:15:04,168 - contract_processor - INFO - [test_DRISHTI.py:57] - Request completed - ID: cd042c59ed5b - Status: 200 - Duration: 12.220s

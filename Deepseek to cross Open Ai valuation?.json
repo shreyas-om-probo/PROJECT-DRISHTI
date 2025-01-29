@@ -1,0 +1,497 @@
+{
+    "kind": "customsearch#search",
+    "url": {
+        "type": "application/json",
+        "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+    },
+    "queries": {
+        "request": [
+            {
+                "title": "Google Custom Search - 'Deepseek' AND 'cross' AND 'Open' AND 'Ai' AND 'valuation' ",
+                "totalResults": "379000",
+                "searchTerms": "'Deepseek' AND 'cross' AND 'Open' AND 'Ai' AND 'valuation' ",
+                "count": 10,
+                "startIndex": 1,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "e5d540d99db654a23",
+                "hq": "news",
+                "dateRestrict": "2024-11-29"
+            }
+        ],
+        "nextPage": [
+            {
+                "title": "Google Custom Search - 'Deepseek' AND 'cross' AND 'Open' AND 'Ai' AND 'valuation' ",
+                "totalResults": "379000",
+                "searchTerms": "'Deepseek' AND 'cross' AND 'Open' AND 'Ai' AND 'valuation' ",
+                "count": 10,
+                "startIndex": 11,
+                "inputEncoding": "utf8",
+                "outputEncoding": "utf8",
+                "safe": "off",
+                "cx": "e5d540d99db654a23",
+                "hq": "news",
+                "dateRestrict": "2024-11-29"
+            }
+        ]
+    },
+    "context": {
+        "title": "testing"
+    },
+    "searchInformation": {
+        "searchTime": 0.181206,
+        "formattedSearchTime": "0.18",
+        "totalResults": "379000",
+        "formattedTotalResults": "379,000"
+    },
+    "items": [
+        {
+            "kind": "customsearch#result",
+            "title": "Why OpenAI's $157B valuation misreads AI's future (Oct 2024 ...",
+            "htmlTitle": "Why OpenAI&#39;s $157B <b>valuation</b> misreads <b>AI&#39;s</b> future (Oct 2024 ...",
+            "link": "https://news.ycombinator.com/item?id=42847825",
+            "displayLink": "news.ycombinator.com",
+            "snippet": "1 day ago ... Deepseek followed llama and will be followed by others in the usual mushroom fashion of open source. People really dont appreciate the magnitude\u00a0...",
+            "htmlSnippet": "1 day ago <b>...</b> <b>Deepseek</b> followed llama and will be followed by others in the usual mushroom fashion of <b>open</b> source. People really dont appreciate the magnitude&nbsp;...",
+            "formattedUrl": "https://news.ycombinator.com/item?id=42847825",
+            "htmlFormattedUrl": "https://<b>news</b>.ycombinator.com/item?id=42847825",
+            "pagemap": {
+                "metatags": [
+                    {
+                        "referrer": "origin",
+                        "viewport": "width=device-width, initial-scale=1.0"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "DeepSeek vs OpenAI: How China's AI giant is outpacing ChatGPT ...",
+            "htmlTitle": "<b>DeepSeek</b> vs OpenAI: How China&#39;s <b>AI</b> giant is outpacing ChatGPT ...",
+            "link": "https://m.economictimes.com/news/international/global-trends/deepseek-vs-openai-how-chinas-ai-giant-is-outpacing-the-chatgpt/articleshow/117597576.cms",
+            "displayLink": "m.economictimes.com",
+            "snippet": "2 days ago ... With an open-source approach and young research talent, the company aims to democratise AI technology and challenge Western dominance in the\u00a0...",
+            "htmlSnippet": "2 days ago <b>...</b> With an <b>open</b>-source approach and young research talent, the company aims to democratise <b>AI</b> technology and challenge Western dominance in the&nbsp;...",
+            "formattedUrl": "https://m.economictimes.com/news/.../deepseek...openai...ai.../117597576.c...",
+            "htmlFormattedUrl": "https://m.economictimes.com/<b>news</b>/.../<b>deepseek</b>...<b>openai</b>...<b>ai</b>.../117597576.c...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbY5iVDcyZJhBXqZEghRV_TOlb1gcrutJDsjwF_7G8fBHsMttBOzD8tj4&s",
+                        "width": "259",
+                        "height": "194"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-567166,resizemode-75,msid-117597576/news/international/global-trends/deepseek-vs-openai-how-chinas-ai-giant-is-outpacing-the-chatgpt.jpg",
+                        "theme-color": "#e9383e",
+                        "og:type": "article",
+                        "og:site_name": "The Economic Times",
+                        "al:android:com": "com.et.reader.activities",
+                        "og:title": "DeepSeek vs OpenAI: How China\u2019s AI giant is outpacing ChatGPT?",
+                        "og:description": "Chinese AI research lab DeepSeek has gained global attention with its new AI model, DeepSeek-R1, which rivals industry leaders like OpenAI in reasoning, code generation, and efficiency. Operating independently of major Chinese tech firms, DeepSeek has focused on resource-efficient AI development despite US chip restrictions. With an open-source approach and young research talent, the company aims to democratise AI technology and challenge Western dominance in the field.",
+                        "props": "yes",
+                        "al:android:url": "https://m.economictimes.com/news/international/global-trends/deepseek-vs-openai-how-chinas-ai-giant-is-outpacing-the-chatgpt/articleshow/117597576.cms?utm_source=test&cid=",
+                        "news_keywords": "DeepSeek,OpenAI,DeepSeek-R1,AI research,open-source AI,AI model performance,Chinese AI,High-Flyer,Nvidia H100,tsinghua university",
+                        "viewport": "width=device-width, height=device-height,initial-scale=1.0,user-scalable=yes,maximum-scale=5",
+                        "apple-mobile-web-app-capable": "yes",
+                        "mobile-web-app-capable": "yes",
+                        "og:url": "https://economictimes.indiatimes.com/news/international/global-trends/deepseek-vs-openai-how-chinas-ai-giant-is-outpacing-the-chatgpt/articleshow/117597576.cms",
+                        "al:android:app_name": "The Economic Times",
+                        "apple-touch-fullscreen": "yes"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-567166,resizemode-75,msid-117597576/news/international/global-trends/deepseek-vs-openai-how-chinas-ai-giant-is-outpacing-the-chatgpt.jpg"
+                    }
+                ],
+                "sitenavigationelement": [
+                    {
+                        "name": "Home",
+                        "url": "https://m.economictimes.com/"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Nvidia's $589B DeepSeek rout | Hacker News",
+            "htmlTitle": "Nvidia&#39;s $589B <b>DeepSeek</b> rout | Hacker <b>News</b>",
+            "link": "https://news.ycombinator.com/item?id=42839650",
+            "displayLink": "news.ycombinator.com",
+            "snippet": "2 days ago ... Part of NVidias valuation was due to the perception that AI companies would need lots and lots of GPUs, which is still true. But I think the\u00a0...",
+            "htmlSnippet": "2 days ago <b>...</b> Part of NVidias <b>valuation</b> was due to the perception that <b>AI</b> companies would need lots and lots of GPUs, which is still true. But I think the&nbsp;...",
+            "formattedUrl": "https://news.ycombinator.com/item?id=42839650",
+            "htmlFormattedUrl": "https://<b>news</b>.ycombinator.com/item?id=42839650",
+            "pagemap": {
+                "metatags": [
+                    {
+                        "referrer": "origin",
+                        "viewport": "width=device-width, initial-scale=1.0"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "China's DeepSeek and its Open-Source AI Models",
+            "htmlTitle": "China&#39;s <b>DeepSeek</b> and its <b>Open</b>-Source <b>AI</b> Models",
+            "link": "https://www.china-briefing.com/news/chinas-deepseek-and-its-open-source-ai-models/",
+            "displayLink": "www.china-briefing.com",
+            "snippet": "18 hours ago ... We explain how China's start-up DeepSeek has made significant strides in the global AI race with its resource-efficient, open-source models.",
+            "htmlSnippet": "18 hours ago <b>...</b> We explain how China&#39;s start-up <b>DeepSeek</b> has made significant strides in the global <b>AI</b> race with its resource-efficient, <b>open</b>-source models.",
+            "formattedUrl": "https://www.china-briefing.com/news/chinas-deepseek-and-its-open-source-...",
+            "htmlFormattedUrl": "https://www.china-briefing.com/<b>news</b>/chinas-<b>deepseek</b>-and-its-<b>open</b>-source-...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjdZIx6gElJ4_yTdRzOqCHcK3kU4E_4umszvNW76tetBZshoNPF0i0wQ&s=0",
+                        "width": "146",
+                        "height": "82"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://www.china-briefing.com/news/wp-content/uploads/2025/01/Chinas-DeepSeek-AI.jpg",
+                        "og:type": "article",
+                        "article:published_time": "2025-01-28T11:11:13+00:00",
+                        "og:image:width": "900",
+                        "og:site_name": "China Briefing News",
+                        "og:title": "China\u2019s DeepSeek and its Open-Source AI Models",
+                        "og:image:height": "506",
+                        "twitter:label1": "Written by",
+                        "twitter:label2": "Est. reading time",
+                        "og:image:type": "image/jpeg",
+                        "og:description": "We explain how China\u2019s start-up DeepSeek has made significant strides in the global AI race with its resource-efficient, open-source models.",
+                        "twitter:data1": "China Briefing",
+                        "twitter:data2": "9 minutes",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "og:locale": "en_US",
+                        "og:url": "https://www.china-briefing.com/news/chinas-deepseek-and-its-open-source-ai-models/"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://www.china-briefing.com/news/wp-content/uploads/2025/01/Chinas-DeepSeek-AI.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Deepseek chinese chatgpt: What is DeepSeek, Chinese AI startup ...",
+            "htmlTitle": "<b>Deepseek</b> chinese chatgpt: What is <b>DeepSeek</b>, Chinese <b>AI</b> startup ...",
+            "link": "https://m.economictimes.com/news/international/global-trends/what-is-deepseek-ri-chinese-ai-model-that-rattled-chatgpt-openai-nvidia-and-freaked-out-ai-world/articleshow/117607991.cms",
+            "displayLink": "m.economictimes.com",
+            "snippet": "2 days ago ... On Monday, US stocks dropped sharply and chipmaker Nvidia lost nearly $600 billion in market value- after a surprise advancement from DeepSeek,\u00a0...",
+            "htmlSnippet": "2 days ago <b>...</b> On Monday, US stocks dropped sharply and chipmaker Nvidia lost nearly $600 billion in market <b>value</b>- after a surprise advancement from <b>DeepSeek</b>,&nbsp;...",
+            "formattedUrl": "https://m.economictimes.com/news/...deepseek...ai...openai...ai.../11760799...",
+            "htmlFormattedUrl": "https://m.economictimes.com/<b>news</b>/...<b>deepseek</b>...<b>ai</b>...<b>openai</b>...<b>ai</b>.../11760799...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfGFTN77nq1SHI10k3wKLtj_BbAuYbirnUfd-4ZjkLc6fSeO0q_-2b0BQ&s",
+                        "width": "259",
+                        "height": "194"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-19684,resizemode-75,msid-117607991/news/international/global-trends/what-is-deepseek-ri-chinese-ai-model-that-rattled-chatgpt-openai-nvidia-and-freaked-out-ai-world.jpg",
+                        "theme-color": "#e9383e",
+                        "og:type": "article",
+                        "og:site_name": "The Economic Times",
+                        "al:android:com": "com.et.reader.activities",
+                        "og:title": "What is DeepSeek, Chinese AI startup that rattled Chatgpt, Nvidia and spooked AI world: Explained in 10 points",
+                        "og:description": "DeepSeek has captured the attention of the tech world, surpassing the likes of other leading AI models like ChatGPT, Gemini, and Claude in terms of performance. The Chinese AI chatbox was reportedly developed for a fraction of the cost of its rivals, which has spooked the global AI market. The world\u2019s 500 richest people, led by Nvidia Corp. co-founder Jensen Huang, lost a combined $108 billion as a tech-led selloff tied to DeepSeek sent major indices plunging. DeepSeek's emergence comes as the US is restricting the sale of the advanced chip technology that powers AI to China.",
+                        "props": "yes",
+                        "al:android:url": "https://m.economictimes.com/news/international/global-trends/what-is-deepseek-ri-chinese-ai-model-that-rattled-chatgpt-openai-nvidia-and-freaked-out-ai-world/articleshow/117607991.cms?utm_source=test&cid=",
+                        "news_keywords": "Deepseek chinese chatgpt,Deepseek,Chinese AI,OpenAI,ChatGPT,what is Deepseek,Deepseek chinese AI chatbox,how is Deepseek different from OpenAI,Deepseek latest news,Deepseek news",
+                        "viewport": "width=device-width, height=device-height,initial-scale=1.0,user-scalable=yes,maximum-scale=5",
+                        "apple-mobile-web-app-capable": "yes",
+                        "mobile-web-app-capable": "yes",
+                        "og:url": "https://economictimes.indiatimes.com/news/international/global-trends/what-is-deepseek-ri-chinese-ai-model-that-rattled-chatgpt-openai-nvidia-and-freaked-out-ai-world/articleshow/117607991.cms",
+                        "al:android:app_name": "The Economic Times",
+                        "apple-touch-fullscreen": "yes"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-19684,resizemode-75,msid-117607991/news/international/global-trends/what-is-deepseek-ri-chinese-ai-model-that-rattled-chatgpt-openai-nvidia-and-freaked-out-ai-world.jpg"
+                    }
+                ],
+                "sitenavigationelement": [
+                    {
+                        "name": "Home",
+                        "url": "https://m.economictimes.com/"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "DeepSeek FAQ \u2013 Stratechery by Ben Thompson",
+            "htmlTitle": "<b>DeepSeek</b> FAQ \u2013 Stratechery by Ben Thompson",
+            "link": "https://stratechery.com/2025/deepseek-faq/",
+            "displayLink": "stratechery.com",
+            "snippet": "2 days ago ... Context windows are particularly expensive in terms of memory, as every token requires both a key and corresponding value; DeepSeekMLA, or multi\u00a0...",
+            "htmlSnippet": "2 days ago <b>...</b> Context windows are particularly expensive in terms of memory, as every token requires both a key and corresponding <b>value</b>; DeepSeekMLA, or multi&nbsp;...",
+            "formattedUrl": "https://stratechery.com/2025/deepseek-faq/",
+            "htmlFormattedUrl": "https://stratechery.com/2025/<b>deepseek</b>-faq/",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf97uOlQ1COYsvQSYdJJlpMJwtKsaJISJkNuYfOgfpNUXHDjmNrW7STjc&s",
+                        "width": "225",
+                        "height": "225"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=512%2C512&ssl=1",
+                        "og:type": "article",
+                        "article:published_time": "2025-01-27T14:05:14+00:00",
+                        "og:image:width": "512",
+                        "twitter:card": "summary",
+                        "og:site_name": "Stratechery by Ben Thompson",
+                        "og:title": "DeepSeek FAQ",
+                        "og:image:height": "512",
+                        "msapplication-tileimage": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=270%2C270&ssl=1",
+                        "og:description": "DeepSeek has completely upended people\u2019s expectations for AI and competition with China. What is it, and why does it matter?",
+                        "twitter:image": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=240%2C240&ssl=1",
+                        "twitter:text:title": "DeepSeek FAQ",
+                        "twitter:site": "@stratechery",
+                        "article:modified_time": "2025-01-28T12:21:02+00:00",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "og:locale": "en_US",
+                        "og:url": "https://stratechery.com/2025/deepseek-faq/"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://i0.wp.com/stratechery.com/wp-content/uploads/2018/03/cropped-android-chrome-512x512-1.png?fit=512%2C512&ssl=1"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Nvidia hits $2 trillion valuation as AI frenzy grips Wall Street | Reuters",
+            "htmlTitle": "Nvidia hits $2 trillion <b>valuation</b> as <b>AI</b> frenzy grips Wall Street | Reuters",
+            "link": "https://www.reuters.com/technology/nvidia-hits-2-trillion-valuation-ai-frenzy-grips-wall-street-2024-02-23/",
+            "displayLink": "www.reuters.com",
+            "snippet": "Feb 23, 2024 ... AI-themed ETFs plunge in wake of DeepSeek news ... Prices of exchange-traded funds with outsize exposure to Nvidia plunged in the initial hours of\u00a0...",
+            "htmlSnippet": "Feb 23, 2024 <b>...</b> <b>AI</b>-themed ETFs plunge in wake of <b>DeepSeek news</b> ... Prices of exchange-traded funds with outsize exposure to Nvidia plunged in the initial hours of&nbsp;...",
+            "formattedUrl": "https://www.reuters.com/.../nvidia-hits-2-trillion-valuation-ai-frenzy-grips-...",
+            "htmlFormattedUrl": "https://www.reuters.com/.../nvidia-hits-2-trillion-<b>valuation</b>-<b>ai</b>-frenzy-grips-...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtEa_N_hSNh65QiVib8eDGA8u3cl_NhmzJ1eyR_nobseqPrM8VSgiEB6RH&s",
+                        "width": "310",
+                        "height": "162"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "apple-itunes-app": "app-id=602660809, app-argument=https://www.reuters.com/technology/nvidia-hits-2-trillion-valuation-ai-frenzy-grips-wall-street-2024-02-23/?id=UD4XMR3MWFNHLMZU6WVIECBHKM",
+                        "og:image": "https://www.reuters.com/resizer/v2/AOM2CXDU75LQ5LKHSDXSGO6VKQ.jpg?auth=4c8216a109472e22fd5ec3c8640014eb6b00a0d059c6f51aafaced47a55d8d4b&height=1005&width=1920&quality=80&smart=true",
+                        "analytics:page_layout": "regular-article",
+                        "article:published_time": "2024-02-23T14:37:04Z",
+                        "og:image:width": "1200",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "Reuters",
+                        "og:article:modified_time": "2024-02-23T14:37:31.410Z",
+                        "ccbot": "nofollow",
+                        "analytics:ad_layout": "leaderboard, right rail, sponsored",
+                        "analyticsattributes.topicchannel": "Technology",
+                        "title": "Nvidia hits $2 trillion valuation as AI frenzy grips Wall Street | Reuters",
+                        "og:description": "Nvidia hit $2 trillion in market value on Friday, riding on an insatiable demand for its chips that made the Silicon Valley firm the pioneer of the generative artificial intelligence boom.",
+                        "twitter:creator": "@Reuters",
+                        "twitter:image": "https://www.reuters.com/resizer/v2/AOM2CXDU75LQ5LKHSDXSGO6VKQ.jpg?auth=4c8216a109472e22fd5ec3c8640014eb6b00a0d059c6f51aafaced47a55d8d4b&height=1005&width=1920&quality=80&smart=true",
+                        "twitter:image:alt": "A smartphone with a displayed NVIDIA logo is placed on a computer motherboard in this illustration taken March 6, 2023. REUTERS/Dado Ruvic/Illustration/File Photo",
+                        "twitter:site": "@Reuters",
+                        "article:modified_time": "2024-02-23T14:37:31.410Z",
+                        "fb:admins": "988502044532272",
+                        "article:content_tier": "metered",
+                        "og:type": "article",
+                        "article:section": "Technology",
+                        "og:image:alt": "A smartphone with a displayed NVIDIA logo is placed on a computer motherboard in this illustration taken March 6, 2023. REUTERS/Dado Ruvic/Illustration/File Photo",
+                        "twitter:title": "Nvidia hits $2 trillion valuation as AI frenzy grips Wall Street",
+                        "ad:template": "article",
+                        "og:image:url": "https://www.reuters.com/resizer/v2/AOM2CXDU75LQ5LKHSDXSGO6VKQ.jpg?auth=4c8216a109472e22fd5ec3c8640014eb6b00a0d059c6f51aafaced47a55d8d4b&height=1005&width=1920&quality=80&smart=true",
+                        "dcsext.dartzone": "/4735792/reuters.com/technology/article",
+                        "og:title": "Nvidia hits $2 trillion valuation as AI frenzy grips Wall Street",
+                        "dcsext.channellist": "Technology;Business;European Markets;Stocks;U.S. Markets;Technology",
+                        "og:image:height": "628",
+                        "og:article:published_time": "2024-02-23T14:37:04Z",
+                        "og:updated_time": "2024-02-23T14:37:31.410Z",
+                        "fb:pages": "114050161948682",
+                        "article:author": "Aditya Soni",
+                        "article:tag": "MTPIX,ARTI,BLR,CCOS,CHIP,CHIP1,CMPELC,CMPNY,COMS,COMS08,CYCS,CYCS08,GEN,HOT,ITSE,ITSE08,MDIA,MDIA08,MLAISV,PHNE,PHONES,PUB,PUBL,PXP,RET,RETE,SCI,SEMI,SHOP,SHOPAL,SOFW,SOFW1,SPCRET,STX,SWIT,TECH,TECH08,TEEQ,TEEQ08,TMT,AMERS,US,NAMER,TOPNWS",
+                        "fb:app_id": "988502044532272",
+                        "og:locale:alternate": "en_US",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "twitter:description": "Nvidia hit $2 trillion in market value on Friday, riding on an insatiable demand for its chips that made the Silicon Valley firm the pioneer of the generative artificial intelligence boom.",
+                        "og:locale": "en_US",
+                        "og:url": "https://www.reuters.com/technology/nvidia-hits-2-trillion-valuation-ai-frenzy-grips-wall-street-2024-02-23/"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://www.reuters.com/resizer/v2/AOM2CXDU75LQ5LKHSDXSGO6VKQ.jpg?auth=4c8216a109472e22fd5ec3c8640014eb6b00a0d059c6f51aafaced47a55d8d4b&height=1005&width=1920&quality=80&smart=true"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Nvidia plunge on DeepSeek news illustrates the anatomy of a ...",
+            "htmlTitle": "Nvidia plunge on <b>DeepSeek news</b> illustrates the anatomy of a ...",
+            "link": "https://www.axios.com/2025/01/27/bubble-bursting-ai-nvidia-deepseek",
+            "displayLink": "www.axios.com",
+            "snippet": "2 days ago ... When bubbles pop, it can cost investors $1 trillion or more in a single day, as happened Monday with the global AI rout ... open-source platform.",
+            "htmlSnippet": "2 days ago <b>...</b> When bubbles pop, it can cost investors $1 trillion or more in a single day, as happened Monday with the global <b>AI</b> rout ... <b>open</b>-source platform.",
+            "formattedUrl": "https://www.axios.com/2025/01/27/bubble-bursting-ai-nvidia-deepseek",
+            "htmlFormattedUrl": "https://www.axios.com/2025/01/27/bubble-bursting-<b>ai</b>-nvidia-<b>deepseek</b>",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-YfGVqSHVYbjhoBluQGGVoTR_OjDfQfu0C9P3FDsNfpgpYpaN4IMJlefm&s",
+                        "width": "300",
+                        "height": "168"
+                    }
+                ],
+                "thumbnail": [
+                    {
+                        "src": "https://images.axios.com/r4QNi91RNQTjGp_WKyHMmXFu8uQ=/0x0:1920x1080/1366x768/2025/01/27/1737989958810.jpg"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "date": "2025-01-27T15:40:36.412699Z",
+                        "og:image": "https://images.axios.com/r4QNi91RNQTjGp_WKyHMmXFu8uQ=/0x0:1920x1080/1366x768/2025/01/27/1737989958810.jpg",
+                        "article:published_time": "2025-01-27T15:40:36Z",
+                        "twitter:card": "summary_large_image",
+                        "og:site_name": "Axios",
+                        "og:description": "When bubbles pop, it can cost investors $1 trillion or more in a single day, as happened Monday with the global AI rout.",
+                        "twitter:image": "https://images.axios.com/r4QNi91RNQTjGp_WKyHMmXFu8uQ=/0x0:1920x1080/1366x768/2025/01/27/1737989958810.jpg",
+                        "next-head-count": "42",
+                        "twitter:image:alt": "Illustration of hand about to pop a bubble with a computer",
+                        "twitter:site": "@axios",
+                        "article:modified_time": "2025-01-27T15:40:36.412699Z",
+                        "datemodified": "2025-01-27T15:40:36.412699Z",
+                        "article:content_tier": "free",
+                        "headline": "The anatomy of a bubble bursting",
+                        "datepublished": "2025-01-27T15:40:36.412699Z",
+                        "image": "https://images.axios.com/r4QNi91RNQTjGp_WKyHMmXFu8uQ=/0x0:1920x1080/1366x768/2025/01/27/1737989958810.jpg",
+                        "og:image:alt": "Illustration of hand about to pop a bubble with a computer",
+                        "og:type": "article",
+                        "twitter:title": "The anatomy of a bubble bursting",
+                        "thumbnail": "https://images.axios.com/r4QNi91RNQTjGp_WKyHMmXFu8uQ=/0x0:1920x1080/1366x768/2025/01/27/1737989958810.jpg",
+                        "author": "Ben Berkowitz",
+                        "og:title": "The anatomy of a bubble bursting",
+                        "datecreated": "2025-01-27T15:40:36.412699Z",
+                        "viewport": "width=device-width, initial-scale=1.0",
+                        "axios:pagetitle": "The anatomy of a bubble bursting",
+                        "twitter:description": "When bubbles pop, it can cost investors $1 trillion or more in a single day, as happened Monday with the global AI rout.",
+                        "category": "Business",
+                        "og:url": "undefined/2025/01/27/bubble-bursting-ai-nvidia-deepseek",
+                        "permalink": "undefined/2025/01/27/bubble-bursting-ai-nvidia-deepseek",
+                        "authorurls": "/authors/bberkowitz",
+                        "axiossearchable": "true",
+                        "article:opinion": "false"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://images.axios.com/r4QNi91RNQTjGp_WKyHMmXFu8uQ=/0x0:1920x1080/1366x768/2025/01/27/1737989958810.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "The real DeepSeek revelation: The market doesn't understand AI ...",
+            "htmlTitle": "The real <b>DeepSeek</b> revelation: The market doesn&#39;t understand <b>AI</b> ...",
+            "link": "https://www.semafor.com/article/01/28/2025/the-real-deepseek-revelation-the-market-doesnt-understand-ai",
+            "displayLink": "www.semafor.com",
+            "snippet": "6 hours ago ... ... value from AI firms and related companies Monday. ... It's always been possible that if the US \u201cwins\u201d the AI race, it will cross the finish line\u00a0...",
+            "htmlSnippet": "6 hours ago <b>...</b> ... <b>value</b> from <b>AI</b> firms and related companies Monday. ... It&#39;s always been possible that if the US \u201cwins\u201d the <b>AI</b> race, it will <b>cross</b> the finish line&nbsp;...",
+            "formattedUrl": "https://www.semafor.com/.../the-real-deepseek-revelation-the-market-doesn...",
+            "htmlFormattedUrl": "https://www.semafor.com/.../the-real-<b>deepseek</b>-revelation-the-market-doesn...",
+            "pagemap": {
+                "cse_thumbnail": [
+                    {
+                        "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJNkTsYUHxhpnGmAkjV3ESv4ywyL1pvh0j4ZNVg5rFcz44GRkuzyKnCFs&s=0",
+                        "width": "150",
+                        "height": "79"
+                    }
+                ],
+                "metatags": [
+                    {
+                        "og:image": "https://img.semafor.com/eabb07aee241e03c8c8f215dc2a10e914afb9bd4-3000x2000.png?rect=0,213,3000,1575&w=1200&h=630&q=75&auto=format",
+                        "article:published_time": "2025-01-28T22:51:08Z",
+                        "article:section": "tech",
+                        "og:image:width": "630",
+                        "og:type": "article",
+                        "twitter:card": "summary_large_image",
+                        "twitter:title": "The real DeepSeek revelation: The market doesn\u2019t understand AI",
+                        "og:title": "The real DeepSeek revelation: The market doesn\u2019t understand AI",
+                        "og:image:height": "1200",
+                        "og:description": "Investor skepticism doesn\u2019t take into account the insatiable demand for AI or the current bottlenecks in its development, which will require billions to overcome.",
+                        "article:author": "https://www.semafor.com/author/reed-albergotti",
+                        "twitter:image": "https://img.semafor.com/eabb07aee241e03c8c8f215dc2a10e914afb9bd4-3000x2000.png?rect=0,213,3000,1575&w=1200&h=630&q=75&auto=format",
+                        "article:modified_time": "2025-01-28T22:51:08Z",
+                        "viewport": "width=device-width, initial-scale=1",
+                        "twitter:description": "Investor skepticism doesn\u2019t take into account the insatiable demand for AI or the current bottlenecks in its development, which will require billions to overcome.",
+                        "og:url": "https://www.semafor.com/article/01/28/2025/the-real-deepseek-revelation-the-market-doesnt-understand-ai"
+                    }
+                ],
+                "cse_image": [
+                    {
+                        "src": "https://img.semafor.com/eabb07aee241e03c8c8f215dc2a10e914afb9bd4-3000x2000.png?rect=0,213,3000,1575&w=1200&h=630&q=75&auto=format"
+                    }
+                ]
+            }
+        },
+        {
+            "kind": "customsearch#result",
+            "title": "Rate of change in AI [DeepSeek (Chinese AI) impacting market ...",
+            "htmlTitle": "Rate of change in <b>AI</b> [<b>DeepSeek</b> (Chinese <b>AI</b>) impacting market ...",
+            "link": "https://www.bogleheads.org/forum/viewtopic.php?t=448229&start=100",
+            "displayLink": "www.bogleheads.org",
+            "snippet": "1 day ago ... In turn it suggests that any business model, such as Open AI, based on control of the technology will prove to be unsustainable. It may also\u00a0...",
+            "htmlSnippet": "1 day ago <b>...</b> In turn it suggests that any business model, such as <b>Open AI</b>, based on control of the technology will prove to be unsustainable. It may also&nbsp;...",
+            "formattedUrl": "https://www.bogleheads.org/forum/viewtopic.php?t=448229&start=100",
+            "htmlFormattedUrl": "https://www.bogleheads.org/forum/viewtopic.php?t=448229&amp;start=100",
+            "pagemap": {
+                "metatags": [
+                    {
+                        "viewport": "width=device-width, initial-scale=1"
+                    }
+                ],
+                "listitem": [
+                    {
+                        "item": "Board index",
+                        "name": "Board index",
+                        "position": "1"
+                    },
+                    {
+                        "item": "US Investors",
+                        "name": "US Investors",
+                        "position": "2"
+                    },
+                    {
+                        "item": "Investing - Theory, News & General",
+                        "name": "Investing - Theory, News & General",
+                        "position": "3"
+                    }
+                ]
+            }
+        }
+    ]
+}
