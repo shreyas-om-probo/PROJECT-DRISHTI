@@ -80,7 +80,7 @@ def create_query(sentence):
     else:
         query = " "
     
-    return query
+    return query +"inurl:news"
 
 if __name__ == "__main__":
     sentence = "Who will win most GRAMMY, Beyonce or Taylor?"

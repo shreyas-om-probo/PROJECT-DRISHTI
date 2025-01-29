@@ -35,7 +35,7 @@ def google_custom_search(api_key, cx, query, num_results=10):
         "cx": cx,
         "q": query,
         "hq": "news",
-        "dateRestrict": two_months_prior,
+        "dateRestrict": 'm2',
         "num": num_results,
     }
 
@@ -54,7 +54,13 @@ def extract_needed_results(search_results):
         result['link'] = i['link']
         result['source'] = i["displayLink"]
         result['title'] = i['title']
-        result['text'] = i['snippet']
+        try:
+            result['text'] = i['pagemap']['metatags'][0]['og:description']
+            result['thumbnail'] = i['pagemap']['metatags'][0]['og:image']
+        except:
+            result['text'] = i['snippet']
+            result['thumbnail'] = "NULL"
+        result['date'] = i['snippet'].split("...")[0]
         refined_outputs.append(result)
     return refined_outputs
 
