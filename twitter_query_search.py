@@ -48,26 +48,37 @@ def extract_tweet_link(tweet):
     return tweet, None
 
 async def fetch_tweets(query: str) -> List[Tuple[str, str, str, str, int]]:
-    """Fetches tweets for a given query."""
     client = Client('en-US')
     await login_or_load_cookies(client)
 
     print(f"Searching for tweets containing: {query}")
-    tweets = await client.search_tweet(query=query, product='Top')
+    
+    all_tweets = []
+    response = await client.search_tweet(query=query, product='Top')
+    all_tweets.extend(response)
+    while len(all_tweets) < 40:
+        count = min(40 - len(all_tweets), 20)
+        response = await response.next()
+        all_tweets.extend(response)
+        print(response)
+        if len(response) == 0:
+            break
 
+    print(f"Fetched {len(all_tweets)} tweets.")
     tweets_data = [
         {
             'ID': str(tweet.id), 
             'TEXT': extract_tweet_link(tweet.text)[0], 
             'DATA': str(tweet.created_at), 
-            'USER_ID': str(tweet.user), 
+            'USER_ID': str(tweet.user.screen_name), 
+            'USER_IMAGE': str(tweet.user.profile_image_url),
             'VIEW_COUNT': tweet.view_count,
             'LIKE_COUNT': tweet.favorite_count, 
             'LINK': extract_tweet_link(tweet.text)[1]
         }
-        for tweet in tweets
+        for tweet in all_tweets
     ]
-
+    tweets_data = [tweet for tweet in tweets_data if tweet['LIKE_COUNT'] >= 100]
     tweets_data.sort(key=lambda x: datetime.strptime(x['DATA'], "%a %b %d %H:%M:%S %z %Y"), reverse=True)
 
     return tweets_data
